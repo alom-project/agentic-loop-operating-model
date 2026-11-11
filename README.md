@@ -10,6 +10,8 @@ An applying organization can be a business, public body, educational or research
 
 ## Documents in the Candidate Scope
 
+[Browse the document index](documents/README.md)
+
 - ALOM-ARCH-STD-001 v2.5-review.20261110
 - ALOM-L1-STD-001 v0.7-review.20261110
 - ALOM-CTL-STD-001 v0.4-review.20261110
