@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1710" viewBox="0 0 2400 1710" role="img" aria-label="Compiler and Validator deterministic pipeline and admission">
+<rect width="2400" height="1710" fill="white"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker><marker id="arrow-stop" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b34a4a"/></marker></defs>
+<text x="55" y="65" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="36" font-weight="bold" fill="#263751">Figure 2  ·  Deterministic compilation and admission</text>
+<text x="55" y="108" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#516078">Summary of the draft contract; not a complete state machine</text>
+<rect id="node-normalize" x="200" y="170" width="900" height="110" rx="14" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="225" y="235" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">1   Normalize inputs and pin revisions</text>
+<rect id="node-resolve" x="200" y="330" width="900" height="110" rx="14" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="225" y="395" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">2   Resolve scope / fields and record decisions</text>
+<rect id="node-compile" x="200" y="490" width="900" height="110" rx="14" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="225" y="555" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">3   Compile DraftProfileBundle and digest</text>
+<rect id="node-validate" x="200" y="650" width="900" height="110" rx="14" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="225" y="715" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">4   Validate schema and conformance</text>
+<rect id="node-review" x="200" y="810" width="900" height="110" rx="14" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="225" y="875" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">5   Human review and decision</text>
+<rect id="node-authority" x="200" y="970" width="900" height="110" rx="14" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="225" y="1035" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">6   Release Gate and Release Authority</text>
+<rect id="node-admission" x="200" y="1130" width="900" height="110" rx="14" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="225" y="1195" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">7   Registry admission</text>
+<rect id="node-effective" x="200" y="1290" width="900" height="110" rx="14" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="225" y="1355" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">8   Effective ProfileRelease</text>
+<rect id="node-conflict" x="1400" y="330" width="900" height="110" rx="14" fill="#fff3f2" stroke="#b34a4a" stroke-width="2.5"/>
+<text x="1425" y="373" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#873535">CONFLICT / REVIEW_REQUIRED</text>
+<text x="1425" y="411" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#873535">ERROR: no release. REVIEW_REQUIRED: resolve and revalidate.</text>
+<rect id="node-block" x="1400" y="650" width="900" height="110" rx="14" fill="#fff3f2" stroke="#b34a4a" stroke-width="2.5"/>
+<text x="1425" y="693" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#873535">ERROR / blocking conflict</text>
+<text x="1425" y="731" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#873535">No release; correct or resolve, then revalidate.</text>
+<rect id="node-reject" x="1400" y="810" width="900" height="110" rx="14" fill="#fff3f2" stroke="#b34a4a" stroke-width="2.5"/>
+<text x="1425" y="853" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#873535">Valid Human REJECT / REVISE before admission</text>
+<text x="1425" y="891" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#873535">Close case. Resubmission needs a new candidate and review.</text>
+<g id="edge-normalize-resolve" data-source="normalize" data-target="resolve" data-meaning="pinned inputs"><polyline points="650,280 650,330" fill="none" stroke="#40516b" stroke-width="3" marker-end="url(#arrow)"/></g>
+<text x="668" y="311.0" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#40516b">pinned inputs</text>
+<g id="edge-resolve-compile" data-source="resolve" data-target="compile" data-meaning="resolved fields"><polyline points="650,440 650,490" fill="none" stroke="#40516b" stroke-width="3" marker-end="url(#arrow)"/></g>
+<text x="668" y="471.0" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#40516b">resolved fields</text>
+<g id="edge-compile-validate" data-source="compile" data-target="validate" data-meaning="draft + digest"><polyline points="650,600 650,650" fill="none" stroke="#40516b" stroke-width="3" marker-end="url(#arrow)"/></g>
+<text x="668" y="631.0" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#40516b">draft + digest</text>
+<g id="edge-validate-review" data-source="validate" data-target="review" data-meaning="report + review packet"><polyline points="650,760 650,810" fill="none" stroke="#40516b" stroke-width="3" marker-end="url(#arrow)"/></g>
+<text x="668" y="791.0" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#40516b">report + review packet</text>
+<g id="edge-review-authority" data-source="review" data-target="authority" data-meaning="APPROVE + blocking items resolved"><polyline points="650,920 650,970" fill="none" stroke="#40516b" stroke-width="3" marker-end="url(#arrow)"/></g>
+<text x="668" y="951.0" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#40516b">APPROVE + blocking items resolved</text>
+<g id="edge-authority-admission" data-source="authority" data-target="admission" data-meaning="gate pass + authorized request"><polyline points="650,1080 650,1130" fill="none" stroke="#40516b" stroke-width="3" marker-end="url(#arrow)"/></g>
+<text x="668" y="1111.0" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#40516b">gate pass + authorized request</text>
+<g id="edge-admission-effective" data-source="admission" data-target="effective" data-meaning="admission committed"><polyline points="650,1240 650,1290" fill="none" stroke="#40516b" stroke-width="3" marker-end="url(#arrow)"/></g>
+<text x="668" y="1271.0" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#40516b">admission committed</text>
+<g id="edge-resolve-conflict" data-source="resolve" data-target="conflict" data-meaning="unresolved"><polyline points="1100,385 1400,385" fill="none" stroke="#b34a4a" stroke-width="3" marker-end="url(#arrow-stop)"/></g>
+<text x="1250.0" y="373" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#b34a4a">unresolved</text>
+<g id="edge-validate-block" data-source="validate" data-target="block" data-meaning="blocking"><polyline points="1100,705 1400,705" fill="none" stroke="#b34a4a" stroke-width="3" marker-end="url(#arrow-stop)"/></g>
+<text x="1250.0" y="693" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#b34a4a">blocking</text>
+<g id="edge-review-reject" data-source="review" data-target="reject" data-meaning="REJECT / REVISE"><polyline points="1100,865 1400,865" fill="none" stroke="#b34a4a" stroke-width="3" marker-end="url(#arrow-stop)"/></g>
+<text x="1250.0" y="853" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#b34a4a">REJECT / REVISE</text>
+<g id="edge-authority-reject" data-source="authority" data-target="reject" data-meaning="valid post-approval REJECT / REVISE before admission"><polyline points="1100,1025 1280,1025 1280,900 1400,900" fill="none" stroke="#b34a4a" stroke-width="3" marker-end="url(#arrow-stop)"/></g>
+<text x="1190.0" y="1013" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#b34a4a">REJECT / REVISE</text>
+<rect x="100" y="1480" width="2200" height="165" rx="12" fill="#f7f9fc" stroke="#d4dce7" stroke-width="1.5"/>
+<text x="125" y="1515" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Each field retains ResolutionDecision and provenance. No silent last-write-wins.</text>
+<text x="125" y="1549" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Before admission, a valid committed REJECT / REVISE closes the case; resubmission needs a new candidate and review.</text>
+<text x="125" y="1583" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Admission first makes a pre-admission REJECT / REVISE too late. Authoritative commit order resolves the race.</text>
+<text x="125" y="1617" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Later HOLD / REVOKE and current runtime checks follow separate contracts. Approval / admission ordering is a draft revision.</text>
+</svg>

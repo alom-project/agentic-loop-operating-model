@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1370" viewBox="0 0 2400 1370" role="img" aria-labelledby="title desc">
+<title id="title">Figure 3 · Managed Work lifecycle: main transitions</title>
+<desc id="desc">Each promotion requires its applicable gate; the diagram illustrates the main paths</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1370" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 3 · Managed Work lifecycle: main transitions</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Each promotion requires its applicable gate; the diagram illustrates the main paths</text>
+<path id="edge-design" d="M530 310 L680 310" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="677,310 659,318 659,302" fill="#17212f"/>
+<text x="552" y="285" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Design</text>
+<path id="edge-pilot" d="M1110 310 L1260 310" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1257,310 1239,318 1239,302" fill="#17212f"/>
+<text x="1128" y="285" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Pilot gate</text>
+<path id="edge-limit" d="M1690 310 L1840 310" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1837,310 1819,318 1819,302" fill="#17212f"/>
+<text x="1708" y="285" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Limit gate</text>
+<path id="edge-promote" d="M2055 400 L2055 650" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="2055,647 2047,629 2063,629" fill="#17212f"/>
+<text x="2070" y="525" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Acceptance</text>
+<path id="edge-suspend" d="M1840 700 L1430 700" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1433,700 1451,692 1451,708" fill="#17212f"/>
+<text x="1530" y="675" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Incident / policy / drift</text>
+<path id="edge-resume" d="M1430 790 L1840 790" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1837,790 1819,798 1819,782" fill="#17212f"/>
+<text x="1515" y="770" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Corrective gate</text>
+<path id="edge-terminate" d="M1000 740 L580 740" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="583,740 601,732 601,748" fill="#17212f"/>
+<text x="755" y="715" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Retire</text>
+<path id="edge-retire" d="M2055 830 L2055 1020 L365 1020 L365 830" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="365,833 373,851 357,851" fill="#17212f"/>
+<text x="1060" y="1000" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Retirement decision</text>
+<rect id="idea" x="100" y="220" width="430" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="122" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">IDEA</text>
+<text x="122" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Purpose / owner</text>
+<text x="122" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Expected outcome</text>
+<rect id="design" x="680" y="220" width="430" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="702" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">DESIGN</text>
+<text x="702" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Policy / mode / assurance</text>
+<text x="702" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Trace / human control</text>
+<rect id="pilot" x="1260" y="220" width="430" height="180" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1282" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">PILOT</text>
+<text x="1282" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Isolated / A0–A1</text>
+<text x="1282" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Limited effects</text>
+<rect id="limited" x="1840" y="220" width="430" height="180" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1862" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">LIMITED</text>
+<text x="1862" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Selected users / capabilities</text>
+<text x="1862" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Rollback / review</text>
+<rect id="production" x="1840" y="650" width="430" height="180" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1862" y="697" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">PRODUCTION</text>
+<text x="1862" y="738" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Acceptance / on-call</text>
+<text x="1862" y="770" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">SLO / change / remedy</text>
+<rect id="suspended" x="1000" y="650" width="430" height="180" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1022" y="697" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">SUSPENDED</text>
+<text x="1022" y="738" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Stop / case</text>
+<text x="1022" y="770" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Corrective plan</text>
+<rect id="retired" x="150" y="650" width="430" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="172" y="697" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">RETIRED</text>
+<text x="172" y="738" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Revoke credentials</text>
+<text x="172" y="770" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Retention / transfer</text>
+<rect x="60" y="1130" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1166" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• These are main paths, not an exhaustive transition policy; stops and remediation follow the applicable controls.</text>
+<text x="83" y="1202" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• A gate failure or missing approval does not automatically promote work; retirement includes evidence and credential revocation.</text>
+<text x="83" y="1238" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Lifecycle learning proposes changes to Purpose, Work, Policy, Eval and Human Control; protected sources are not automatically rewritten.</text>
+</svg>

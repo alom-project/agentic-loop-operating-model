@@ -1,0 +1,14 @@
+kind: GovernanceProfile
+schema_version: "1.0"
+governance_profile_id: example-governance
+selector:
+  enterprise_id: company
+  domain_id: example-domain
+  work_id: example-work
+human_required: true
+required_approver_refs: []
+stop_authority_refs: []
+prohibits: []
+exception_policy_refs: []
+remedy_policy_refs: []
+status: draft

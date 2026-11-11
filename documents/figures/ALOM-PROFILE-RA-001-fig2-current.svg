@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2000" viewBox="0 0 2400 2000" role="img" aria-labelledby="title desc">
+<title id="title">Figure 2 · Profile types and scope composition</title>
+<desc id="desc">Specificity ranks guide overlay resolution; they do not impose a Project-centred parent hierarchy</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="2000" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 2 · Profile types and scope composition</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Specificity ranks guide overlay resolution; they do not impose a Project-centred parent hierarchy</text>
+<rect x="60" y="420" width="2280" height="275" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="85" y="459" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rank 30 · Independent optional context overlays</text>
+<text x="85" y="492" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">All have equal rank; a project is not a required parent.</text>
+<rect x="60" y="750" width="2280" height="240" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="85" y="789" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rank 40 · Optional local specialization</text>
+<text x="85" y="822" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">UseCase and Process are independent scope kinds at the same rank.</text>
+<rect x="60" y="1040" width="2280" height="205" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="85" y="1079" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rank 50 · Managed Work</text>
+<text x="85" y="1112" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">The work-specific profile supplies purpose, execution, risk and evidence.</text>
+<rect x="60" y="1300" width="2280" height="380" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="85" y="1339" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Supporting Profile types</text>
+<text x="85" y="1372" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Profiles are reusable contracts; the boxes below do not imply a processing order.</text>
+<rect id="enterprise" x="90" y="190" width="1080" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="112" y="237" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rank 10 · Applying organization</text>
+<text x="112" y="278" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Organization-wide baseline / policies</text>
+<text x="112" y="310" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">enterprise_id is the existing scope key</text>
+<rect id="domain" x="1230" y="190" width="1080" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1252" y="237" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rank 20 · Operating Domain (required)</text>
+<text x="1252" y="278" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">BusinessProfile corresponds to OperatingDomainProfile</text>
+<text x="1252" y="310" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Permanent capability, identified by domain_id</text>
+<rect id="organization" x="90" y="505" width="690" height="145" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="112" y="552" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">OrganizationProfile</text>
+<text x="112" y="593" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Roles, responsibility and authority</text>
+<rect id="customer" x="855" y="505" width="690" height="145" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="877" y="552" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">CustomerProfile</text>
+<text x="877" y="593" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Customer context and constraints</text>
+<rect id="project" x="1620" y="505" width="690" height="145" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1642" y="552" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ProjectProfile</text>
+<text x="1642" y="593" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Project context where applicable</text>
+<rect id="usecase" x="90" y="835" width="1080" height="120" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="112" y="882" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">UseCase scope</text>
+<text x="112" y="923" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Optional; independent of Process</text>
+<rect id="process" x="1230" y="835" width="1080" height="120" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1252" y="882" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Process scope</text>
+<text x="1252" y="923" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Optional; independent of UseCase</text>
+<rect id="work" x="90" y="1120" width="2220" height="120" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="112" y="1167" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ManagedWorkProfile</text>
+<text x="112" y="1208" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Work-specific purpose, owner, execution, risks, bindings and evidence</text>
+<rect id="lifecycle" x="90" y="1390" width="690" height="120" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="112" y="1437" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">LifecycleProfile</text>
+<text x="112" y="1478" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Phase / Gate / Criteria</text>
+<rect id="processprofile" x="855" y="1390" width="690" height="120" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="877" y="1437" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ProcessProfile</text>
+<text x="877" y="1478" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Steps / input / output</text>
+<rect id="execution" x="1620" y="1390" width="690" height="120" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1642" y="1437" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ExecutionProfile</text>
+<text x="1642" y="1478" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Execution / Harness / limits</text>
+<rect id="governance" x="90" y="1540" width="690" height="120" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="112" y="1587" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">GovernanceProfile</text>
+<text x="112" y="1628" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Policy / Human control / approval</text>
+<rect id="context" x="855" y="1540" width="690" height="120" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="877" y="1587" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ContextProfile</text>
+<text x="877" y="1628" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Knowledge / freshness / citation</text>
+<rect id="assurance" x="1620" y="1540" width="690" height="120" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1642" y="1587" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">AssuranceProfile</text>
+<text x="1642" y="1628" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Review / verification / evidence</text>
+<rect x="60" y="1760" width="2280" height="114" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1796" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Same-rank conflicts use a monotonic operator, authorized rule or conflict; never file order or last-write-wins.</text>
+<text x="83" y="1832" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Profile Type names and scope kinds are distinct; an applicable binding may use multiple supporting Profiles.</text>
+</svg>

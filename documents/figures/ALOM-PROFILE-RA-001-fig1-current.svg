@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2000" viewBox="0 0 2400 2000" role="img" aria-labelledby="title desc">
+<title id="title">Figure 1 · Profile Engineering to Runtime</title>
+<desc id="desc">Representative path; approval, release authorization and Registry admission are distinct</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="2000" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 1 · Profile Engineering to Runtime</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Representative path; approval, release authorization and Registry admission are distinct</text>
+<path id="edge-inputs-model" d="M720 330 L720 370" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="355" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">inputs</text>
+<path id="edge-model-compile" d="M720 530 L720 570" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="555" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">resolved models</text>
+<path id="edge-compile-validate" d="M720 730 L720 770" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="755" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">candidate</text>
+<path id="edge-validate-review" d="M720 930 L720 970" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="955" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">validation report</text>
+<path id="edge-review-authority" d="M720 1130 L720 1170" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="1155" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">approval</text>
+<path id="edge-authority-registry" d="M720 1330 L720 1370" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="1355" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">authorized request</text>
+<path id="edge-registry-runtime" d="M720 1530 L720 1570" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="1555" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">admission</text>
+<path id="edge-validation-deny" d="M1360 850 L1650 850" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1450" y="830" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">blocking</text>
+<path id="edge-review-deny" d="M1360 1050 L1650 1050" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1450" y="1030" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">decision</text>
+<path id="edge-authority-human-decision" d="M1360 1250 L1500 1250 L1500 1085 L1650 1085" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1515" y="1190" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">Human decision</text>
+<rect id="inputs" x="80" y="170" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">1  Mission and canonical rules</text>
+<text x="102" y="258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Mission / objectives / constraints</text>
+<text x="102" y="290" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L6 resolves L7 Rulebook authority and revision</text>
+<rect id="model" x="80" y="370" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="417" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">2  Model the candidate · P1–P8</text>
+<text x="102" y="458" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Resolve applicability and scope; model Managed Work</text>
+<text x="102" y="490" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Record suitability, evidence and provenance</text>
+<rect id="compile" x="80" y="570" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="617" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">3  Compile · P9</text>
+<text x="102" y="658" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Deterministic Compiler creates a draft ProfileBundle</text>
+<text x="102" y="690" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Pin candidate and digest for review</text>
+<rect id="validate" x="80" y="770" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="817" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">4  Validate · P10</text>
+<text x="102" y="858" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Independent conformance checks</text>
+<text x="102" y="890" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Schema, mandatory gates and binding compatibility</text>
+<rect id="review" x="80" y="970" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1017" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">5  Human review · P11</text>
+<text x="102" y="1058" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human decision and required approval evidence</text>
+<text x="102" y="1090" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">An approved candidate is not yet Effective</text>
+<rect id="authority" x="80" y="1170" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">6  Release Authority</text>
+<text x="102" y="1258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authorize the release request</text>
+<text x="102" y="1290" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Verify applicable policy and scope</text>
+<rect id="registry" x="80" y="1370" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1417" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">7  Registry admission</text>
+<text x="102" y="1458" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Verify admission and commit the release</text>
+<text x="102" y="1490" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Record the admitted release / effective window</text>
+<rect id="runtime" x="80" y="1570" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1617" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">8  Mode-specific Runtime Binding</text>
+<text x="102" y="1658" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Check current window, eligibility and applicable refs</text>
+<text x="102" y="1690" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Pin and execute under mode-specific controls</text>
+<rect id="error" x="1650" y="770" width="670" height="160" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1672" y="817" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ERROR / REVIEW_REQUIRED</text>
+<text x="1672" y="858" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Resolve blocking items and revalidate</text>
+<text x="1672" y="890" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">No release</text>
+<rect id="reject" x="1650" y="970" width="670" height="160" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1672" y="1017" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">REJECT / REVISE</text>
+<text x="1672" y="1058" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Close this review case</text>
+<text x="1672" y="1090" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Resubmission needs a new candidate / review</text>
+<rect x="60" y="1790" width="2280" height="114" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1826" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Before admission, a valid committed REJECT / REVISE closes the case even after an earlier approval.</text>
+<text x="83" y="1862" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• At runtime, verify current authorization, scope and applicable security / HOLD state before new use.</text>
+</svg>

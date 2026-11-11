@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1320" viewBox="0 0 1600 1320" role="img" aria-labelledby="title desc">
+<title id="title">L1 Operating Model and Governance capabilities</title>
+<desc id="desc">Twelve capabilities in two responsibility groups; grouping and alignment do not imply sequence or dependencies.</desc>
+<rect width="1600" height="1320" fill="#ffffff"/>
+<text x="50" y="60" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="bold">Figure 2 · L1 Operating Model &amp; Governance capabilities</text>
+<text x="50" y="103" fill="#425576" font-family="DejaVu Sans, sans-serif" font-size="23">Groups and alignment do not imply sequence or dependencies</text>
+<rect x="50" y="145" width="740" height="1115" rx="18" fill="#f8f6fe" stroke="#7451c9" stroke-width="2"/>
+<text x="75" y="194" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="bold">Operating Model Domain</text>
+<rect x="70" y="222" width="700" height="142" rx="12" fill="#f1ebff" stroke="#7451c9" stroke-width="1.8"/>
+<text x="92" y="274" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.1 Purpose Management</text>
+<text x="92" y="320" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Purpose, prohibited uses, owner and validity</text>
+<rect x="70" y="388" width="700" height="142" rx="12" fill="#f1ebff" stroke="#7451c9" stroke-width="1.8"/>
+<text x="92" y="440" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.2 Managed Work Catalog</text>
+<text x="92" y="486" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Work type, mode, risk, autonomy and binding</text>
+<rect x="70" y="554" width="700" height="142" rx="12" fill="#f1ebff" stroke="#7451c9" stroke-width="1.8"/>
+<text x="92" y="606" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.3 Responsibility &amp; Authority</text>
+<text x="92" y="652" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">RACI, roles, delegation limits, stop / resume authority</text>
+<rect x="70" y="720" width="700" height="142" rx="12" fill="#f1ebff" stroke="#7451c9" stroke-width="1.8"/>
+<text x="92" y="772" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.4 Outcome &amp; SLO Management</text>
+<text x="92" y="818" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Quality, flow, human, cost and risk measures</text>
+<rect x="70" y="886" width="700" height="142" rx="12" fill="#f1ebff" stroke="#7451c9" stroke-width="1.8"/>
+<text x="92" y="938" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.5 Managed Production Service</text>
+<text x="92" y="984" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Onboarding, capacity, support and incidents</text>
+<rect x="70" y="1052" width="700" height="142" rx="12" fill="#f1ebff" stroke="#7451c9" stroke-width="1.8"/>
+<text x="92" y="1104" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.6 Lifecycle &amp; Learning</text>
+<text x="92" y="1150" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Promotion, suspension and learning backlog</text>
+<rect x="810" y="145" width="740" height="1115" rx="18" fill="#f4faf7" stroke="#328a5c" stroke-width="2"/>
+<text x="835" y="194" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="bold">Governance Domain</text>
+<rect x="830" y="222" width="700" height="142" rx="12" fill="#e8f5ed" stroke="#328a5c" stroke-width="1.8"/>
+<text x="852" y="274" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.7 Identity / Delegation / Scope</text>
+<text x="852" y="320" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Principals, delegation and governance scope</text>
+<rect x="830" y="388" width="700" height="142" rx="12" fill="#e8f5ed" stroke="#328a5c" stroke-width="1.8"/>
+<text x="852" y="440" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.8 Policy &amp; Authorization</text>
+<text x="852" y="486" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Policy registry, decisions and obligations</text>
+<rect x="830" y="554" width="700" height="142" rx="12" fill="#e8f5ed" stroke="#328a5c" stroke-width="1.8"/>
+<text x="852" y="606" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.9 Human Control</text>
+<text x="852" y="652" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Human oversight, approval and stop / resume</text>
+<rect x="830" y="720" width="700" height="142" rx="12" fill="#e8f5ed" stroke="#328a5c" stroke-width="1.8"/>
+<text x="852" y="772" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.10 Assurance Governance</text>
+<text x="852" y="818" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Evaluation, evidence, independence and thresholds</text>
+<rect x="830" y="886" width="700" height="142" rx="12" fill="#e8f5ed" stroke="#328a5c" stroke-width="1.8"/>
+<text x="852" y="938" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.11 Exception &amp; Remedy</text>
+<text x="852" y="984" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Risk acceptance, exceptions, correction and appeal</text>
+<rect x="830" y="1052" width="700" height="142" rx="12" fill="#e8f5ed" stroke="#328a5c" stroke-width="1.8"/>
+<text x="852" y="1104" fill="#243654" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold">L1.12 Governance Observability</text>
+<text x="852" y="1150" fill="#354b6b" font-family="DejaVu Sans, sans-serif" font-size="21">Events, metrics, drift and review cadence</text>
+<text x="50" y="1302" fill="#425576" font-family="DejaVu Sans, sans-serif" font-size="21">Shared identifiers, version, trace, lifecycle and outcome; semantic ownership remains separate.</text>
+</svg>

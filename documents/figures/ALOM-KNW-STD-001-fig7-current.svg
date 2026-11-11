@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1480" viewBox="0 0 2400 1480" role="img" aria-labelledby="title desc">
+<title id="title">Figure 7 · L6 BUILD and SERVE logical flow</title>
+<desc id="desc">Canonical source, derived build and authorized retrieval: representative logical responsibilities</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1480" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 7 · L6 BUILD and SERVE logical flow</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Canonical source, derived build and authorized retrieval: representative logical responsibilities</text>
+<path id="edge-source" d="M610 330 L850 330" fill="none" stroke="#2355a8" stroke-width="3"/>
+<polygon points="847,330 829,338 829,322" fill="#2355a8"/>
+<text x="630" y="310" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#2355a8">Read-only source</text>
+<path id="edge-publish" d="M1380 330 L1610 330" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1607,330 1589,338 1589,322" fill="#17212f"/>
+<text x="1400" y="310" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Verified build</text>
+<path id="edge-gate" d="M570 750 L680 750" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="677,750 659,758 659,742" fill="#17212f"/>
+<text x="583" y="730" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Allow</text>
+<path id="edge-index" d="M1935 410 L1935 525 L915 525 L915 665" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="915,662 907,644 923,644" fill="#17212f"/>
+<text x="1200" y="505" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Derived index input</text>
+<path id="edge-candidates" d="M1150 750 L1260 750" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1257,750 1239,758 1239,742" fill="#17212f"/>
+<text x="1160" y="730" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Items</text>
+<path id="edge-result" d="M1725 750 L1835 750" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1832,750 1814,758 1814,742" fill="#17212f"/>
+<text x="1740" y="730" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Pack</text>
+<path id="edge-deliver" d="M2075 835 L2075 955 L1200 955 L1200 1050" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1200,1047 1192,1029 1208,1029" fill="#17212f"/>
+<text x="1490" y="935" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">ContextPack</text>
+<rect id="canonical" x="100" y="250" width="510" height="160" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="122" y="297" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L7 Canonical SSOT</text>
+<text x="122" y="338" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Approved OKF / pinned revision</text>
+<text x="122" y="370" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authority remains in L7</text>
+<rect id="build" x="850" y="250" width="530" height="160" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="872" y="297" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">BUILD</text>
+<text x="872" y="338" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Derive / verify / promote</text>
+<text x="872" y="370" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Manifest records the build</text>
+<rect id="indexes" x="1610" y="250" width="650" height="160" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1632" y="297" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Derived hybrid indexes</text>
+<text x="1632" y="338" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Vector + Full-text + Graph / Metadata</text>
+<text x="1632" y="370" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">All three required for Compatibility</text>
+<rect id="auth" x="80" y="665" width="490" height="170" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="102" y="712" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Scope and authorization</text>
+<text x="102" y="753" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Principal / policy / ACL / isolation</text>
+<text x="102" y="785" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Denied or unresolved: no retrieval</text>
+<rect id="retrieval" x="680" y="665" width="470" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="702" y="712" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">SERVE retrieval</text>
+<text x="702" y="753" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Query authorized hybrid indexes</text>
+<text x="702" y="785" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Retain authorization context</text>
+<rect id="assemble" x="1260" y="665" width="465" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1282" y="712" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rank and assemble</text>
+<text x="1282" y="753" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Citations / source revision</text>
+<text x="1282" y="785" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">ContextPack / manifest</text>
+<rect id="api" x="1835" y="665" width="480" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1857" y="712" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Knowledge API / MCP</text>
+<text x="1857" y="753" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Output interface for the</text>
+<text x="1857" y="785" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">authorized ContextPack</text>
+<rect id="consumer" x="800" y="1050" width="800" height="170" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="822" y="1097" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Consumers across four execution modes</text>
+<text x="822" y="1138" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human-only / Interactive Agent</text>
+<text x="822" y="1170" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Agentic / deterministic-system</text>
+<rect x="60" y="1270" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1306" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• BUILD failure retains the last-known-good version; its use still requires current authorization and the applicable freshness policy.</text>
+<text x="83" y="1342" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• The manifest records the build. Knowledge API is the output interface, not a replacement for the pre-retrieval gate.</text>
+<text x="83" y="1378" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Blue arrow: read-only canonical input. Dark arrows: build, authorization, retrieval and delivery flow.</text>
+</svg>

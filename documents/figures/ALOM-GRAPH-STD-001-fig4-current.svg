@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1040" viewBox="0 0 1920 1040" role="img" aria-label="L3 Dynamic Rewrite transaction; transaction and schema remain proposed">
+<rect width="1920" height="1040" fill="white"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker><marker id="arrow-stop" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b54a4a"/></marker></defs>
+<text x="60" y="69" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="34" font-weight="bold" fill="#20314a">Figure 4  ·  Dynamic Rewrite transaction</text>
+<text x="60" y="111" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#516078">L3 Graph Engineering  |  Rewrite transaction / schema [PROPOSAL]</text>
+<rect id="node-trigger" x="60" y="180" width="300" height="160" rx="16" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="210" y="245" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#263a60">Current Graph</text>
+<text x="210" y="277" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#263a60">and trigger</text>
+<rect id="node-proposal" x="430" y="180" width="300" height="160" rx="16" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="580" y="245" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#263a60">Rewrite</text>
+<text x="580" y="277" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#263a60">proposal</text>
+<rect id="node-validation" x="800" y="180" width="300" height="160" rx="16" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="950" y="245" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#263a60">Constraint + static</text>
+<text x="950" y="277" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#263a60">validation</text>
+<rect id="node-evaluation" x="1170" y="180" width="300" height="160" rx="16" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="1320" y="229" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#263a60">Graph</text>
+<text x="1320" y="261" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#263a60">re-evaluation</text>
+<text x="1320" y="293" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#263a60">Pass required</text>
+<rect id="node-commit" x="1540" y="180" width="300" height="160" rx="16" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="1690" y="245" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#263a60">Commit</text>
+<text x="1690" y="277" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#263a60">rewrite</text>
+<rect id="node-no_commit" x="640" y="520" width="660" height="120" rx="16" fill="#fff2f2" stroke="#b54a4a" stroke-width="2.5"/>
+<text x="970" y="566" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="bold" fill="#8d3030">No commit</text>
+<text x="970" y="604" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="normal" fill="#723737">Apply recovery / escalation as appropriate</text>
+<g id="edge-trigger-proposal" data-source="trigger" data-target="proposal" data-meaning="trigger"><polyline points="360,260 430,260" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/></g>
+<g id="edge-proposal-validation" data-source="proposal" data-target="validation" data-meaning="submit"><polyline points="730,260 800,260" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/></g>
+<g id="edge-validation-evaluation" data-source="validation" data-target="evaluation" data-meaning="pass"><polyline points="1100,260 1170,260" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/></g>
+<g id="edge-evaluation-commit" data-source="evaluation" data-target="commit" data-meaning="pass"><polyline points="1470,260 1540,260" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/></g>
+<g id="edge-validation-no-commit" data-source="validation" data-target="no_commit" data-meaning="not passed or unresolved"><polyline points="950,340 950,475 760,475 760,520" fill="none" stroke="#b54a4a" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow-stop)"/></g>
+<g id="edge-evaluation-no-commit" data-source="evaluation" data-target="no_commit" data-meaning="not passed"><polyline points="1320,340 1320,475 1190,475 1190,520" fill="none" stroke="#b54a4a" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow-stop)"/></g>
+<text x="395" y="248" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="normal" fill="#40516b">trigger</text>
+<text x="765" y="248" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="normal" fill="#40516b">submit</text>
+<text x="1135" y="248" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="normal" fill="#40516b">pass</text>
+<text x="1505" y="248" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="normal" fill="#40516b">pass</text>
+<text x="963" y="412" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#9a3939">not passed /</text>
+<text x="963" y="436" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#9a3939">unresolved</text>
+<text x="1333" y="412" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#9a3939">not passed</text>
+<rect x="60" y="710" width="560" height="230" rx="12" fill="#f7f9fc" stroke="#d4dce7" stroke-width="1.5"/>
+<text x="84" y="750" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#233957">Scope and limits</text>
+<text x="84" y="787" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Allowed changes; max rewrites;</text>
+<text x="84" y="824" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">node, cost / time and scope ceilings.</text>
+<rect x="660" y="710" width="560" height="230" rx="12" fill="#f7f9fc" stroke="#d4dce7" stroke-width="1.5"/>
+<text x="684" y="750" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#233957">Authority and gates</text>
+<text x="684" y="787" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">No data / tool / identity / network</text>
+<text x="684" y="824" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">privilege expansion; required authority</text>
+<text x="684" y="861" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">changes use separate Human / Policy process.</text>
+<text x="684" y="898" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Apply Human / Policy gates as required.</text>
+<rect x="1260" y="710" width="560" height="230" rx="12" fill="#f7f9fc" stroke="#d4dce7" stroke-width="1.5"/>
+<text x="1284" y="750" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#233957">Trace and escalation</text>
+<text x="1284" y="787" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Record before / after hashes and diff.</text>
+<text x="1284" y="824" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">High impact, privilege requests, policy</text>
+<text x="1284" y="861" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">exceptions or limits lead to HITL / HIC.</text>
+<text x="60" y="992" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#526277">A failed or unresolved check does not authorize commit; the applicable policy determines the next action.</text>
+</svg>

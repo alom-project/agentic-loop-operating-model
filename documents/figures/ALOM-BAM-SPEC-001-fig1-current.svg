@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1410" viewBox="0 0 1600 1410" role="img" aria-labelledby="title desc">
+<title id="title">Business Analysis and Mission Intake: Authority Boundaries</title>
+<desc id="desc">Candidate diagram: resolved rules enter both the generator and the compiler; the Mission and an immutable analysis snapshot enter the generator.</desc>
+<rect width="1600" height="1410" fill="white"/>
+<text x="800" y="49" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="31" font-weight="bold" fill="#182a46">Business Analysis and Mission Intake: Authority Boundaries</text>
+<polyline points="280,220 280,310" fill="none" stroke="#2853a5" stroke-width="3"><title>Evidence and observations feed business analysis</title></polyline>
+<polygon points="280,310 273,295 287,295" fill="#2853a5"/>
+<polyline points="800,220 800,310" fill="none" stroke="#2853a5" stroke-width="3"><title>Mission Input is confirmed by the Business Owner</title></polyline>
+<polygon points="800,310 793,295 807,295" fill="#2853a5"/>
+<polyline points="1320,220 1320,310" fill="none" stroke="#2853a5" stroke-width="3"><title>Canonical rules and Authority inputs feed L6 resolution</title></polyline>
+<polygon points="1320,310 1313,295 1327,295" fill="#2853a5"/>
+<polyline points="1010,365 1110,365" fill="none" stroke="#2853a5" stroke-width="3"><title>The confirmed Mission supplies scope and rulebook roots for resolution</title></polyline>
+<polygon points="1110,365 1095,372 1095,358" fill="#2853a5"/>
+<polyline points="280,440 280,550 740,550 740,600" fill="none" stroke="#2853a5" stroke-width="3"><title>An immutable AnalysisSnapshot is a Profile Generator input</title></polyline>
+<polygon points="740,600 733,585 747,585" fill="#2853a5"/>
+<polyline points="800,440 800,600" fill="none" stroke="#2853a5" stroke-width="3"><title>The confirmed MissionSpec is a Profile Generator input</title></polyline>
+<polygon points="800,600 793,585 807,585" fill="#2853a5"/>
+<polyline points="1320,440 1320,570 870,570 870,600" fill="none" stroke="#2853a5" stroke-width="3"><title>ResolvedRuleSet is an input to Profile Generator</title></polyline>
+<polygon points="870,600 863,585 877,585" fill="#2853a5"/>
+<polyline points="1530,365 1570,365 1570,880 1010,880" fill="none" stroke="#2853a5" stroke-width="3"><title>ResolvedRuleSet is also an input to deterministic compilation</title></polyline>
+<polygon points="1010,880 1025,873 1025,887" fill="#2853a5"/>
+<polyline points="70,365 30,365 30,880 590,880" fill="none" stroke="#8b43a8" stroke-width="3" stroke-dasharray="9 6"><title>AnalysisSnapshot may be used by Compiler/Validator as supplementary input</title></polyline>
+<polygon points="590,880 575,887 575,873" fill="#8b43a8"/>
+<polyline points="800,700 800,830" fill="none" stroke="#2853a5" stroke-width="3"><title>Draft Profile proposals enter compilation and validation</title></polyline>
+<polygon points="800,830 793,815 807,815" fill="#2853a5"/>
+<polyline points="800,930 800,1040" fill="none" stroke="#2853a5" stroke-width="3"><title>A validated candidate enters Human review and release gates</title></polyline>
+<polygon points="800,1040 793,1025 807,1025" fill="#2853a5"/>
+<rect x="70" y="120" width="420" height="100" rx="12" fill="#f1f5fd" stroke="#496bb3" stroke-width="2"/>
+<text x="280.0" y="155.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172742">Input Sources</text>
+<text x="280.0" y="185.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Interviews / documents / observation</text>
+<rect x="590" y="120" width="420" height="100" rx="12" fill="#f1f5fd" stroke="#496bb3" stroke-width="2"/>
+<text x="800.0" y="155.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172742">Mission Input</text>
+<text x="800.0" y="185.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Objective / requester / scope hints</text>
+<rect x="1110" y="120" width="420" height="100" rx="12" fill="#f1f5fd" stroke="#496bb3" stroke-width="2"/>
+<text x="1320.0" y="155.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172742">L7 Rulebook / Authority</text>
+<text x="1320.0" y="185.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Canonical sources / revision</text>
+<rect x="70" y="310" width="420" height="130" rx="12" fill="#f1f5fd" stroke="#496bb3" stroke-width="2"/>
+<text x="280.0" y="345.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172742">Business Analysis Workspace</text>
+<text x="280.0" y="375.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Evidence / claims / unresolved</text>
+<text x="280.0" y="405.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Human confirmation → immutable snapshot</text>
+<rect x="590" y="310" width="420" height="130" rx="12" fill="#f1f5fd" stroke="#496bb3" stroke-width="2"/>
+<text x="800.0" y="345.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172742">Business Owner confirmation</text>
+<text x="800.0" y="375.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Confirm Mission intent and scope</text>
+<text x="800.0" y="405.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Confirmed MissionSpec</text>
+<rect x="1110" y="310" width="420" height="130" rx="12" fill="#f1f5fd" stroke="#496bb3" stroke-width="2"/>
+<text x="1320.0" y="345.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172742">L6 Rule Resolution</text>
+<text x="1320.0" y="375.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Applicability / precedence / citation</text>
+<text x="1320.0" y="405.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">ResolvedRuleSet</text>
+<rect x="590" y="600" width="420" height="100" rx="12" fill="#f1f5fd" stroke="#496bb3" stroke-width="2"/>
+<text x="800.0" y="635.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172742">Profile Generator</text>
+<text x="800.0" y="665.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Draft proposals only</text>
+<rect x="590" y="830" width="420" height="100" rx="12" fill="#f1f5fd" stroke="#496bb3" stroke-width="2"/>
+<text x="800.0" y="865.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172742">Compiler / Validator</text>
+<text x="800.0" y="895.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Deterministic checks / fail-closed</text>
+<rect x="590" y="1040" width="420" height="130" rx="12" fill="#f1f5fd" stroke="#496bb3" stroke-width="2"/>
+<text x="800.0" y="1075.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172742">Human Review / Release</text>
+<text x="800.0" y="1105.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Required approval → release authorization</text>
+<text x="800.0" y="1135.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#172742">Registry admission → Effective Profile</text>
+<text x="290" y="269" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#304463">evidence</text>
+<text x="810" y="269" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#304463">request</text>
+<text x="1330" y="269" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#304463">canonical rules</text>
+<text x="1040" y="350" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#304463">scope</text>
+<text x="400" y="538" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#304463">snapshot</text>
+<text x="810" y="495" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#304463">mission</text>
+<text x="1000" y="558" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#304463">resolved rules</text>
+<text x="1200" y="867" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#304463">resolved rules</text>
+<text x="240" y="867" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#713b88">optional snapshot</text>
+<text x="810" y="768" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#304463">draft profiles</text>
+<text x="810" y="987" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#304463">validated candidate</text>
+<rect x="70" y="1205" width="1460" height="145" rx="10" fill="#fff8e8" stroke="#d9ae58" stroke-width="2"/>
+<text x="95" y="1242" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#433817">Business analysis is non-authoritative: confidence alone does not confer Rulebook Authority.</text>
+<text x="95" y="1281" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#433817">ResolvedRuleSet supplies both Generator and Compiler; neither bypasses required Human approval.</text>
+<text x="95" y="1320" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#433817">Solid: inputs / processing. Purple dashed: optional supplementary AnalysisSnapshot.</text>
+</svg>

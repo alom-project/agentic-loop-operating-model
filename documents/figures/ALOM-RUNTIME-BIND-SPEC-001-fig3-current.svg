@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1800" viewBox="0 0 2400 1800" role="img" aria-labelledby="title desc">
+<title id="title">Figure 3 · MW-03 agentic vertical slice</title>
+<desc id="desc">An example with a Graph and L5 execution; it does not make a Graph mandatory for every agentic task</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1800" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 3 · MW-03 agentic vertical slice</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">An example with a Graph and L5 execution; it does not make a Graph mandatory for every agentic task</text>
+<path id="edge-profile-task" d="M555 340 L555 430" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="575" y="395" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">pinned Profile</text>
+<path id="edge-task-graph" d="M555 590 L555 680" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="575" y="645" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">manifest refs</text>
+<path id="edge-graph-loop" d="M555 840 L555 930" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="575" y="895" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">selected node</text>
+<path id="edge-loop-exec" d="M555 1090 L555 1180" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="575" y="1145" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">execution intent</text>
+<path id="edge-context-request" d="M1030 1230 L1400 1230" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1120" y="1211" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">ContextRequest</text>
+<path id="edge-context-result" d="M1400 1300 L1030 1300" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1130" y="1281" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">ContextPack</text>
+<path id="edge-context-source" d="M1850 1340 L1850 1450" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1870" y="1402" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">canonical read</text>
+<path id="edge-exec-evidence" d="M555 1340 L555 1450" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="575" y="1402" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">artifact + verification</text>
+<path id="edge-source-evidence" d="M1400 1530 L1030 1530" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1120" y="1509" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">source revision</text>
+<rect id="profile" x="80" y="180" width="950" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="227" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 · Effective ProfileRelease</text>
+<text x="102" y="268" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">MW-03 agentic mode</text>
+<text x="102" y="300" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Resolved Profile and digest</text>
+<rect id="task" x="80" y="430" width="950" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="477" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L2 · TaskContract / RuntimeManifest</text>
+<text x="102" y="518" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Pin Profile / binding digests</text>
+<text x="102" y="550" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Verify resolved immutable refs</text>
+<rect id="graph" x="80" y="680" width="950" height="160" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="102" y="727" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L3 · Requirements-flow Graph</text>
+<text x="102" y="768" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">MW-03 node, routing and graph invariants</text>
+<text x="102" y="800" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Graph is used in this example</text>
+<rect id="loop" x="80" y="930" width="950" height="160" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="102" y="977" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4 · Requirements-conflict Loop</text>
+<text x="102" y="1018" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Plan / evaluate / verify / bounded repair</text>
+<text x="102" y="1050" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human approval authority is not transferred</text>
+<rect id="execution" x="80" y="1180" width="950" height="160" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="102" y="1227" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 · Requirements-analysis Harness</text>
+<text x="102" y="1268" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Runner / tools with filesystem and network limits</text>
+<text x="102" y="1300" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Produce normalized result and conflict report</text>
+<rect id="context" x="1400" y="1180" width="900" height="160" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1422" y="1227" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L6 · Context Profile</text>
+<text x="1422" y="1268" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">ContextPack / citations / freshness</text>
+<text x="1422" y="1300" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">For the selected sources and policy</text>
+<rect id="evidence" x="80" y="1450" width="950" height="160" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="102" y="1497" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Evidence</text>
+<text x="102" y="1538" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Artifacts, verification and source revisions</text>
+<text x="102" y="1570" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human review / handoff where required</text>
+<rect id="source" x="1400" y="1450" width="900" height="160" rx="13" fill="#fff1f3" stroke="#bd7987" stroke-width="2.5"/>
+<text x="1422" y="1497" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L7 · Rulebook / Requirements Authority</text>
+<text x="1422" y="1538" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Revisioned canonical read</text>
+<text x="1422" y="1570" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Action requires applicable authority</text>
+<rect x="60" y="1640" width="2280" height="114" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1676" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• MW-03 performs normalization / conflict analysis; customer requirements approval remains a Human authority.</text>
+<text x="83" y="1712" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Loop success means valid output structure and complete evidence, not customer approval.</text>
+</svg>

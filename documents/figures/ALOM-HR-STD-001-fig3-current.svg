@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2200" viewBox="0 0 2400 2200" role="img" aria-labelledby="title desc">
+<title id="title">Figure 3 · L5 execution and external enforcement</title>
+<desc id="desc">Entry paths use a common execution contract; external controls apply before and during execution</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="2200" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 3 · L5 execution and external enforcement</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Entry paths use a common execution contract; external controls apply before and during execution</text>
+<path id="edge-agentic" d="M400 380 L400 500" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="400,497 392,479 408,479" fill="#17212f"/>
+<text x="415" y="450" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Intent</text>
+<path id="edge-interactive" d="M1200 380 L1200 500" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1200,497 1192,479 1208,479" fill="#17212f"/>
+<text x="1215" y="450" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Request</text>
+<path id="edge-system" d="M2000 380 L2000 500" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="2000,497 1992,479 2008,479" fill="#17212f"/>
+<text x="2015" y="450" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Optional request</text>
+<path id="edge-resolve" d="M1200 680 L1200 850" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1200,847 1192,829 1208,829" fill="#17212f"/>
+<text x="1215" y="780" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Pinned inputs</text>
+<path id="edge-start" d="M1200 1030 L1200 1250" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1200,1247 1192,1229 1208,1229" fill="#17212f"/>
+<text x="1215" y="1150" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Effective Harness</text>
+<path id="edge-check" d="M900 1300 L700 1300" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="703,1300 721,1292 721,1308" fill="#17212f"/>
+<text x="760" y="1280" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Check</text>
+<path id="edge-enforce" d="M700 1380 L900 1380" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="897,1380 879,1388 879,1372" fill="#17212f"/>
+<text x="750" y="1360" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Allow / deny</text>
+<path id="edge-outcome" d="M1500 1340 L1700 1340" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1697,1340 1679,1348 1679,1332" fill="#17212f"/>
+<text x="1515" y="1315" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Normalized result</text>
+<path id="edge-dispatch" d="M1100 1430 L1100 1650" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1100,1647 1092,1629 1108,1629" fill="#17212f"/>
+<text x="1010" y="1540" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Execute</text>
+<path id="edge-events" d="M1300 1650 L1300 1430" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1300,1433 1308,1451 1292,1451" fill="#17212f"/>
+<text x="1315" y="1540" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Events</text>
+<path id="edge-action" d="M1500 1700 L1700 1700" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1697,1700 1679,1708 1679,1692" fill="#17212f"/>
+<text x="1510" y="1680" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Guarded action</text>
+<path id="edge-response" d="M1700 1790 L1500 1790" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1503,1790 1521,1782 1521,1798" fill="#17212f"/>
+<text x="1550" y="1770" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Response</text>
+<rect id="agentic" x="100" y="200" width="600" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="122" y="247" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Agentic entry</text>
+<text x="122" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L4 ExecutionIntent / TaskRef</text>
+<text x="122" y="320" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L2–L4 retain ALE control</text>
+<rect id="interactive" x="900" y="200" width="600" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="922" y="247" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Interactive entry</text>
+<text x="922" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human / client request</text>
+<text x="922" y="320" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human retains work control</text>
+<rect id="system" x="1700" y="200" width="600" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1722" y="247" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Optional system mediation</text>
+<text x="1722" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Deterministic-system request</text>
+<text x="1722" y="320" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L5 mediation is optional</text>
+<rect id="request" x="100" y="500" width="2200" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="122" y="547" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Common Execution Request</text>
+<text x="122" y="588" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Purpose / actor / scope_ref / domain_id / isolation_scope_ref / mode / budget</text>
+<text x="122" y="620" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Project overlay is optional; propagate the approved bindings and policy context.</text>
+<rect id="resolver" x="900" y="850" width="600" height="180" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="922" y="897" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Harness resolver</text>
+<text x="922" y="938" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Spec / profile / policy</text>
+<text x="922" y="970" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Effective Harness + compatibility</text>
+<rect id="controls" x="100" y="1250" width="600" height="180" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="122" y="1297" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">External enforcement</text>
+<text x="122" y="1338" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Policy / tool / credentials / egress</text>
+<text x="122" y="1370" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Filesystem / budget / stop / output</text>
+<rect id="runner" x="900" y="1250" width="600" height="180" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="922" y="1297" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Runner adapter</text>
+<text x="922" y="1338" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Start / resume / stop</text>
+<text x="922" y="1370" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Normalize event / result</text>
+<rect id="result" x="1700" y="1250" width="600" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1722" y="1297" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Execution result</text>
+<text x="1722" y="1338" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Result / artifact / evidence</text>
+<text x="1722" y="1370" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Return to originating controller</text>
+<rect id="worker" x="900" y="1650" width="600" height="180" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="922" y="1697" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Execution worker / runner</text>
+<text x="922" y="1738" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Workspace / session / sandbox</text>
+<text x="922" y="1770" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Short-lived scoped credentials</text>
+<rect id="target" x="1700" y="1650" width="600" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1722" y="1697" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">External tools / systems</text>
+<text x="1722" y="1738" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Tool / API / MCP / network</text>
+<text x="1722" y="1770" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Actions through enforcement boundary</text>
+<rect x="60" y="1950" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1986" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Policy and scope checks apply before Runner start, Tool use and Action; budget, stop and output guards remain active as applicable.</text>
+<text x="83" y="2022" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Controls intercept applicable Tool, network, file and output paths; arrows show data flow, not a bypass. Unknown authority / isolation fails closed.</text>
+<text x="83" y="2058" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L5 owns safe execution, not L4 convergence or Human work decisions. Human-only and deterministic-system work do not inherently require L5.</text>
+</svg>

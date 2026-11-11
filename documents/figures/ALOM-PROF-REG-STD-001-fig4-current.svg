@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1600" viewBox="0 0 1800 1600" role="img" aria-labelledby="title desc">
+<title id="title">Registry availability and bounded last known good</title>
+<desc id="desc">Two regional resolver pools query authoritative Registry state. Local LKG is an outage fallback only when all listed safety and freshness conditions hold.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3d5272"/></marker></defs>
+<rect width="1800" height="1600" fill="#ffffff"/>
+<text x="55" y="64" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 4 · Registry HA and bounded LKG</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#425678">Reference configuration · each region applies the same serving checks</text>
+<rect x="120" y="150" width="1560" height="140" rx="16" fill="#e9f5ef" stroke="#31855b" stroke-width="2.5"/>
+<text x="155" y="205" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="bold" fill="#233654">Authoritative Registry and immutable release store</text>
+<text x="155" y="254" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">Serving pointer and revision · release artifacts · applicable revoke / HOLD records</text>
+<path id="a-request" d="M340 430 L340 290" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<path id="a-response" d="M550 290 L550 430" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<path id="b-request" d="M1240 430 L1240 290" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<path id="b-response" d="M1450 290 L1450 430" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="70" y="430" width="760" height="390" rx="16" fill="#f6f8fc" stroke="#5671ad" stroke-width="2"/>
+<text x="100" y="475" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="bold" fill="#233654">Region A</text>
+<rect x="100" y="505" width="700" height="105" rx="10" fill="#eaf0fc" stroke="#526db1" stroke-width="2"/>
+<text x="125" y="547" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" fill="#233654">Resolver pool · active</text>
+<text x="125" y="582" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#344b6d">Authorized resolve, selection and trace</text>
+<rect x="100" y="680" width="700" height="105" rx="10" fill="#f1f2f5" stroke="#68717e" stroke-width="2"/>
+<text x="125" y="722" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" fill="#233654">Scoped LKG cache</text>
+<text x="125" y="757" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#344b6d">Previously verified snapshot · age bounded by policy</text>
+<text x="187" y="652" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#344b6d">refresh</text>
+<text x="580" y="652" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#344b6d">eligible fallback</text>
+<text x="200" y="368" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#344b6d">strong read</text>
+<text x="564" y="368" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#344b6d">state + revision</text>
+<path id="a-refresh" d="M335 610 L335 680" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<path id="a-fallback" d="M565 680 L565 610" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="970" y="430" width="760" height="390" rx="16" fill="#f6f8fc" stroke="#5671ad" stroke-width="2"/>
+<text x="1000" y="475" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="bold" fill="#233654">Region B</text>
+<rect x="1000" y="505" width="700" height="105" rx="10" fill="#eaf0fc" stroke="#526db1" stroke-width="2"/>
+<text x="1025" y="547" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" fill="#233654">Resolver pool · active</text>
+<text x="1025" y="582" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#344b6d">Authorized resolve, selection and trace</text>
+<rect x="1000" y="680" width="700" height="105" rx="10" fill="#f1f2f5" stroke="#68717e" stroke-width="2"/>
+<text x="1025" y="722" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" fill="#233654">Scoped LKG cache</text>
+<text x="1025" y="757" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#344b6d">Previously verified snapshot · age bounded by policy</text>
+<text x="1087" y="652" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#344b6d">refresh</text>
+<text x="1480" y="652" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#344b6d">eligible fallback</text>
+<text x="1100" y="368" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#344b6d">strong read</text>
+<text x="1464" y="368" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#344b6d">state + revision</text>
+<path id="b-refresh" d="M1235 610 L1235 680" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<path id="b-fallback" d="M1465 680 L1465 610" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="70" y="860" width="1660" height="625" rx="16" fill="#fff8ed" stroke="#bd8934" stroke-width="2"/>
+<text x="100" y="912" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#493917">LKG eligibility · all conditions apply in each region</text>
+<text x="105" y="968" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#403c38">• Use a previously verified release within its effective window and maximum LKG age.</text>
+<text x="105" y="1026" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#403c38">• Require complete, fresh revoke / HOLD records for the release and applicable sources / authorities.</text>
+<text x="105" y="1084" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#403c38">• No applicable REVOKED or uncleared HOLD; UNKNOWN, STALE or unavailable state means DENY.</text>
+<text x="105" y="1142" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#403c38">• Verify digest, scope, purpose, classification and required capabilities.</text>
+<text x="105" y="1200" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#403c38">• Partition cached snapshots by isolation_scope_ref; keep AuthZ decision caches separate.</text>
+<text x="105" y="1258" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#403c38">• Trace served_from=LKG, registry_revision, LKG age and revoke / HOLD snapshot ages.</text>
+<text x="105" y="1316" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#403c38">• A risk policy may prohibit LKG; ordinary pointer changes do not alter an existing pin.</text>
+<text x="105" y="1374" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#403c38">• Revoke / HOLD takes precedence over pointer, pin and LKG; follow the stop / drain policy.</text>
+<text x="70" y="1535" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#425678">LKG is an outage fallback, not an unconditional cache read. See Registry §§8–12.</text>
+</svg>

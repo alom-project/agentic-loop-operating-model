@@ -1,0 +1,8 @@
+kind: LifecycleProfile
+schema_version: "1.0"
+lifecycle_id: example-lifecycle
+domain_id: example-domain
+phases: []
+mandatory_gates: []
+mandatory_artifacts: []
+status: draft

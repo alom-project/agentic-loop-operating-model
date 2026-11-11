@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1500" viewBox="0 0 2400 1500" role="img" aria-labelledby="title desc">
+<title id="title">Figure 2 · Rulebook logical contracts</title>
+<desc id="desc">Labeled arrows show the selected relationship; conflict and change records are conditional</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1500" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 2 · Rulebook logical contracts</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Labeled arrows show the selected relationship; conflict and change records are conditional</text>
+<path id="edge-extract" d="M405 400 L405 580" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="425" y="495" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">extract</text>
+<path id="edge-authority" d="M1200 400 L1200 580" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1220" y="495" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">authorizes</text>
+<path id="edge-confirm" d="M730 680 L875 680" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="750" y="665" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">confirm</text>
+<path id="edge-conditions" d="M1525 650 L1600 650 L1600 500 L1995 500 L1995 400" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1630" y="480" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">defines applicability</text>
+<path id="edge-conflict" d="M1525 720 L1670 720" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1538" y="705" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">if conflict</text>
+<path id="edge-bundle" d="M1050 780 L1050 900 L405 900 L405 1020" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="520" y="880" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">included in bundle</text>
+<path id="edge-release" d="M875 1120 L730 1120" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="765" y="1105" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">pins</text>
+<path id="edge-change" d="M1325 780 L1325 950 L1995 950 L1995 1020" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1430" y="930" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">change may trigger</text>
+<rect id="source" x="80" y="200" width="650" height="200" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="247" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rule Source Record</text>
+<text x="102" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Original source / revision / locator</text>
+<text x="102" y="320" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Owner / scope / classification</text>
+<rect id="authority" x="875" y="200" width="650" height="200" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="897" y="247" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Authority Record</text>
+<text x="897" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Owner / approver</text>
+<text x="897" y="320" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Decision authority and scope</text>
+<rect id="applicability" x="1670" y="200" width="650" height="200" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1692" y="247" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Applicability Metadata</text>
+<text x="1692" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Scope / condition / validity</text>
+<text x="1692" y="320" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Precedence and exceptions</text>
+<rect id="candidate" x="80" y="580" width="650" height="200" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="102" y="627" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rule Candidate</text>
+<text x="102" y="668" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Extracted proposal / source locator</text>
+<text x="102" y="700" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Not authoritative before review</text>
+<rect id="canonical" x="875" y="580" width="650" height="200" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="897" y="627" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Canonical Rule</text>
+<text x="897" y="668" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">requires / prohibits / evidence</text>
+<text x="897" y="700" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">source + revision + locator + authority</text>
+<rect id="conflict" x="1670" y="580" width="650" height="200" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1692" y="627" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Conflict Record</text>
+<text x="1692" y="668" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Only when incompatible Rules apply</text>
+<text x="1692" y="700" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Unresolved conflicts block use</text>
+<rect id="bundle" x="80" y="1020" width="650" height="200" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="102" y="1067" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rulebook Bundle</text>
+<text x="102" y="1108" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Related approved canonical Rules</text>
+<text x="102" y="1140" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Scope / owner / concept references</text>
+<rect id="manifest" x="875" y="1020" width="650" height="200" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="897" y="1067" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rulebook Release Manifest</text>
+<text x="897" y="1108" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Tag / commit SHA / bundle digest</text>
+<text x="897" y="1140" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Approval / validity / scope</text>
+<rect id="impact" x="1670" y="1020" width="650" height="200" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1692" y="1067" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Change Impact Signal</text>
+<text x="1692" y="1108" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Old / new revision / affected scope</text>
+<text x="1692" y="1140" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Profile reevaluation when applicable</text>
+<rect x="60" y="1320" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1356" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• A Rule Candidate is a proposal; Human confirmation and approved release establish canonical status.</text>
+<text x="83" y="1392" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Unresolved authority, revision or applicable conflict blocks effective Profile use; no silent precedence.</text>
+<text x="83" y="1428" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• The Change Impact Signal requests evaluation and does not automatically modify or approve a Profile.</text>
+</svg>

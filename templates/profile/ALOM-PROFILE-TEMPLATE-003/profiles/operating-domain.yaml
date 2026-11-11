@@ -1,0 +1,11 @@
+kind: OperatingDomainProfile
+schema_version: "1.0"
+domain_id: example-domain
+domain_kind: corporate_function
+purpose: "Describe the permanent capability or function operated by this domain."
+owner_role_ref: role://example-domain-owner
+lifecycle_refs: []
+process_refs: []
+managed_work_refs:
+  - work://example-domain/example-work
+status: draft

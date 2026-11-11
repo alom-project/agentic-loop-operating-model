@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="947.3545" viewBox="0 0 1200 947.3545" role="img" aria-labelledby="diagram-title diagram-desc">
+<title id="diagram-title">Standard TaskRun State Machine</title><desc id="diagram-desc">Aligned normal transitions, waiting and re-queuing, and exceptional termination panels.</desc><rect width="1200" height="947.3545" fill="white"/>
+<defs>
+<marker id="arrow0" markerWidth="7" markerHeight="7" refX="6.5" refY="3.5" viewBox="0 0 7 7" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#2a6fbd"/></marker>
+<marker id="arrow1" markerWidth="7" markerHeight="7" refX="6.5" refY="3.5" viewBox="0 0 7 7" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#34485c"/></marker>
+<marker id="arrow2" markerWidth="7" markerHeight="7" refX="6.5" refY="3.5" viewBox="0 0 7 7" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#b05454"/></marker>
+<marker id="arrow3" markerWidth="7" markerHeight="7" refX="6.5" refY="3.5" viewBox="0 0 7 7" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#c77a1a"/></marker>
+</defs>
+<rect id="panel-a" x="25" y="20" width="1150" height="155" rx="13" fill="none" stroke="#2a6fbd" stroke-width="1.7"/>
+<text id="panel-title-a" x="40" y="43" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#2a6fbd">A. Normal primary transitions</text>
+<rect id="panel-b" x="25" y="195" width="1150" height="350" rx="13" fill="none" stroke="#c77a1a" stroke-width="1.7"/>
+<text id="panel-title-b" x="40" y="218" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#c77a1a">B. Waiting and re-queuing from RUNNING</text>
+<rect id="panel-c" x="25" y="565" width="1150" height="365" rx="13" fill="none" stroke="#b05454" stroke-width="1.7"/>
+<text id="panel-title-c" x="40" y="588" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#b05454">C. Exceptional termination (from any nonterminal state)</text>
+<polyline id="edge-a1-a2" points="170,86 190,86" fill="none" stroke="#34485c" stroke-width="1.8" marker-end="url(#arrow1)"/>
+<polyline id="edge-a2-a3" points="310,86 330,86" fill="none" stroke="#34485c" stroke-width="1.8" marker-end="url(#arrow1)"/>
+<polyline id="edge-a3-a4" points="450,86 470,86" fill="none" stroke="#34485c" stroke-width="1.8" marker-end="url(#arrow1)"/>
+<polyline id="edge-a4-a5" points="590,86 610,86" fill="none" stroke="#34485c" stroke-width="1.8" marker-end="url(#arrow1)"/>
+<polyline id="edge-a5-a6" points="730,86 750,86" fill="none" stroke="#34485c" stroke-width="1.8" marker-end="url(#arrow1)"/>
+<polyline id="edge-a6-a7" points="870,86 890,86" fill="none" stroke="#34485c" stroke-width="1.8" marker-end="url(#arrow1)"/>
+<polyline id="edge-a7-a8" points="1010,86 1030,86" fill="none" stroke="#34485c" stroke-width="1.8" marker-end="url(#arrow1)"/>
+<polyline id="edge-r1-w1" points="205,260 450,260" fill="none" stroke="#c77a1a" stroke-width="1.8" marker-end="url(#arrow3)"/>
+<text id="edge-label-r1-w1-0" x="327.5" y="252" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13.5" fill="#172438">L3 dependency / join wait</text>
+<polyline id="edge-w1-q1" points="750,260 990,260" fill="none" stroke="#2a6fbd" stroke-width="1.8" marker-end="url(#arrow0)"/>
+<text id="edge-label-w1-q1-0" x="870" y="252" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13.5" fill="#172438">Dependencies resolved</text>
+<polyline id="edge-r2-w2" points="205,334 450,334" fill="none" stroke="#c77a1a" stroke-width="1.8" marker-end="url(#arrow3)"/>
+<text id="edge-label-r2-w2-0" x="327.5" y="326" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13.5" fill="#172438">HITL / HIC required</text>
+<polyline id="edge-w2-q2" points="750,334 990,334" fill="none" stroke="#2a6fbd" stroke-width="1.8" marker-end="url(#arrow0)"/>
+<text id="edge-label-w2-q2-0" x="870" y="326" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13.5" fill="#172438">Approval + validity recheck</text>
+<polyline id="edge-r3-w3" points="205,408 450,408" fill="none" stroke="#c77a1a" stroke-width="1.8" marker-end="url(#arrow3)"/>
+<text id="edge-label-r3-w3-0" x="327.5" y="400" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13.5" fill="#172438">Oracle / callback wait</text>
+<polyline id="edge-w3-q3" points="750,408 990,408" fill="none" stroke="#2a6fbd" stroke-width="1.8" marker-end="url(#arrow0)"/>
+<text id="edge-label-w3-q3-0" x="870" y="400" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13.5" fill="#172438">External event received</text>
+<polyline id="edge-r4-w4" points="205,482 450,482" fill="none" stroke="#c77a1a" stroke-width="1.8" marker-end="url(#arrow3)"/>
+<text id="edge-label-r4-w4-0" x="327.5" y="459" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13.5" fill="#172438">transport / worker</text>
+<text id="edge-label-r4-w4-1" x="327.5" y="474" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13.5" fill="#172438">retryable failure</text>
+<polyline id="edge-w4-q4" points="750,482 990,482" fill="none" stroke="#2a6fbd" stroke-width="1.8" marker-end="url(#arrow0)"/>
+<text id="edge-label-w4-q4-0" x="870" y="459" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13.5" fill="#172438">Backoff complete +</text>
+<text id="edge-label-w4-q4-1" x="870" y="474" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13.5" fill="#172438">retries remaining</text>
+<polyline id="edge-x1-t1" points="485,633 900,633" fill="none" stroke="#b05454" stroke-width="1.8" marker-end="url(#arrow2)"/>
+<text id="edge-label-x1-t1-0" x="692.5" y="625" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#172438">authorized cancel</text>
+<polyline id="edge-x2-t2" points="485,707 900,707" fill="none" stroke="#b05454" stroke-width="1.8" marker-end="url(#arrow2)"/>
+<text id="edge-label-x2-t2-0" x="692.5" y="699" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#172438">policy / human / risk stop</text>
+<polyline id="edge-x3-t3" points="485,781 900,781" fill="none" stroke="#b05454" stroke-width="1.8" marker-end="url(#arrow2)"/>
+<text id="edge-label-x3-t3-0" x="692.5" y="773" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#172438">unrecoverable technical failure</text>
+<polyline id="edge-x4-t4" points="485,855 900,855" fill="none" stroke="#b05454" stroke-width="1.8" marker-end="url(#arrow2)"/>
+<text id="edge-label-x4-t4-0" x="692.5" y="847" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#172438">deadline exceeded</text>
+<rect id="node-a1" x="50" y="62" width="120" height="48" rx="12" fill="#eef0ff" stroke="#4b4fc4" stroke-width="1.8"/>
+<text id="node-text-a1" x="110.0" y="91.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#172438">RECEIVED</text>
+<rect id="node-a2" x="190" y="62" width="120" height="48" rx="12" fill="#eef0ff" stroke="#4b4fc4" stroke-width="1.8"/>
+<text id="node-text-a2" x="250.0" y="91.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#172438">ADMITTED</text>
+<rect id="node-a3" x="330" y="62" width="120" height="48" rx="12" fill="#eef0ff" stroke="#4b4fc4" stroke-width="1.8"/>
+<text id="node-text-a3" x="390.0" y="91.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#172438">BOUND</text>
+<rect id="node-a4" x="470" y="62" width="120" height="48" rx="12" fill="#eef0ff" stroke="#4b4fc4" stroke-width="1.8"/>
+<text id="node-text-a4" x="530.0" y="91.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#172438">QUEUED</text>
+<rect id="node-a5" x="610" y="62" width="120" height="48" rx="12" fill="#eef0ff" stroke="#4b4fc4" stroke-width="1.8"/>
+<text id="node-text-a5" x="670.0" y="91.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#172438">LEASED</text>
+<rect id="node-a6" x="750" y="62" width="120" height="48" rx="12" fill="#eef0ff" stroke="#4b4fc4" stroke-width="1.8"/>
+<text id="node-text-a6" x="810.0" y="91.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#172438">RUNNING</text>
+<rect id="node-a7" x="890" y="62" width="120" height="48" rx="12" fill="#eaf8ef" stroke="#319b6b" stroke-width="1.8"/>
+<text id="node-text-a7" x="950.0" y="91.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#172438">COMPLETING</text>
+<rect id="node-a8" x="1030" y="62" width="120" height="48" rx="12" fill="#eaf8ef" stroke="#319b6b" stroke-width="1.8"/>
+<text id="node-text-a8" x="1090.0" y="91.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#172438">COMPLETED</text>
+<rect id="node-r1" x="75" y="235" width="130" height="50" rx="12" fill="#eaf8ef" stroke="#319b6b" stroke-width="1.8"/>
+<text id="node-text-r1" x="140.0" y="265.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">RUNNING</text>
+<rect id="node-w1" x="450" y="235" width="300" height="50" rx="12" fill="#fff6e9" stroke="#c77a1a" stroke-width="1.8"/>
+<text id="node-text-w1" x="600.0" y="265.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">WAITING_DEPENDENCY</text>
+<rect id="node-q1" x="990" y="235" width="130" height="50" rx="12" fill="#eef0ff" stroke="#4b4fc4" stroke-width="1.8"/>
+<text id="node-text-q1" x="1055.0" y="265.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">QUEUED</text>
+<rect id="node-r2" x="75" y="309" width="130" height="50" rx="12" fill="#eaf8ef" stroke="#319b6b" stroke-width="1.8"/>
+<text id="node-text-r2" x="140.0" y="339.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">RUNNING</text>
+<rect id="node-w2" x="450" y="309" width="300" height="50" rx="12" fill="#fff6e9" stroke="#c77a1a" stroke-width="1.8"/>
+<text id="node-text-w2" x="600.0" y="339.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">WAITING_HUMAN</text>
+<rect id="node-q2" x="990" y="309" width="130" height="50" rx="12" fill="#eef0ff" stroke="#4b4fc4" stroke-width="1.8"/>
+<text id="node-text-q2" x="1055.0" y="339.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">QUEUED</text>
+<rect id="node-r3" x="75" y="383" width="130" height="50" rx="12" fill="#eaf8ef" stroke="#319b6b" stroke-width="1.8"/>
+<text id="node-text-r3" x="140.0" y="413.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">RUNNING</text>
+<rect id="node-w3" x="450" y="383" width="300" height="50" rx="12" fill="#fff6e9" stroke="#c77a1a" stroke-width="1.8"/>
+<text id="node-text-w3" x="600.0" y="413.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">WAITING_EXTERNAL</text>
+<rect id="node-q3" x="990" y="383" width="130" height="50" rx="12" fill="#eef0ff" stroke="#4b4fc4" stroke-width="1.8"/>
+<text id="node-text-q3" x="1055.0" y="413.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">QUEUED</text>
+<rect id="node-r4" x="75" y="457" width="130" height="50" rx="12" fill="#eaf8ef" stroke="#319b6b" stroke-width="1.8"/>
+<text id="node-text-r4" x="140.0" y="487.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">RUNNING</text>
+<rect id="node-w4" x="450" y="457" width="300" height="50" rx="12" fill="#fff6e9" stroke="#c77a1a" stroke-width="1.8"/>
+<text id="node-text-w4" x="600.0" y="487.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">RETRY_WAIT</text>
+<rect id="node-q4" x="990" y="457" width="130" height="50" rx="12" fill="#eef0ff" stroke="#4b4fc4" stroke-width="1.8"/>
+<text id="node-text-q4" x="1055.0" y="487.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">QUEUED</text>
+<rect id="node-x1" x="185" y="608" width="300" height="50" rx="12" fill="#fff0f0" stroke="#b05454" stroke-width="1.8"/>
+<text id="node-text-x1" x="335.0" y="638.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">ANY NON-TERMINAL STATE</text>
+<rect id="node-t1" x="900" y="608" width="145" height="50" rx="12" fill="#fff0f0" stroke="#b05454" stroke-width="1.8"/>
+<text id="node-text-t1" x="972.5" y="638.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">CANCELLED</text>
+<rect id="node-x2" x="185" y="682" width="300" height="50" rx="12" fill="#fff0f0" stroke="#b05454" stroke-width="1.8"/>
+<text id="node-text-x2" x="335.0" y="712.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">ANY NON-TERMINAL STATE</text>
+<rect id="node-t2" x="900" y="682" width="145" height="50" rx="12" fill="#fff0f0" stroke="#b05454" stroke-width="1.8"/>
+<text id="node-text-t2" x="972.5" y="712.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">STOPPED</text>
+<rect id="node-x3" x="185" y="756" width="300" height="50" rx="12" fill="#fff0f0" stroke="#b05454" stroke-width="1.8"/>
+<text id="node-text-x3" x="335.0" y="786.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">ANY NON-TERMINAL STATE</text>
+<rect id="node-t3" x="900" y="756" width="145" height="50" rx="12" fill="#fff0f0" stroke="#b05454" stroke-width="1.8"/>
+<text id="node-text-t3" x="972.5" y="786.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">FAILED</text>
+<rect id="node-x4" x="185" y="830" width="300" height="50" rx="12" fill="#fff0f0" stroke="#b05454" stroke-width="1.8"/>
+<text id="node-text-x4" x="335.0" y="860.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">ANY NON-TERMINAL STATE</text>
+<rect id="node-t4" x="900" y="830" width="145" height="50" rx="12" fill="#fff0f0" stroke="#b05454" stroke-width="1.8"/>
+<text id="node-text-t4" x="972.5" y="860.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#172438">EXPIRED</text>
+<text id="text-note-0" x="45" y="150" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="normal" fill="#59626d">COMPLETED is finalized only after state / evidence commit.</text>
+</svg>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2160" viewBox="0 0 2400 2160" role="img" aria-labelledby="title desc">
+<title id="title">Figure 5 · L1 boundaries and execution routes</title>
+<desc id="desc">Governance contracts and representative routing for the four execution modes</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="2160" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 5 · L1 boundaries and execution routes</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Governance contracts and representative routing for the four execution modes</text>
+<rect x="60" y="1080" width="2280" height="770" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="85" y="1119" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Managed Work execution modes</text>
+<text x="85" y="1152" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Routes are illustrative; the applicable policy and execution binding determine each actual path.</text>
+<path id="edge-objectives" d="M1200 310 L1200 435" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1200,432 1192,414 1208,414" fill="#17212f"/>
+<text x="1220" y="370" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Objectives / constraints</text>
+<path id="edge-ale_contract" d="M320 585 L320 785" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="320,782 312,764 328,764" fill="#17212f"/>
+<text x="335" y="690" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Agentic policy</text>
+<path id="edge-l5_contract" d="M910 585 L910 785" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="910,782 902,764 918,764" fill="#17212f"/>
+<text x="925" y="690" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Execution obligations</text>
+<path id="edge-l6_contract" d="M1500 585 L1500 785" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1500,782 1492,764 1508,764" fill="#17212f"/>
+<text x="1515" y="690" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Scope / policy</text>
+<path id="edge-l7_contract" d="M2080 585 L2080 785" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="2080,782 2072,764 2088,764" fill="#17212f"/>
+<text x="2095" y="690" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Authority / write rules</text>
+<path id="edge-route_human" d="M610 1260 L740 1260" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="737,1260 719,1268 719,1252" fill="#17212f"/>
+<text x="630" y="1242" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">route</text>
+<path id="edge-route_interactive" d="M610 1425 L740 1425" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="737,1425 719,1433 719,1417" fill="#17212f"/>
+<text x="630" y="1407" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">route</text>
+<path id="edge-route_agentic" d="M610 1590 L740 1590" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="737,1590 719,1598 719,1582" fill="#17212f"/>
+<text x="630" y="1572" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">route</text>
+<path id="edge-route_deterministic" d="M610 1755 L740 1755" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="737,1755 719,1763 719,1747" fill="#17212f"/>
+<text x="630" y="1737" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">route</text>
+<rect id="management" x="695" y="165" width="1010" height="145" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="717" y="212" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Applying organization management</text>
+<text x="717" y="253" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Owns business objectives, strategy and constraints</text>
+<rect id="l1" x="160" y="435" width="2080" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="182" y="482" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 Operating Model and Governance</text>
+<text x="182" y="523" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Purpose / owner / authority / policy / work mode / outcome / Human control</text>
+<rect id="ale" x="70" y="785" width="500" height="170" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="92" y="832" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ALE subsystem (L2–L4)</text>
+<text x="92" y="873" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L2 Control / L3 Graph / L4 Loop</text>
+<text x="92" y="905" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Graph when required</text>
+<rect id="l5" x="660" y="785" width="500" height="170" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="682" y="832" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 Shared Execution Plane</text>
+<text x="682" y="873" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Harness / Runner / tool / sandbox</text>
+<text x="682" y="905" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Technical enforcement</text>
+<rect id="l6" x="1250" y="785" width="500" height="170" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1272" y="832" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L6 Context and Knowledge</text>
+<text x="1272" y="873" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authorized context / retrieval</text>
+<text x="1272" y="905" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Citation / provenance</text>
+<rect id="l7" x="1830" y="785" width="500" height="170" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1852" y="832" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L7 SSOT</text>
+<text x="1852" y="873" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Canonical knowledge / records</text>
+<text x="1852" y="905" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authority / controlled writes</text>
+<rect id="mode_human" x="100" y="1185" width="510" height="150" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="122" y="1232" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">human-only</text>
+<rect id="route_human" x="740" y="1185" width="1510" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="762" y="1232" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Representative execution route</text>
+<text x="762" y="1273" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human performs work; L6 / L7 or tools may be used as needed.</text>
+<text x="762" y="1305" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">ALE and L5 are not required.</text>
+<rect id="mode_interactive" x="100" y="1350" width="510" height="150" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="122" y="1397" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">interactive-agent</text>
+<rect id="route_interactive" x="740" y="1350" width="1510" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="762" y="1397" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Representative execution route</text>
+<text x="762" y="1438" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human controls the outer execution; L5 provides Agent Runtime.</text>
+<text x="762" y="1470" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Reference L6 / L7 as needed; do not implicitly route through ALE.</text>
+<rect id="mode_agentic" x="100" y="1515" width="510" height="150" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="122" y="1562" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">agentic</text>
+<rect id="route_agentic" x="740" y="1515" width="1510" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="762" y="1562" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Representative execution route</text>
+<text x="762" y="1603" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">ALE controls execution; L2 / L4 and L3 Graph when required.</text>
+<text x="762" y="1635" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Agent execution is delegated to L5.</text>
+<rect id="mode_deterministic" x="100" y="1680" width="510" height="150" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="122" y="1727" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">deterministic-system</text>
+<rect id="route_deterministic" x="740" y="1680" width="1510" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="762" y="1727" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Representative execution route</text>
+<text x="762" y="1768" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">SystemExecutionRecord: executor revision / scope / evidence / verification.</text>
+<text x="762" y="1800" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">A deterministic controller correlates profile / binding digests; ALE is not required and L5 may mediate.</text>
+<rect x="60" y="1960" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1996" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• ALE is the L2–L4 logical subsystem; L5 is a shared execution plane outside ALE.</text>
+<text x="83" y="2032" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• human_required=true with agentic or deterministic-system is an error; do not silently change the required control.</text>
+<text x="83" y="2068" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Arrows in the upper panel distribute objectives or governance contracts; row arrows identify an illustrative route.</text>
+</svg>

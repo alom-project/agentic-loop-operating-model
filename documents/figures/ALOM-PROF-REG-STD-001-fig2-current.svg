@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1830" viewBox="0 0 1800 1830" role="img">
+<title>Registry Figure 2 — Admission and Effective Pointer Transaction</title>
+<rect width="1800" height="1830" fill="white"/>
+<text x="900.0" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="31" font-weight="bold" fill="#172943">Registry Figure 2 — Admission and Effective Pointer Transaction</text>
+<rect x="80" y="1080" width="1640" height="350" rx="18" fill="#f5f8fc" stroke="#7992b4" stroke-width="2" stroke-dasharray="10 6"/>
+<text x="102" y="1112" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#334f78">Common authoritative boundary · atomic commit</text>
+<polyline points="900,250 900,315" fill="none" stroke="#3c5c87" stroke-width="3"><title>Authenticate and verify the request and caller.</title></polyline>
+<polygon points="900,315 893,301 907,301" fill="#3c5c87"/>
+<polyline points="900,430 900,500" fill="none" stroke="#3c5c87" stroke-width="3"><title>Identify the authenticated request and saved state.</title></polyline>
+<polygon points="900,500 893,486 907,486" fill="#3c5c87"/>
+<polyline points="480,545 275,545 275,690" fill="none" stroke="#3c5c87" stroke-width="3"><title>Existing completed request returns its original authorized result; in-progress and conflicting requests do not create a new admission.</title></polyline>
+<polygon points="275,690 268,676 282,676" fill="#3c5c87"/>
+<polyline points="1100,595 1100,690" fill="none" stroke="#3c5c87" stroke-width="3"><title>Only a new request proceeds to reservation and validation.</title></polyline>
+<polygon points="1100,690 1093,676 1107,676" fill="#3c5c87"/>
+<polyline points="1300,815 1300,870" fill="none" stroke="#3c5c87" stroke-width="3"><title>Validated new request stages immutable content.</title></polyline>
+<polygon points="1300,870 1293,856 1307,856" fill="#3c5c87"/>
+<polyline points="1300,975 1300,1010 900,1010 900,1170" fill="none" stroke="#3c5c87" stroke-width="3"><title>Staged content may be committed only after all authoritative checks.</title></polyline>
+<polygon points="900,1170 893,1156 907,1156" fill="#3c5c87"/>
+<polyline points="560,1230 690,1230" fill="none" stroke="#3c5c87" stroke-width="3"><title>Verify the latest case eligibility and order it with decision closure.</title></polyline>
+<polygon points="690,1230 676,1237 676,1223" fill="#3c5c87"/>
+<polyline points="1220,1230 1090,1230" fill="none" stroke="#3c5c87" stroke-width="3"><title>Verify actual target, registry revision and current control state.</title></polyline>
+<polygon points="1090,1230 1104,1223 1104,1237" fill="#3c5c87"/>
+<polyline points="890,1315 890,1505" fill="none" stroke="#3c5c87" stroke-width="3"><title>Persist the atomic result and publish the outbox after commit.</title></polyline>
+<polygon points="890,1505 883,1491 897,1491" fill="#3c5c87"/>
+<rect x="480" y="150" width="840" height="100" rx="12" fill="#f0f4fb" stroke="#6981a4" stroke-width="2"/>
+<text x="900.0" y="187.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#182b45">Authenticated submit / result lookup</text>
+<text x="900.0" y="214.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Signed ReleaseRequest and original request ID / key</text>
+<rect x="480" y="315" width="840" height="115" rx="12" fill="#f0f4fb" stroke="#6981a4" stroke-width="2"/>
+<text x="900.0" y="359.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#182b45">Verify identity, authority and signed bytes</text>
+<text x="900.0" y="386.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Caller rights by path; signer authority; signed payload / digest</text>
+<rect x="480" y="500" width="840" height="95" rx="12" fill="#fff8e8" stroke="#b5904f" stroke-width="2"/>
+<text x="900.0" y="534.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#182b45">Identify request and stored state</text>
+<text x="900.0" y="561.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Completed / in progress / conflict / new</text>
+<rect x="80" y="690" width="390" height="125" rx="12" fill="#f3f1fa" stroke="#887ca8" stroke-width="2"/>
+<text x="275.0" y="726.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#182b45">Existing request</text>
+<text x="275.0" y="753.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Completed: original result</text>
+<text x="275.0" y="780.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">In progress / conflict: no new run</text>
+<rect x="970" y="690" width="680" height="125" rx="12" fill="#f0f4fb" stroke="#6981a4" stroke-width="2"/>
+<text x="1310.0" y="726.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#182b45">New request: reserve and validate</text>
+<text x="1310.0" y="753.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Approval, validation, scope, window, digest,</text>
+<text x="1310.0" y="780.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">binding and fresh control snapshot</text>
+<rect x="970" y="870" width="680" height="105" rx="12" fill="#f0f4fb" stroke="#6981a4" stroke-width="2"/>
+<text x="1310.0" y="909.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#182b45">Immutable staging</text>
+<text x="1310.0" y="936.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Not a public index or serving permission</text>
+<rect x="120" y="1170" width="440" height="145" rx="12" fill="#eef6f1" stroke="#62937a" stroke-width="2"/>
+<text x="340.0" y="1216.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#182b45">L1 approval authority</text>
+<text x="340.0" y="1243.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Current case / target / eligibility</text>
+<text x="340.0" y="1270.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Decision closure and case version</text>
+<rect x="690" y="1170" width="400" height="145" rx="12" fill="#e9f4ed" stroke="#4c8b68" stroke-width="2"/>
+<text x="890.0" y="1203.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#182b45">Admission commit</text>
+<text x="890.0" y="1230.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Marker + index / pointer</text>
+<text x="890.0" y="1257.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Revision + result / idempotency</text>
+<text x="890.0" y="1284.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Outbox, atomically</text>
+<rect x="1220" y="1170" width="450" height="145" rx="12" fill="#f0f4fb" stroke="#6981a4" stroke-width="2"/>
+<text x="1445.0" y="1203.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#182b45">Registry checks</text>
+<text x="1445.0" y="1230.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Actual target, current revision</text>
+<text x="1445.0" y="1257.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">REVOKED / HOLD / CLEAR</text>
+<text x="1445.0" y="1284.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Approval expiry / authority</text>
+<rect x="545" y="1505" width="720" height="105" rx="12" fill="#f3f1fa" stroke="#887ca8" stroke-width="2"/>
+<text x="905.0" y="1544.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#182b45">Persisted result and event delivery</text>
+<text x="905.0" y="1571.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#182b45">Return result; publish outbox after commit</text>
+<rect x="329.6" y="512" width="80.8" height="23" fill="white" opacity=".97"/>
+<text x="370" y="530" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#304b70">existing</text>
+<rect x="1129.6" y="632" width="80.8" height="23" fill="white" opacity=".97"/>
+<text x="1170" y="650" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#304b70">new only</text>
+<rect x="576.5" y="1197" width="97.0" height="23" fill="white" opacity=".97"/>
+<text x="625" y="1215" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#304b70">case fence</text>
+<rect x="1098.4" y="1197" width="113.19999999999999" height="23" fill="white" opacity=".97"/>
+<text x="1155" y="1215" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#304b70">revision CAS</text>
+<rect x="80" y="1650" width="1640" height="145" rx="12" fill="#fafbfd" stroke="#c2ccd9"/>
+<text x="100" y="1680" font-family="Arial,sans-serif" font-size="17" fill="#263c59">A completed, authorized replay returns the saved result before current-state gates; it is not a new admission.</text>
+<text x="100" y="1707" font-family="Arial,sans-serif" font-size="17" fill="#263c59">Each case has one target and at most one new admission; a valid prior REJECT / REVISE closes eligibility.</text>
+<text x="100" y="1734" font-family="Arial,sans-serif" font-size="17" fill="#263c59">Failed, stale or unavailable checks do not publish a new admission; staging remains non-serving.</text>
+<text x="100" y="1761" font-family="Arial,sans-serif" font-size="17" fill="#263c59">If commit outcome is unknown, recover by the original ID / key. Runtime serving applies its own current control gates.</text>
+</svg>

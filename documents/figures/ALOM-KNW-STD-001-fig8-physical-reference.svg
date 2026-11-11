@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1850" viewBox="0 0 2400 1850" role="img" aria-labelledby="title desc">
+<title id="title">Figure 8 · Illustrative L6 deployment reference</title>
+<desc id="desc">Physical placement is an applying-organization choice; arrows show the labeled data direction</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1850" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 8 · Illustrative L6 deployment reference</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Physical placement is an applying-organization choice; arrows show the labeled data direction</text>
+<path id="edge-request" d="M600 300 L900 300" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="897,300 879,308 879,292" fill="#17212f"/>
+<text x="650" y="280" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Context request</text>
+<path id="edge-response" d="M900 380 L600 380" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="603,380 621,372 621,388" fill="#17212f"/>
+<text x="650" y="360" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">ContextPack</text>
+<path id="edge-auth_request" d="M1400 300 L1700 300" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1697,300 1679,308 1679,292" fill="#17212f"/>
+<text x="1430" y="280" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Authorization input</text>
+<path id="edge-auth_response" d="M1700 380 L1400 380" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1403,380 1421,372 1421,388" fill="#17212f"/>
+<text x="1490" y="360" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Decision</text>
+<path id="edge-release" d="M350 680 L350 850" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="350,847 342,829 358,829" fill="#17212f"/>
+<text x="365" y="770" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Pinned release</text>
+<path id="edge-publish" d="M600 940 L900 940" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="897,940 879,948 879,932" fill="#17212f"/>
+<text x="650" y="915" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Verified indexes</text>
+<path id="edge-query" d="M1100 430 L1100 850" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1100,847 1092,829 1108,829" fill="#17212f"/>
+<text x="940" y="640" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Scoped query</text>
+<path id="edge-retrieved" d="M1300 850 L1300 430" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1300,433 1308,451 1292,451" fill="#17212f"/>
+<text x="1315" y="640" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Results</text>
+<path id="edge-live" d="M1700 940 L1600 940 L1600 410 L1400 410" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1403,410 1421,402 1421,418" fill="#17212f"/>
+<text x="1615" y="715" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Scoped source data</text>
+<path id="edge-evidence" d="M1400 430 L1500 430 L1500 1440 L1400 1440" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1403,1440 1421,1432 1421,1448" fill="#17212f"/>
+<text x="1515" y="1200" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Evidence</text>
+<rect id="consumer" x="100" y="250" width="500" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="122" y="297" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Consumers</text>
+<text x="122" y="338" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human / Agent / System</text>
+<text x="122" y="370" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authorized purpose / scope</text>
+<rect id="api" x="900" y="250" width="500" height="180" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="922" y="297" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Context API / MCP</text>
+<text x="922" y="338" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Resolve / authorize / retrieve</text>
+<text x="922" y="370" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Assemble ContextPack</text>
+<rect id="iam" x="1700" y="250" width="600" height="180" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1722" y="297" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Policy / identity authority</text>
+<text x="1722" y="338" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Principal / purpose / isolation</text>
+<text x="1722" y="370" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Decision and obligations</text>
+<rect id="l7" x="100" y="500" width="500" height="180" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="122" y="547" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L7 canonical source</text>
+<text x="122" y="588" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Approved Knowledge release</text>
+<text x="122" y="620" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Pinned revision / authority</text>
+<rect id="builder" x="100" y="850" width="500" height="180" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="122" y="897" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Derived build job</text>
+<text x="122" y="938" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Validate / build / verify</text>
+<text x="122" y="970" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Atomic promotion</text>
+<rect id="index" x="900" y="850" width="500" height="180" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="922" y="897" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Derived retrieval stores</text>
+<text x="922" y="938" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Vector / Full-text</text>
+<text x="922" y="970" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Graph / Metadata indexes</text>
+<rect id="adapter" x="1700" y="850" width="600" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1722" y="897" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Read-only source adapters</text>
+<text x="1722" y="938" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Scoped source / MCP access</text>
+<text x="1722" y="970" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Policy-limited live reads</text>
+<rect id="trace" x="900" y="1350" width="500" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="922" y="1397" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Trace / evidence store</text>
+<text x="922" y="1438" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Request / decision / source refs</text>
+<text x="922" y="1470" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Manifest / citations / retention</text>
+<rect x="60" y="1630" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1666" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Supplementary Phase 1 view of L6 §18; the BUILD / SERVE flow is detailed in Figure 7.</text>
+<text x="83" y="1702" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L7 remains the authority. L6 stores and indexes are derived; authorization and isolation are resolved before candidate generation.</text>
+<text x="83" y="1738" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• This is an illustrative Phase 1 placement; co-location, HA / DR, scaling, credentials and network isolation require local design.</text>
+</svg>

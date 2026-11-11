@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1810" viewBox="0 0 2400 1810" role="img" aria-labelledby="title desc">
+<title id="title">Figure 3 · Runtime resolve and fail-closed serving</title>
+<desc id="desc">Representative resolve path; selection source does not bypass current controls</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#3d5272"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b34848"/></marker></defs>
+<rect width="2400" height="1810" fill="#ffffff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 3 · Runtime resolve and fail-closed serving</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#425678">Representative resolve path; selection source does not bypass current controls</text>
+<rect id="request" x="100" y="160" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="207" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">1  Authenticate and authorize the resolve request</text>
+<text x="125" y="251" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">Check actor / delegator, tenant, isolation_scope_ref, purpose, classification and target.</text>
+<rect id="select" x="100" y="385" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="432" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">2  Select the release reference</text>
+<text x="125" y="476" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">If a pin is present, verify that pin; if no pin, select the matching Effective Pointer. LKG has a separate</text>
+<text x="125" y="506" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">outage gate.</text>
+<rect id="fetch" x="100" y="610" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="657" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">3  Fetch the immutable release and manifest</text>
+<text x="125" y="701" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">Verify digest, effective window, scope, requested mode and required capabilities.</text>
+<rect id="control" x="100" y="835" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="882" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">4  Verify current control state</text>
+<text x="125" y="926" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">Check complete, fresh revoke / HOLD evidence for release and applicable sources / authorities.</text>
+<rect id="decision" x="100" y="1060" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="1107" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">5  Return ALLOW or DENY</text>
+<text x="125" y="1151" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">ALLOW includes the required references and evidence; DENY contains no ALLOW-only Profile fields.</text>
+<rect id="pin" x="100" y="1285" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="1332" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">6  Pin and execute after ALLOW</text>
+<text x="125" y="1376" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">Pin the applicable Profile / Binding digests and revision in the mode-specific execution record.</text>
+<path id="edge-request-select" d="M695 310 L695 385" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="716" y="354" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#425678">authorized request</text>
+<path id="edge-select-fetch" d="M695 535 L695 610" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="716" y="579" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#425678">selected release_ref</text>
+<path id="edge-fetch-control" d="M695 760 L695 835" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="716" y="804" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#425678">verified artifacts</text>
+<path id="edge-control-decision" d="M695 985 L695 1060" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="716" y="1029" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#425678">fresh, complete evidence</text>
+<path id="edge-decision-pin" d="M695 1210 L695 1285" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="716" y="1254" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#425678">ALLOW</text>
+<path id="branch-request" d="M1290 235 L1560 235" fill="none" stroke="#b34848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1300" y="218" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#a33d3d">unauthorized</text>
+<rect id="authorization-denied" x="1560" y="160" width="750" height="150" rx="13" fill="#fff3f2" stroke="#b34848" stroke-width="2.5"/>
+<text x="1582" y="203" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#873636">DENY</text>
+<text x="1582" y="247" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#873636">Do not disclose Profile or ALLOW-only response fields.</text>
+<path id="branch-select" d="M1290 460 L1560 460" fill="none" stroke="#b34848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1300" y="443" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#a33d3d">invalid pin / no match</text>
+<rect id="selection-denied" x="1560" y="385" width="750" height="150" rx="13" fill="#fff3f2" stroke="#b34848" stroke-width="2.5"/>
+<text x="1582" y="428" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#873636">DENY</text>
+<text x="1582" y="472" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#873636">Do not substitute the current pointer for an invalid pin; unresolved</text>
+<text x="1582" y="501" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#873636">selection fails closed.</text>
+<path id="branch-fetch" d="M1290 685 L1560 685" fill="none" stroke="#b34848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1300" y="668" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#a33d3d">invalid / mismatch</text>
+<rect id="artifact-denied" x="1560" y="610" width="750" height="150" rx="13" fill="#fff3f2" stroke="#b34848" stroke-width="2.5"/>
+<text x="1582" y="653" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#873636">DENY</text>
+<text x="1582" y="697" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#873636">Expired, incompatible, scope or digest mismatch blocks serving.</text>
+<path id="branch-control" d="M1290 910 L1560 910" fill="none" stroke="#b34848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1300" y="893" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#a33d3d">REVOKED / HOLD</text>
+<rect id="control-denied" x="1560" y="835" width="750" height="150" rx="13" fill="#fff3f2" stroke="#b34848" stroke-width="2.5"/>
+<text x="1582" y="878" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#873636">DENY</text>
+<text x="1582" y="922" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#873636">Unavailable, UNKNOWN or STALE required evidence fails closed.</text>
+<rect x="100" y="1545" width="2210" height="235" rx="13" fill="#f5f7fb" stroke="#bdcadd" stroke-width="1.5"/>
+<text x="125" y="1584" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">• Pin, Effective Pointer and eligible LKG all pass the same current security and HOLD gate.</text>
+<text x="125" y="1629" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">• Do not merge raw overlays at runtime; fallback requires an explicitly materialized contract.</text>
+<text x="125" y="1674" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">• Ordinary pointer changes do not alter an existing pin; revoke / HOLD follows stop / drain policy.</text>
+<text x="125" y="1719" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">• See Registry §§8–12 for the full ResolveResponse, evidence, LKG and runtime contracts.</text>
+</svg>

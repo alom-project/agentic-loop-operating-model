@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000" role="img" aria-labelledby="title desc">
+<title id="title">GraphRun Standard State Machine</title><desc id="desc">Structured review diagram with aligned panels and orthogonal connections.</desc>
+<rect width="2100" height="1000" fill="#ffffff"/>
+<defs>
+<marker id="arrow-normal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker>
+<marker id="arrow-dashed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker>
+<marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7558c5"/></marker>
+<marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#398e66"/></marker>
+</defs>
+<g id="panel-a"><rect x="20" y="20" width="2060" height="190" rx="12" fill="#ffffff" stroke="#657d9f" stroke-width="2"/>
+<text x="33" y="42" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold" fill="#657d9f">A. Representative primary transitions (Join example)</text>
+</g>
+<g id="panel-b"><rect x="20" y="225" width="2060" height="745" rx="12" fill="#ffffff" stroke="#657d9f" stroke-width="2"/>
+<text x="33" y="247" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold" fill="#657d9f">B. Exception / recovery / human-decision transitions (shown separately)</text>
+</g>
+<g id="panel-b1"><rect x="40" y="267" width="960" height="675" rx="12" fill="#ffffff" stroke="#8c8f94" stroke-width="2"/>
+<text x="53" y="289" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold" fill="#8c8f94">B-1 Recovery / Degradation</text>
+</g>
+<g id="panel-b2"><rect x="1020" y="267" width="1040" height="222" rx="12" fill="#ffffff" stroke="#8c8f94" stroke-width="2"/>
+<text x="1033" y="289" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold" fill="#8c8f94">B-2 Verification failure → Rewrite</text>
+</g>
+<g id="panel-b3"><rect x="1020" y="510" width="1040" height="432" rx="12" fill="#ffffff" stroke="#8c8f94" stroke-width="2"/>
+<text x="1033" y="532" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold" fill="#8c8f94">B-3 Human Review</text>
+</g>
+<g id="edge-a1-a2" data-source="a1" data-target="a2" data-label=""><polyline points="270,108 355,108" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-a2-a3" data-source="a2" data-target="a3" data-label=""><polyline points="565,108 650,108" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-a3-a4" data-source="a3" data-target="a4" data-label=""><polyline points="860,108 945,108" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-a4-a5" data-source="a4" data-target="a5" data-label="join needed"><polyline points="1155,108 1240,108" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-a5-a6" data-source="a5" data-target="a6" data-label="join satisfied"><polyline points="1450,108 1535,108" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-a6-a7" data-source="a6" data-target="a7" data-label=""><polyline points="1745,108 1830,108" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-b1-b2" data-source="b1" data-target="b2" data-label="failure / timeout"><polyline points="470,355 705,355" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-b2-b3" data-source="b2" data-target="b3" data-label="resume"><polyline points="735,387 735,450 165,450 165,820" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-b2-b4" data-source="b2" data-target="b4" data-label="degraded completion"><polyline points="785,387 785,490 390,490 390,820" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-b2-b5" data-source="b2" data-target="b5" data-label="policy / stop"><polyline points="835,387 835,530 615,530 615,820" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-b2-b6" data-source="b2" data-target="b6" data-label="unrecoverable"><polyline points="885,387 885,570 845,570 845,820" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-c1-c2" data-source="c1" data-target="c2" data-label="verify fail"><polyline points="1250,392 1440,392" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-c2-c3" data-source="c2" data-target="c3" data-label="re-evaluate / resume"><polyline points="1640,392 1830,392" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-d1-d2" data-source="d1" data-target="d2" data-label="approval / ambiguity"><polyline points="1270,607 1690,607" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-d2-d3" data-source="d2" data-target="d3" data-label="approve + completion checks pass"><polyline points="1730,634 1730,700 1165,700 1165,820" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-d2-d4" data-source="d2" data-target="d4" data-label="modify"><polyline points="1800,634 1800,735 1545,735 1545,820" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-d2-d5" data-source="d2" data-target="d5" data-label="deny / timeout"><polyline points="1870,634 1870,700 1895,700 1895,820" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="node-a1"><rect x="60" y="80" width="210" height="56" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="165.0" y="114.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">DEFINED</text>
+</g>
+<g id="node-a2"><rect x="355" y="80" width="210" height="56" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="460.0" y="114.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">VALIDATING</text>
+</g>
+<g id="node-a3"><rect x="650" y="80" width="210" height="56" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="755.0" y="114.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">READY</text>
+</g>
+<g id="node-a4"><rect x="945" y="80" width="210" height="56" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="1050.0" y="114.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">RUNNING</text>
+</g>
+<g id="node-a5"><rect x="1240" y="80" width="210" height="56" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="1345.0" y="114.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">WAITING_JOIN</text>
+</g>
+<g id="node-a6"><rect x="1535" y="80" width="210" height="56" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="1640.0" y="114.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">VERIFYING</text>
+</g>
+<g id="node-a7"><rect x="1830" y="80" width="210" height="56" rx="10" fill="#eaf6ee" stroke="#398e66" stroke-width="2.2"/>
+<text x="1935.0" y="114.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">COMPLETED</text>
+</g>
+<g id="node-b1"><rect x="75" y="323" width="395" height="64" rx="10" fill="#eff2fa" stroke="#706bd2" stroke-width="2.2"/>
+<text x="272.5" y="349.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">RUNNING / WAITING_JOIN</text>
+<text x="272.5" y="372.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">Node failure / Join timeout, etc.</text>
+</g>
+<g id="node-b2"><rect x="705" y="323" width="245" height="64" rx="10" fill="#fff5e8" stroke="#b87524" stroke-width="2.2"/>
+<text x="827.5" y="361.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">RECOVERING</text>
+</g>
+<g id="node-b3"><rect x="75" y="820" width="180" height="54" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="165.0" y="853.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">RUNNING</text>
+</g>
+<g id="node-b4"><rect x="295" y="820" width="190" height="54" rx="10" fill="#fff5e8" stroke="#b87524" stroke-width="2.2"/>
+<text x="390.0" y="853.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">DEGRADED</text>
+</g>
+<g id="node-b5"><rect x="520" y="820" width="190" height="54" rx="10" fill="#fff0ef" stroke="#be6060" stroke-width="2.2"/>
+<text x="615.0" y="853.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">STOPPED</text>
+</g>
+<g id="node-b6"><rect x="755" y="820" width="180" height="54" rx="10" fill="#fff0ef" stroke="#be6060" stroke-width="2.2"/>
+<text x="845.0" y="853.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">FAILED</text>
+</g>
+<g id="node-c1"><rect x="1050" y="365" width="200" height="54" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="1150.0" y="398.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">VERIFYING</text>
+</g>
+<g id="node-c2"><rect x="1440" y="365" width="200" height="54" rx="10" fill="#f0efff" stroke="#7558c5" stroke-width="2.2"/>
+<text x="1540.0" y="398.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">REWRITING</text>
+</g>
+<g id="node-c3"><rect x="1830" y="365" width="200" height="54" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="1930.0" y="398.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">RUNNING</text>
+</g>
+<g id="node-d1"><rect x="1050" y="580" width="220" height="54" rx="10" fill="#eff2fa" stroke="#706bd2" stroke-width="2.2"/>
+<text x="1160.0" y="613.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">VERIFYING</text>
+</g>
+<g id="node-d2"><rect x="1690" y="580" width="240" height="54" rx="10" fill="#eff2fa" stroke="#706bd2" stroke-width="2.2"/>
+<text x="1810.0" y="613.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">HUMAN_REVIEW</text>
+</g>
+<g id="node-d3"><rect x="1070" y="820" width="190" height="54" rx="10" fill="#eaf6ee" stroke="#398e66" stroke-width="2.2"/>
+<text x="1165.0" y="853.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">COMPLETED</text>
+</g>
+<g id="node-d4"><rect x="1450" y="820" width="190" height="54" rx="10" fill="#f4efff" stroke="#7558c5" stroke-width="2.2"/>
+<text x="1545.0" y="853.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">REWRITING</text>
+</g>
+<g id="node-d5"><rect x="1800" y="820" width="190" height="54" rx="10" fill="#fff0ef" stroke="#be6060" stroke-width="2.2"/>
+<text x="1895.0" y="853.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">ESCALATED</text>
+</g>
+<text x="587.5" y="340" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#354458">failure / timeout</text>
+<text x="400" y="438" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#354458">resume</text>
+<text x="585" y="478" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#354458">degraded completion</text>
+<text x="725" y="518" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#354458">policy / stop</text>
+<text x="705" y="598" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">unrecoverable</text>
+<text x="1345" y="378" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#354458">verify fail</text>
+<text x="1735" y="378" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">re-evaluate / resume</text>
+<text x="1480" y="593" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#354458">approval / ambiguity</text>
+<text x="1350" y="688" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#354458" id="human-completion-guard">approve + completion checks pass</text>
+<text x="1660" y="723" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#354458">modify</text>
+<text x="1915" y="754" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#354458">deny / timeout</text>
+<text x="1050" y="185" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#5b6575">Join is conditional. COMPLETED requires Graph Verification: invariants, required paths, evidence, policy validity and partial-failure rules (§11).</text>
+<text x="1050" y="991" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#5b6575">Repeated states separate exceptional transitions and prevent crossing or overlapping arrows.</text>
+<text id="join-needed" x="1197.5" y="70" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="14" font-weight="normal" fill="#354458">join needed</text>
+<text id="join-satisfied" x="1492.5" y="70" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="14" font-weight="normal" fill="#354458">join satisfied</text>
+<text id="rewrite-note" x="1540" y="467" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#354458">Resume requires validation and Graph re-evaluation to pass.</text>
+</svg>

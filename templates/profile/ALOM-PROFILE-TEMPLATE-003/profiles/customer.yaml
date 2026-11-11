@@ -1,0 +1,13 @@
+kind: CustomerProfile
+schema_version: "1.0"
+customer_id: example-customer
+optional: true
+selector:
+  enterprise_id: company
+  domain_id: example-domain
+  customer_id: example-customer
+contract_refs: []
+nda_refs: []
+security_constraints: []
+quality_constraints: []
+status: draft

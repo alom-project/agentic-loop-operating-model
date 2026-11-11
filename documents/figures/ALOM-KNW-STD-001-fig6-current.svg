@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2050" viewBox="0 0 2400 2050" role="img" aria-labelledby="title desc">
+<title id="title">Figure 6 · L6 responsibility and data boundaries</title>
+<desc id="desc">Rows describe contracts and ownership; they do not imply a universal execution sequence</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="2050" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 6 · L6 responsibility and data boundaries</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Rows describe contracts and ownership; they do not imply a universal execution sequence</text>
+<rect x="60" y="175" width="440" height="1590" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="85" y="214" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Connected layer</text>
+<text x="85" y="247" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678"></text>
+<rect x="540" y="175" width="1090" height="1590" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="565" y="214" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Contracts L6 receives / returns</text>
+<text x="565" y="247" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Direction is stated in each row.</text>
+<rect x="1670" y="175" width="670" height="1590" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="1695" y="214" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Outside L6 ownership</text>
+<text x="1695" y="247" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678"></text>
+<rect id="layer_l1" x="80" y="270" width="400" height="175" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="102" y="317" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 Governance</text>
+<rect id="data_l1" x="560" y="270" width="1050" height="175" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="582" y="317" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Receives purpose / scope / policy</text>
+<text x="582" y="358" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Work / execution mode / principal</text>
+<text x="582" y="390" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Outcome / evidence context</text>
+<rect id="outside_l1" x="1690" y="270" width="630" height="175" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1712" y="317" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Management authority</text>
+<rect id="layer_ale" x="80" y="480" width="400" height="175" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="102" y="527" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ALE: L2 / L3 / L4</text>
+<rect id="data_ale" x="560" y="480" width="1050" height="175" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="582" y="527" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Receives task / node / query</text>
+<text x="582" y="568" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Returns ContextPack / citations</text>
+<text x="582" y="600" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Freshness / knowledge refs</text>
+<rect id="outside_ale" x="1690" y="480" width="630" height="175" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1712" y="527" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Scheduler / Graph / Loop control</text>
+<rect id="layer_l5" x="80" y="690" width="400" height="175" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="102" y="737" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 Shared Execution</text>
+<rect id="data_l5" x="560" y="690" width="1050" height="175" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="582" y="737" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Receives execution / session context</text>
+<text x="582" y="778" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Context profile / token limits</text>
+<text x="582" y="810" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Source / MCP access boundary</text>
+<rect id="outside_l5" x="1690" y="690" width="630" height="175" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1712" y="737" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Tool / credential enforcement</text>
+<rect id="layer_l7" x="80" y="900" width="400" height="175" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="102" y="947" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L7 SSOT</text>
+<rect id="data_l7" x="560" y="900" width="1050" height="175" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="582" y="947" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Reads source authority / revision</text>
+<text x="582" y="988" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Approved Knowledge release</text>
+<text x="582" y="1020" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Operational read results</text>
+<rect id="outside_l7" x="1690" y="900" width="630" height="175" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1712" y="947" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Canonical truth / write authority</text>
+<rect id="layer_policy" x="80" y="1110" width="400" height="175" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="102" y="1157" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Policy / IAM</text>
+<rect id="data_policy" x="560" y="1110" width="1050" height="175" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="582" y="1157" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Receives authorization / identity</text>
+<text x="582" y="1198" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Principal / purpose / classification</text>
+<text x="582" y="1230" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Fail closed if unresolved</text>
+<rect id="outside_policy" x="1690" y="1110" width="630" height="175" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1712" y="1157" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Identity / final policy authority</text>
+<rect id="layer_trace" x="80" y="1320" width="400" height="175" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="102" y="1367" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Trace / Evidence</text>
+<rect id="data_trace" x="560" y="1320" width="1050" height="175" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="582" y="1367" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Produces correlated evidence</text>
+<text x="582" y="1408" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Request / authz / candidates</text>
+<text x="582" y="1440" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Pack / manifest / citations</text>
+<rect id="outside_trace" x="1690" y="1320" width="630" height="175" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1712" y="1367" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Retention / SIEM implementation</text>
+<rect id="layer_human" x="80" y="1530" width="400" height="175" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="102" y="1577" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Human / System</text>
+<rect id="data_human" x="560" y="1530" width="1050" height="175" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="582" y="1577" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Supports mode-specific context</text>
+<text x="582" y="1618" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human-only / deterministic work</text>
+<text x="582" y="1650" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Returns authorized ContextPack</text>
+<rect id="outside_human" x="1690" y="1530" width="630" height="175" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1712" y="1577" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Human decision / system execution</text>
+<rect x="60" y="1850" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1886" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L6 is a derived meaning / retrieval / context layer; it does not replace L7 as the source of truth or write authority.</text>
+<text x="83" y="1922" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Propagate scope_ref, domain_id, isolation_scope_ref, purpose, principal and trace; project_id is optional.</text>
+<text x="83" y="1958" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Context access must remain authorized and isolated for all four execution modes.</text>
+</svg>

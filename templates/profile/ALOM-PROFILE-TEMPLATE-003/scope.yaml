@@ -1,0 +1,15 @@
+kind: CommonScopeContract
+schema_version: "1.0"
+phase: design_time
+scope_ref: scope://company/domain/example-domain
+enterprise_id: company
+domain_id: example-domain
+organization_id: null
+customer_id: null
+project_id: null
+usecase_id: null
+process_id: null
+work_id: null
+tenant_id: null
+classification: internal
+isolation_scope_ref: scope://company/example-domain

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1800" viewBox="0 0 2400 1800" role="img" aria-labelledby="title desc">
+<title id="title">Figure 4 · Binding by execution mode</title>
+<desc id="desc">Mode determines required references and the outer controller; cards do not imply an execution sequence</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1800" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 4 · Binding by execution mode</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Mode determines required references and the outer controller; cards do not imply an execution sequence</text>
+<rect id="human" x="80" y="210" width="1080" height="330" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="102" y="257" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Human-only · Human control</text>
+<text x="102" y="298" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Required: human_work_profile, purpose, owner,</text>
+<text x="102" y="330" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">applicable authority and evidence.</text>
+<text x="102" y="362" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Context / L6 and L7 are used when needed.</text>
+<text x="102" y="394" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">No TaskRun, GraphRun, LoopRun or L5 session required.</text>
+<rect id="interactive" x="1240" y="210" width="1080" height="330" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1262" y="257" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Interactive-agent · Human control</text>
+<text x="1262" y="298" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Required: L5 profile and harness, context,</text>
+<text x="1262" y="330" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">applicable authority and Human control.</text>
+<text x="1262" y="362" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L2 TaskRun, L3 GraphRun and L4 LoopRun</text>
+<text x="1262" y="394" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">are not required for this mode.</text>
+<rect id="agentic" x="80" y="660" width="1080" height="330" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="102" y="707" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Agentic · ALE control</text>
+<text x="102" y="748" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Required: L2 entry, L4 loop, L5 harness,</text>
+<text x="102" y="780" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">context and applicable authority.</text>
+<text x="102" y="812" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L3 Graph is required when used,</text>
+<text x="102" y="844" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">and may be omitted for a single Loop.</text>
+<rect id="system" x="1240" y="660" width="1080" height="330" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1262" y="707" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Deterministic-system · System control</text>
+<text x="1262" y="748" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Required: SystemExecutionRecord, executor revision,</text>
+<text x="1262" y="780" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">binding, scope, evidence and verification.</text>
+<text x="1262" y="812" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L5 MAY mediate execution; ALE and task_id</text>
+<text x="1262" y="844" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">are not required. Do not reuse HumanWorkRecord</text>
+<text x="1262" y="876" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">as the system execution record.</text>
+<rect x="60" y="1160" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1196" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• human_required=true must not bind to agentic or deterministic-system; preserve Human control and applicable authority.</text>
+<text x="83" y="1232" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• A deterministic system uses SystemExecutionRecord, not HumanWorkRecord, and gains no Human / Business / L7 authority.</text>
+<text x="83" y="1268" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• A mode-specific evidence record does not itself grant permission to act or bypass current security / hold checks.</text>
+</svg>

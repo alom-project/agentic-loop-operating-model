@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1390" viewBox="0 0 1700 1390" role="img" aria-labelledby="title desc">
+<title id="title">L5 Shared Execution Plane internal responsibilities</title>
+<desc id="desc">Proposed L5 internal responsibility map showing mode-specific use, not a mandatory sequence.</desc>
+<rect x="0" y="0" width="1700" height="1390" fill="#ffffff"/>
+<text x="65" y="60" font-family="DejaVu Sans, Arial, sans-serif" font-size="35" font-weight="bold" fill="#17243a">L5 Shared Execution Plane: Internal Responsibilities</text>
+<text x="65" y="98" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="normal" fill="#47566c">Responsibility map · L5 use depends on execution mode</text>
+<text x="68" y="142" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="bold" fill="#45556f">EXECUTION MODES AND L5 USE</text>
+<rect id="box-mode-agentic" x="70" y="160" width="770" height="100" rx="15" fill="#f4f7fb" stroke="#73839a" stroke-width="2"/>
+<text id="label-mode-agentic" x="90" y="194" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">Agentic Work</text>
+<text id="line-mode-agentic-0" x="90" y="228" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">ALE / L4 uses L5 for shared execution</text>
+<rect id="box-mode-interactive" x="860" y="160" width="770" height="100" rx="15" fill="#f4f7fb" stroke="#73839a" stroke-width="2"/>
+<text id="label-mode-interactive" x="880" y="194" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">Interactive Agent Work</text>
+<text id="line-mode-interactive-0" x="880" y="228" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Human / Client controls interaction and uses L5 directly</text>
+<rect id="box-mode-deterministic" x="70" y="280" width="770" height="100" rx="15" fill="#f4f7fb" stroke="#73839a" stroke-width="2"/>
+<text id="label-mode-deterministic" x="90" y="314" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">deterministic-system</text>
+<text id="line-mode-deterministic-0" x="90" y="348" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">L5 optional; no Agent Runner / L4 / ALE implied</text>
+<rect id="box-mode-human" x="860" y="280" width="770" height="100" rx="15" fill="#f4f7fb" stroke="#73839a" stroke-width="2"/>
+<text id="label-mode-human" x="880" y="314" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">human-only</text>
+<text id="line-mode-human-0" x="880" y="348" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Human authority retained; L5 may be bypassed</text>
+<rect id="l5-boundary" x="70" y="420" width="1560" height="925" rx="20" fill="#ffffff" stroke="#66758a" stroke-width="2"/>
+<text x="100" y="465" font-family="DejaVu Sans, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17243a">L5 Shared Execution Plane</text>
+<text x="610" y="465" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="normal" fill="#5f4a1d">L5.1–L5.7 internal organization: [PROPOSAL]</text>
+<rect id="box-L5.1" x="105" y="505" width="725" height="119" rx="15" fill="#eff2ff" stroke="#5966b4" stroke-width="2"/>
+<text id="label-L5.1" x="125" y="538" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L5.1  Harness Definition</text>
+<text id="line-L5.1-0" x="125" y="572" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">HarnessSpec / Node and Graph Harnesses</text>
+<text id="line-L5.1-1" x="125" y="600" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Profiles</text>
+<rect id="box-L5.2" x="105" y="647" width="725" height="119" rx="15" fill="#eff2ff" stroke="#5966b4" stroke-width="2"/>
+<text id="label-L5.2" x="125" y="680" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L5.2  Harness Assembly</text>
+<text id="line-L5.2-0" x="125" y="714" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Profile inheritance / Policy composition</text>
+<text id="line-L5.2-1" x="125" y="742" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Capability validation / EffectiveHarness</text>
+<rect id="box-L5.3" x="105" y="789" width="725" height="119" rx="15" fill="#eff2ff" stroke="#5966b4" stroke-width="2"/>
+<text id="label-L5.3" x="125" y="822" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L5.3  Runtime Enforcement</text>
+<text id="line-L5.3-0" x="125" y="856" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Tool / Credential / Network / Filesystem</text>
+<text id="line-L5.3-1" x="125" y="884" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Budget / Stop: external enforcement</text>
+<rect id="box-L5.4" x="870" y="505" width="725" height="119" rx="15" fill="#eff2ff" stroke="#5966b4" stroke-width="2"/>
+<text id="label-L5.4" x="890" y="538" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L5.4  Runner Abstraction</text>
+<text id="line-L5.4-0" x="890" y="572" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Runner SPI / Capability Descriptor</text>
+<text id="line-L5.4-1" x="890" y="600" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Adapter / Event Mapping</text>
+<rect id="box-L5.5" x="870" y="647" width="725" height="119" rx="15" fill="#eff2ff" stroke="#5966b4" stroke-width="2"/>
+<text id="label-L5.5" x="890" y="680" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L5.5  Execution Worker</text>
+<text id="line-L5.5-0" x="890" y="714" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Workspace / Session / process / artifacts</text>
+<text id="line-L5.5-1" x="890" y="742" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Credential injection / cleanup</text>
+<rect id="box-L5.6" x="870" y="789" width="725" height="119" rx="15" fill="#eff2ff" stroke="#5966b4" stroke-width="2"/>
+<text id="label-L5.6" x="890" y="822" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L5.6  Execution Isolation</text>
+<text id="line-L5.6-0" x="890" y="856" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Container / VM / namespace / identity</text>
+<text id="line-L5.6-1" x="890" y="884" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Secret / egress / quota</text>
+<rect id="box-L5.7" x="105" y="931" width="1490" height="102" rx="15" fill="#eff2ff" stroke="#5966b4" stroke-width="2"/>
+<text id="label-L5.7" x="125" y="964" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L5.7  Runtime Telemetry</text>
+<text id="line-L5.7-0" x="125" y="998" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Canonical Event / OTel / Usage / Cost / Evidence / Health</text>
+<rect id="boundary-note" x="105" y="1057" width="1490" height="90" rx="15" fill="#fff5e7" stroke="#c48325" stroke-width="2"/>
+<text x="126" y="1093" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#80551b">EXECUTION BOUNDARY</text>
+<text x="126" y="1125" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="normal" fill="#17243a">When L5 is used: isolation_scope_ref required; Project optional</text>
+<text x="107" y="1202" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="normal" fill="#47566c">Boxes group responsibilities, not an obligatory execution sequence.</text>
+<text x="107" y="1240" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="normal" fill="#47566c">Use applicable capabilities; mandatory controls continue to apply.</text>
+<text x="107" y="1284" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#47566c">L5 is outside ALE (L2–L4). Runner implementations can be changed through adapters.</text>
+<text x="72" y="1380" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="normal" fill="#586477">L5 responsibilities from ALOM-HR-STD-001 §4.1, HR-P08 and Appendix A.1</text>
+</svg>

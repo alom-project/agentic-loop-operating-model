@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1465" height="1885" viewBox="0 0 1465 1885" role="img" aria-labelledby="figure-title figure-desc">
+<title id="figure-title">Illustrative Profile review screen with pending approval</title>
+<desc id="figure-desc">A project-optional Finance work case shows pinned scope, ReviewPacket and release intent, critical diff, validation, approver decisions and pending release readiness. Human Decision evidence and current admission eligibility are separate.</desc>
+<rect id="page" x="0" y="0" width="1465" height="1885" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<rect id="header" x="45" y="120" width="1375" height="275" rx="14" fill="#203557" stroke="#203557" stroke-width="1.5"/>
+<rect id="snapshot" x="45" y="575" width="845" height="220" rx="14" fill="#f7f9fc" stroke="#c7d3e3" stroke-width="1.5"/>
+<rect id="critical" x="45" y="815" width="845" height="180" rx="14" fill="#fff3f3" stroke="#b75a5a" stroke-width="1.5"/>
+<rect id="sources" x="45" y="1015" width="845" height="150" rx="14" fill="#f7f9fc" stroke="#c7d3e3" stroke-width="1.5"/>
+<rect id="validation" x="45" y="1185" width="845" height="180" rx="14" fill="#f7f9fc" stroke="#c7d3e3" stroke-width="1.5"/>
+<rect id="decision" x="45" y="1385" width="845" height="210" rx="14" fill="#f7f9fc" stroke="#c7d3e3" stroke-width="1.5"/>
+<rect id="approvers" x="910" y="575" width="510" height="540" rx="14" fill="#ffffff" stroke="#c7d3e3" stroke-width="1.5"/>
+<rect id="readiness" x="910" y="1135" width="510" height="230" rx="14" fill="#fff8ed" stroke="#cfad78" stroke-width="1.5"/>
+<rect id="actions" x="910" y="1385" width="510" height="210" rx="14" fill="#f7f9fc" stroke="#c7d3e3" stroke-width="1.5"/>
+<rect id="button-approve" x="930" y="1445" width="145" height="56" rx="7" fill="#165a3f" stroke="#165a3f" stroke-width="1.5"/>
+<rect id="button-revise" x="1085" y="1445" width="145" height="56" rx="7" fill="#805000" stroke="#805000" stroke-width="1.5"/>
+<rect id="button-reject" x="1240" y="1445" width="155" height="56" rx="7" fill="#873232" stroke="#873232" stroke-width="1.5"/>
+<rect id="footer" x="45" y="1615" width="1375" height="225" rx="14" fill="#eff4fa" stroke="#c7d3e3" stroke-width="1.5"/>
+<rect id="nav" x="45" y="420" width="1375" height="135" rx="14" fill="#f2f5fa" stroke="#c7d3e3" stroke-width="1.5"/>
+<text id="title" x="45" y="58" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="38" font-weight="bold" fill="#203452">Figure 2 · Review UI reference layout</text>
+<text id="subtitle" x="45" y="96" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="normal" fill="#40516b">Illustrative case · individual decisions and release eligibility are distinct</text>
+<text id="header-title" x="70" y="164" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="bold" fill="#ffffff">Candidate review  |  Illustrative values</text>
+<text id="case" x="70" y="207" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="normal" fill="#ffffff">Case: rc-004   |   Candidate: candidate-004   |   Status: IN_REVIEW</text>
+<text id="digest" x="70" y="249" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#ffffff">candidate_digest=sha256:ebb74ce2bf2e5fa0a2122b281aef0274ea8038684a2a536603d2869163c02de6</text>
+<text id="scope" x="70" y="291" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="normal" fill="#ffffff">enterprise_id=example   |   domain_id=finance   |   project_id=null   |   classification=confidential</text>
+<text id="work" x="70" y="333" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="normal" fill="#ffffff">work_id=expense-approval   |   scope_ref=scope://example/finance/expense</text>
+<text id="isolation" x="70" y="375" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="normal" fill="#ffffff">isolation_scope_ref=scope://example/finance</text>
+<text id="snapshot-title" x="70" y="618" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="bold" fill="#203452">ReviewPacket · pinned snapshot</text>
+<text id="snapshot-mission" x="70" y="661" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#344866">Mission / scope / structures / suitability and rationale</text>
+<text id="snapshot-policy" x="70" y="700" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#344866">Build: generator / compiler / model / schema / validator</text>
+<text id="snapshot-intent" x="70" y="739" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#344866">Release Intent: target_registry=registry://example  ·  namespace=finance</text>
+<text id="snapshot-detail" x="70" y="778" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="normal" fill="#344866">target_ref=expense  ·  channel=stable  ·  view reviewed window constraints</text>
+<text id="critical-title" x="70" y="858" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold" fill="#7b3030">Critical diff  |  previous → candidate</text>
+<text id="critical-human" x="70" y="901" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="normal" fill="#7b3030">human_required: false → true</text>
+<text id="critical-mode" x="70" y="940" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="normal" fill="#7b3030">execution_mode: agentic → human-only</text>
+<text id="critical-owner" x="70" y="979" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#7b3030">Human final authority retained</text>
+<text id="source-title" x="70" y="1057" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold" fill="#203452">Rule / source diff</text>
+<text id="source-value" x="70" y="1100" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#344866">quality.standard@rev-18  ·  evidence requirement added</text>
+<text id="source-detail" x="70" y="1141" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#344866">View source / revision / authority / locator</text>
+<text id="validation-title" x="70" y="1227" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold" fill="#203452">Validation summary</text>
+<text id="validation-1" x="70" y="1270" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="normal" fill="#172b4d">ERROR 0    REVIEW_REQUIRED 0</text>
+<text id="validation-2" x="70" y="1308" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="normal" fill="#172b4d">WARNING 2    UNRESOLVED 0    CONFLICT 0</text>
+<text id="validation-detail" x="70" y="1347" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#344866">View affected Profile fields and evidence</text>
+<text id="decision-title" x="70" y="1427" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold" fill="#203452">Decision details</text>
+<text id="decision-reason" x="70" y="1467" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#344866">reason_code: required before submission</text>
+<text id="decision-evidence" x="70" y="1507" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#344866">Evidence: attach when required by policy</text>
+<text id="decision-case" x="70" y="1547" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#344866">View pinned intent; live source values shown separately.</text>
+<text id="decision-write" x="70" y="1577" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#344866">No direct UI write to Registry or protected branch.</text>
+<text id="approver-title" x="935" y="618" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold" fill="#203452">Approvers · policy snapshot</text>
+<text id="owner-role" x="935" y="670" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#172b4d">Business Owner</text>
+<text id="owner-status" x="1395" y="670" text-anchor="end" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#165a3f">APPROVED</text>
+<text id="owner-detail" x="935" y="704" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#40516b">expiry: 2026-12-31  ·  evidence: view</text>
+<text id="quality-role" x="935" y="765" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#172b4d">Quality</text>
+<text id="quality-status" x="1395" y="765" text-anchor="end" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#885000">REQUIRED / PENDING</text>
+<text id="quality-detail" x="935" y="799" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#40516b">expiry: —  ·  evidence: pending</text>
+<text id="security-role" x="935" y="860" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#172b4d">Security / Privacy</text>
+<text id="security-status" x="1395" y="860" text-anchor="end" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#165a3f">APPROVED</text>
+<text id="security-detail" x="935" y="894" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#40516b">expiry: 2026-12-31  ·  evidence: view</text>
+<text id="architecture-role" x="935" y="955" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#172b4d">Architecture</text>
+<text id="architecture-status" x="1395" y="955" text-anchor="end" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#40516b">NOT REQUIRED</text>
+<text id="architecture-detail" x="935" y="989" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#40516b">resolved by policy snapshot</text>
+<text id="customer-role" x="935" y="1050" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#172b4d">Customer Authority</text>
+<text id="customer-status" x="1395" y="1050" text-anchor="end" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#40516b">NOT REQUIRED</text>
+<text id="customer-detail" x="935" y="1084" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#40516b">resolved by policy snapshot</text>
+<text id="readiness-title" x="935" y="1177" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold" fill="#203452">Release readiness</text>
+<text id="readiness-pending" x="935" y="1219" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#805000">PENDING: approvals incomplete</text>
+<text id="readiness-digest" x="935" y="1259" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#344866">Candidate digest pinned</text>
+<text id="readiness-scope" x="935" y="1299" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#344866">Scope / isolation checked</text>
+<text id="readiness-noadmission" x="935" y="1339" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#344866">Registry admission not yet requested</text>
+<text id="actions-title" x="935" y="1427" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold" fill="#203452">Record Human decision</text>
+<text id="label-approve" x="1002.5" y="1483" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#ffffff">APPROVE</text>
+<text id="label-revise" x="1157.5" y="1483" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#ffffff">REVISE</text>
+<text id="label-reject" x="1317.5" y="1483" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#ffffff">REJECT</text>
+<text id="actions-note" x="935" y="1526" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#344866">Decision ≠ Effective release.</text>
+<text id="actions-auth" x="935" y="1554" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#344866">Authorized approvers only.</text>
+<text id="actions-deny" x="935" y="1582" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#344866">API rejects unauthorized actions.</text>
+<text id="footer-binding" x="70" y="1655" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#243956">Bind Decision to case, candidate, validation, policy, and the displayed ReviewPacket / Release Intent.</text>
+<text id="footer-refs" x="70" y="1692" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#243956">Retain immutable refs / digests, actor and authority; verify Human authentication, delegation and SoD.</text>
+<text id="footer-signatures" x="70" y="1729" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#243956">Verify an authoritative Decision signature / attestation and policy-required signatures.</text>
+<text id="footer-check" x="70" y="1766" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#243956">Check current authoritative eligibility / control state; unknown or stale blocks new admission.</text>
+<text id="footer-separation" x="70" y="1803" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#243956">A recorded Decision is not a release. Release Authority and Registry admission remain separate.</text>
+<text id="nav-title" x="70" y="460" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="bold" fill="#203452">Review sections</text>
+<text id="nav-line-1" x="70" y="502" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#273c5a">Mission / Scope  ·  Rules / Ownership  ·  Managed Work  ·  Suitability</text>
+<text id="nav-line-2" x="70" y="540" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#273c5a">Human Control  ·  Assurance / Binding  ·  Diff / Evidence  ·  Source / Versions</text>
+</svg>

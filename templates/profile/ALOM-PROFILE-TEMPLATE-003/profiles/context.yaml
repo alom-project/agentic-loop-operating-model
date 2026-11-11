@@ -1,0 +1,12 @@
+kind: ContextProfile
+schema_version: "1.0"
+context_profile_id: example-context
+selector:
+  enterprise_id: company
+  domain_id: example-domain
+  work_id: example-work
+knowledge_roots: []
+authority_refs: []
+freshness_policy: null
+citation_required: true
+status: draft

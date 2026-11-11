@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1770" viewBox="0 0 2400 1770" role="img" aria-labelledby="title desc">
+<title id="title">Figure 6 · L1 deployment and layer-specific ports</title>
+<desc id="desc">A modular monolith is an initial deployment option; semantic boundaries remain distinct</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1770" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 6 · L1 deployment and layer-specific ports</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">A modular monolith is an initial deployment option; semantic boundaries remain distinct</text>
+<path id="edge-request" d="M350 400 L350 600" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="350,597 342,579 358,579" fill="#17212f"/>
+<text x="365" y="505" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">API request</text>
+<path id="edge-identity" d="M1150 400 L1150 600" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1150,597 1142,579 1158,579" fill="#17212f"/>
+<text x="1165" y="505" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Identity / delegation</text>
+<path id="edge-artifacts" d="M2000 400 L2000 690 L1400 690" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1403,690 1421,682 1421,698" fill="#17212f"/>
+<text x="1570" y="665" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Pinned artifacts</text>
+<path id="edge-gateway" d="M600 690 L900 690" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="897,690 879,698 879,682" fill="#17212f"/>
+<text x="640" y="665" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Governance request</text>
+<path id="edge-state" d="M900 740 L750 740 L750 1090 L600 1090" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="603,1090 621,1082 621,1098" fill="#17212f"/>
+<text x="630" y="1065" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">State</text>
+<path id="edge-evidence" d="M1100 780 L1100 1000" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1100,997 1092,979 1108,979" fill="#17212f"/>
+<text x="1115" y="900" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Events / evidence</text>
+<path id="edge-integrate" d="M1400 740 L1550 740 L1550 1090 L1700 1090" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1697,1090 1679,1098 1679,1082" fill="#17212f"/>
+<text x="1580" y="1065" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Requests</text>
+<rect id="client" x="100" y="220" width="500" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="122" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Admin / owner / reviewer</text>
+<text x="122" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Portal / API client</text>
+<text x="122" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human interaction</text>
+<rect id="identity" x="900" y="220" width="500" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="922" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Applying organization IdP</text>
+<text x="922" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human / workload identity</text>
+<text x="922" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authentication / delegation</text>
+<rect id="git" x="1700" y="220" width="600" height="180" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1722" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Protected Git hosting</text>
+<text x="1722" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Versioned Purpose / Policy</text>
+<text x="1722" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Profile / schema artifacts</text>
+<rect id="gateway" x="100" y="600" width="500" height="180" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="122" y="647" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 API gateway</text>
+<text x="122" y="688" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authentication / rate limit</text>
+<text x="122" y="720" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Request correlation</text>
+<rect id="l1" x="900" y="600" width="500" height="180" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="922" y="647" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 modular monolith</text>
+<text x="922" y="688" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Governance domain services</text>
+<text x="922" y="720" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Policy / Human / assurance</text>
+<rect id="rdb" x="100" y="1000" width="500" height="180" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="122" y="1047" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Operational state store</text>
+<text x="122" y="1088" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Decision / approval / case</text>
+<text x="122" y="1120" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Work / exception state</text>
+<rect id="trace" x="900" y="1000" width="500" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="922" y="1047" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Event / trace store</text>
+<text x="922" y="1088" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Audit / evidence</text>
+<text x="922" y="1120" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Retention and access controls</text>
+<rect id="ports" x="1700" y="1000" width="600" height="430" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1722" y="1047" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Layer-specific ports</text>
+<text x="1722" y="1088" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L2 Control Plane</text>
+<text x="1722" y="1120" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L3 Graph Engineering</text>
+<text x="1722" y="1152" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L4 Agentic Loop</text>
+<text x="1722" y="1184" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L5 Shared Execution</text>
+<text x="1722" y="1216" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L6 Context / Knowledge</text>
+<text x="1722" y="1248" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L7 SSOT / Authority</text>
+<rect x="60" y="1560" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1596" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• ALE is the logical grouping of L2–L4; L5, L6 and L7 are separate boundaries outside ALE.</text>
+<text x="83" y="1632" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Co-location is optional. IdP, policy engine, protected artifacts and stores can remain external Authorities / services.</text>
+<text x="83" y="1668" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Ports carry versioned contracts and their own response paths; arrows shown identify the illustrative initiating data direction.</text>
+</svg>

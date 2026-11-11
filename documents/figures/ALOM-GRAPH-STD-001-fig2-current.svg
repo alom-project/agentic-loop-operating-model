@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg role="img" aria-label="Figure 2: Detailed L3 Graph Engineering architecture" xmlns="http://www.w3.org/2000/svg" width="675.70pt" height="625.20pt" viewBox="0 0 675.70 625.20">
+  <rect x="0" y="0" width="675.7" height="625.2" fill="white" />
+  <text x="337.85" y="27" text-anchor="middle" font-family="WenQuanYi Micro Hei" font-size="10" fill="#3b3f79">L3 internal sublayers [PROPOSAL]</text>
+  <g transform="translate(0 36)">
+    <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 535.6)">
+      <title>g</title>
+      <polygon fill="white" stroke="transparent" points="-21.6,21.6 -21.6,-535.6 654.1,-535.6 654.1,21.6 -21.6,21.6" />
+      <g id="clust1" class="cluster">
+        <title>cluster_l3</title>
+        <path fill="none" stroke="#1f3a5f" stroke-dasharray="5,2" d="M20,-8C20,-8 416,-8 416,-8 422,-8 428,-14 428,-20 428,-20 428,-458 428,-458 428,-464 422,-470 416,-470 416,-470 20,-470 20,-470 14,-470 8,-464 8,-458 8,-458 8,-20 8,-20 8,-14 14,-8 20,-8" />
+        <text text-anchor="middle" x="138.5" y="-458.8" font-family="WenQuanYi Micro Hei" font-size="9.00" fill="#1f3a5f">L3 owned by the applying organization / Graph Semantics</text>
+      </g>
+      <g id="node1" class="node">
+        <title>hdr</title>
+        <path fill="#f3eefc" stroke="#6a3fd0" d="M314,-514C314,-514 122,-514 122,-514 116,-514 110,-508 110,-502 110,-502 110,-490 110,-490 110,-484 116,-478 122,-478 122,-478 314,-478 314,-478 320,-478 326,-484 326,-490 326,-490 326,-502 326,-502 326,-508 320,-514 314,-514" />
+        <text text-anchor="middle" x="218" y="-493.5" font-family="WenQuanYi Micro Hei" font-size="10.00">ALE Organization Responsibility</text>
+      </g>
+      <g id="node2" class="node">
+        <title>s1</title>
+        <path fill="#eef0ff" stroke="#4b4fc4" d="M407.5,-444C407.5,-444 28.5,-444 28.5,-444 22.5,-444 16.5,-438 16.5,-432 16.5,-432 16.5,-420 16.5,-420 16.5,-414 22.5,-408 28.5,-408 28.5,-408 407.5,-408 407.5,-408 413.5,-408 419.5,-414 419.5,-420 419.5,-420 419.5,-432 419.5,-432 419.5,-438 413.5,-444 407.5,-444" />
+        <text text-anchor="middle" x="218" y="-429" font-family="WenQuanYi Micro Hei" font-size="10.00">L3.1  Graph Definition &amp; Contract</text>
+        <text text-anchor="middle" x="218" y="-418" font-family="WenQuanYi Micro Hei" font-size="10.00">GraphSpec / NodeSpec / EdgeSpec / Binding</text>
+      </g>
+      <g id="node3" class="node">
+        <title>s2</title>
+        <path fill="#eef0ff" stroke="#4b4fc4" d="M407.5,-395C407.5,-395 28.5,-395 28.5,-395 22.5,-395 16.5,-389 16.5,-383 16.5,-383 16.5,-371 16.5,-371 16.5,-365 22.5,-359 28.5,-359 28.5,-359 407.5,-359 407.5,-359 413.5,-359 419.5,-365 419.5,-371 419.5,-371 419.5,-383 419.5,-383 419.5,-389 413.5,-395 407.5,-395" />
+        <text text-anchor="middle" x="218" y="-380" font-family="WenQuanYi Micro Hei" font-size="10.00">L3.2  Topology &amp; Dependency Model</text>
+        <text text-anchor="middle" x="218" y="-369" font-family="WenQuanYi Micro Hei" font-size="10.00">DAG / State Machine / dependency / critical path</text>
+      </g>
+      <g id="node4" class="node">
+        <title>s3</title>
+        <path fill="#eef0ff" stroke="#4b4fc4" d="M407.5,-346C407.5,-346 28.5,-346 28.5,-346 22.5,-346 16.5,-340 16.5,-334 16.5,-334 16.5,-322 16.5,-322 16.5,-316 22.5,-310 28.5,-310 28.5,-310 407.5,-310 407.5,-310 413.5,-310 419.5,-316 419.5,-322 419.5,-322 419.5,-334 419.5,-334 419.5,-340 413.5,-346 407.5,-346" />
+        <text text-anchor="middle" x="218" y="-331" font-family="WenQuanYi Micro Hei" font-size="10.00">L3.3  Routing &amp; Parallel Coordination</text>
+        <text text-anchor="middle" x="218" y="-320" font-family="WenQuanYi Micro Hei" font-size="10.00">route / fan-out / fan-in / join / parallel limit</text>
+      </g>
+      <g id="node5" class="node">
+        <title>s4</title>
+        <path fill="#e9f8f0" stroke="#2f8f63" d="M407.5,-297C407.5,-297 28.5,-297 28.5,-297 22.5,-297 16.5,-291 16.5,-285 16.5,-285 16.5,-273 16.5,-273 16.5,-267 22.5,-261 28.5,-261 28.5,-261 407.5,-261 407.5,-261 413.5,-261 419.5,-267 419.5,-273 419.5,-273 419.5,-285 419.5,-285 419.5,-291 413.5,-297 407.5,-297" />
+        <text text-anchor="middle" x="218" y="-282" font-family="WenQuanYi Micro Hei" font-size="10.00">L3.4  Shared State &amp; Handoff Semantics</text>
+        <text text-anchor="middle" x="218" y="-271" font-family="WenQuanYi Micro Hei" font-size="10.00">shared state / handoff / classification / merge</text>
+      </g>
+      <g id="node6" class="node">
+        <title>s5</title>
+        <path fill="#eef0ff" stroke="#4b4fc4" d="M407.5,-248C407.5,-248 28.5,-248 28.5,-248 22.5,-248 16.5,-242 16.5,-236 16.5,-236 16.5,-224 16.5,-224 16.5,-218 22.5,-212 28.5,-212 28.5,-212 407.5,-212 407.5,-212 413.5,-212 419.5,-218 419.5,-224 419.5,-224 419.5,-236 419.5,-236 419.5,-242 413.5,-248 407.5,-248" />
+        <text text-anchor="middle" x="218" y="-233" font-family="WenQuanYi Micro Hei" font-size="10.00">L3.5  Graph State &amp; Progress Control</text>
+        <text text-anchor="middle" x="218" y="-222" font-family="WenQuanYi Micro Hei" font-size="10.00">GraphRun / runnable / checkpoint / progress</text>
+      </g>
+      <g id="node7" class="node">
+        <title>s6</title>
+        <path fill="#f3eefc" stroke="#6a3fd0" d="M407.5,-199C407.5,-199 28.5,-199 28.5,-199 22.5,-199 16.5,-193 16.5,-187 16.5,-187 16.5,-175 16.5,-175 16.5,-169 22.5,-163 28.5,-163 28.5,-163 407.5,-163 407.5,-163 413.5,-163 419.5,-169 419.5,-175 419.5,-175 419.5,-187 419.5,-187 419.5,-193 413.5,-199 407.5,-199" />
+        <text text-anchor="middle" x="218" y="-184" font-family="WenQuanYi Micro Hei" font-size="10.00">L3.6  Graph Verification &amp; Completion</text>
+        <text text-anchor="middle" x="218" y="-173" font-family="WenQuanYi Micro Hei" font-size="10.00">invariant / completion / evidence completeness</text>
+      </g>
+      <g id="node11" class="node">
+        <title>rgt</title>
+        <text text-anchor="middle" x="544" y="-227.8" font-family="WenQuanYi Micro Hei" font-size="9.00" fill="#1f3a5f">L2 / L4 / L5 are adjacent responsibilities</text>
+      </g>
+      <g id="node8" class="node">
+        <title>s7</title>
+        <path fill="#fdf3e6" stroke="#c77a1a" d="M407.5,-150C407.5,-150 28.5,-150 28.5,-150 22.5,-150 16.5,-144 16.5,-138 16.5,-138 16.5,-126 16.5,-126 16.5,-120 22.5,-114 28.5,-114 28.5,-114 407.5,-114 407.5,-114 413.5,-114 419.5,-120 419.5,-126 419.5,-126 419.5,-138 419.5,-138 419.5,-144 413.5,-150 407.5,-150" />
+        <text text-anchor="middle" x="218" y="-135" font-family="WenQuanYi Micro Hei" font-size="10.00">L3.7  Recovery &amp; Degradation</text>
+        <text text-anchor="middle" x="218" y="-124" font-family="WenQuanYi Micro Hei" font-size="10.00">fallback / compensation / cancellation / degrade</text>
+      </g>
+      <g id="node9" class="node">
+        <title>s8</title>
+        <path fill="#f3eefc" stroke="#6a3fd0" d="M407.5,-101C407.5,-101 28.5,-101 28.5,-101 22.5,-101 16.5,-95 16.5,-89 16.5,-89 16.5,-77 16.5,-77 16.5,-71 22.5,-65 28.5,-65 28.5,-65 407.5,-65 407.5,-65 413.5,-65 419.5,-71 419.5,-77 419.5,-77 419.5,-89 419.5,-89 419.5,-95 413.5,-101 407.5,-101" />
+        <text text-anchor="middle" x="218" y="-86" font-family="WenQuanYi Micro Hei" font-size="10.00">L3.8  Dynamic Rewrite &amp; Agent Organization</text>
+        <text text-anchor="middle" x="218" y="-75" font-family="WenQuanYi Micro Hei" font-size="10.00">rewrite proposal / constraint / re-evaluation</text>
+      </g>
+      <g id="node10" class="node">
+        <title>s9</title>
+        <path fill="#fbefef" stroke="#b05454" d="M407.5,-52C407.5,-52 28.5,-52 28.5,-52 22.5,-52 16.5,-46 16.5,-40 16.5,-40 16.5,-28 16.5,-28 16.5,-22 22.5,-16 28.5,-16 28.5,-16 407.5,-16 407.5,-16 413.5,-16 419.5,-22 419.5,-28 419.5,-28 419.5,-40 419.5,-40 419.5,-46 413.5,-52 407.5,-52" />
+        <text text-anchor="middle" x="218" y="-37" font-family="WenQuanYi Micro Hei" font-size="10.00">L3.9  Convergence &amp; Termination</text>
+        <text text-anchor="middle" x="218" y="-26" font-family="WenQuanYi Micro Hei" font-size="10.00">stall / budget / rewrite limit / HITL / STOP</text>
+      </g>
+    </g>
+  </g>
+  <text x="337.85" y="609.2" text-anchor="middle" font-family="WenQuanYi Micro Hei" font-size="8.5" fill="#27304c">Examples within each area; numbering does not prescribe a runtime sequence.</text>
+</svg>

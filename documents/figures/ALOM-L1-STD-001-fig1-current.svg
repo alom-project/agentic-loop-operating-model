@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1900" viewBox="0 0 2400 1900" role="img" aria-labelledby="title desc">
+<title id="title">Figure 1 · Seven-layer architecture and Managed Work</title>
+<desc id="desc">Layer responsibilities, the ALE logical subsystem, scope dimensions and four execution modes</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1900" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 1 · Seven-layer architecture and Managed Work</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Layer responsibilities, the ALE logical subsystem, scope dimensions and four execution modes</text>
+<rect x="60" y="410" width="1250" height="630" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="85" y="449" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ALE logical subsystem</text>
+<text x="85" y="482" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">L2–L4 form a subsystem view, not an eighth layer.</text>
+<rect x="1370" y="200" width="950" height="570" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="1395" y="239" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Scope and applicability</text>
+<text x="1395" y="272" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Peers are optional context dimensions, not required parent-child steps.</text>
+<rect x="1370" y="830" width="950" height="760" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="1395" y="869" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Four execution modes</text>
+<text x="1395" y="902" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">L1 determines the applicable outer-control route for Managed Work.</text>
+<rect id="l1" x="90" y="195" width="1190" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="112" y="242" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 Operating Model and Governance</text>
+<text x="112" y="283" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Purpose / authority / policy / mode / outcome / learning</text>
+<rect id="l2" x="110" y="510" width="1150" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="132" y="557" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L2 Control Plane</text>
+<text x="132" y="598" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Task / durable state / coordination / recovery</text>
+<rect id="l3" x="110" y="690" width="1150" height="150" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="132" y="737" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L3 Graph Engineering</text>
+<text x="132" y="778" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Topology / routing / join / shared state / rewrite</text>
+<rect id="l4" x="110" y="870" width="1150" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="132" y="917" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4 Agentic Loop</text>
+<text x="132" y="958" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Plan / execute / evaluate / verify / repair / terminate</text>
+<rect id="l5" x="90" y="1080" width="1190" height="140" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="112" y="1127" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 Shared Execution Plane</text>
+<text x="112" y="1168" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Harness / Runner / sandbox / tool / credential</text>
+<rect id="l6" x="90" y="1260" width="1190" height="140" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="112" y="1307" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L6 Context and Knowledge</text>
+<text x="112" y="1348" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authorized context / retrieval / ontology / citation</text>
+<rect id="l7" x="90" y="1440" width="1190" height="140" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="112" y="1487" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L7 SSOT</text>
+<text x="112" y="1528" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Canonical knowledge / operational records / authority</text>
+<rect id="scope" x="1410" y="300" width="870" height="430" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1432" y="347" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Applicable scope</text>
+<text x="1432" y="388" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Applying organization (Enterprise): baseline</text>
+<text x="1432" y="420" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Operating Domain: required anchor</text>
+<text x="1432" y="452" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Organization / Customer / Project: optional peers</text>
+<text x="1432" y="484" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Use Case / Process: optional peers</text>
+<text x="1432" y="516" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Managed Work: registered in L1</text>
+<text x="1432" y="548" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Project is not required for all work.</text>
+<rect id="human" x="1410" y="930" width="870" height="150" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1432" y="977" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">human-only</text>
+<text x="1432" y="1018" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human controls work; ALE / L5 not required.</text>
+<text x="1432" y="1050" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L6 / L7 or tools may be used as needed.</text>
+<rect id="interactive" x="1410" y="1090" width="870" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1432" y="1137" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">interactive-agent</text>
+<text x="1432" y="1178" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human controls; uses L5 directly.</text>
+<text x="1432" y="1210" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">No implicit routing through ALE.</text>
+<rect id="agentic" x="1410" y="1250" width="870" height="150" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1432" y="1297" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">agentic</text>
+<text x="1432" y="1338" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">ALE controls; Agent execution uses L5.</text>
+<text x="1432" y="1370" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Use Graph when required.</text>
+<rect id="det" x="1410" y="1410" width="870" height="150" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1432" y="1457" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">deterministic-system</text>
+<text x="1432" y="1498" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">SystemExecutionRecord / executor revision.</text>
+<text x="1432" y="1530" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">ALE not required; L5 may explicitly mediate.</text>
+<rect x="60" y="1690" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1726" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Vertical layer placement is a responsibility view, not a universal execution sequence.</text>
+<text x="83" y="1762" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Runtime isolation requires an explicit isolation_scope_ref and authorization; project_id alone is not the isolation key.</text>
+<text x="83" y="1798" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• human_required=true with agentic or deterministic-system is an error; retain the required Human control.</text>
+</svg>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1750" viewBox="0 0 2400 1750" role="img" aria-labelledby="title desc">
+<title id="title">Figure 2 · L4 Agentic Loop responsibilities</title>
+<desc id="desc">The proposed L4.1–L4.8 groupings describe responsibilities; their positions are not a runtime sequence</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1750" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 2 · L4 Agentic Loop responsibilities</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">The proposed L4.1–L4.8 groupings describe responsibilities; their positions are not a runtime sequence</text>
+<rect x="60" y="390" width="1500" height="1050" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="85" y="429" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4 internal responsibilities [PROPOSAL]</text>
+<text x="85" y="462" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">LOOP-01–06 roles remain the governing standard; boxes are responsibility groups.</text>
+<path id="edge-intent" d="M1510 790 L1780 790" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1540" y="775" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">ExecutionIntent</text>
+<path id="edge-result" d="M1780 860 L1510 860" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1540" y="845" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">ExecutionResult</text>
+<rect id="l2" x="90" y="170" width="660" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="112" y="217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L2 Control Plane</text>
+<text x="112" y="258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Task / durable state / policy contracts</text>
+<rect id="l3" x="850" y="170" width="660" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="872" y="217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L3 Graph Engineering</text>
+<text x="872" y="258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Graph node contract when Graph is used</text>
+<rect id="l41" x="90" y="500" width="660" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="112" y="547" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4.1 · Loop Definition</text>
+<text x="112" y="588" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">LoopSpec / Task / Policy / binding</text>
+<rect id="l42" x="850" y="500" width="660" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="872" y="547" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4.2 · State and Transition</text>
+<text x="872" y="588" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Guards / iteration / checkpoint / budget</text>
+<rect id="l43" x="90" y="740" width="660" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="112" y="787" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4.3 · Planning</text>
+<text x="112" y="828" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Purpose / task plan / success criteria</text>
+<rect id="l44" x="850" y="740" width="660" height="170" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="872" y="787" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4.4 · Execution Coordination</text>
+<text x="872" y="828" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Intent / results / artifacts / events</text>
+<rect id="l45" x="90" y="980" width="660" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="112" y="1027" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4.5 · Evaluation</text>
+<text x="112" y="1068" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Deterministic / private evaluation</text>
+<rect id="l46" x="850" y="980" width="660" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="872" y="1027" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4.6 · Verification</text>
+<text x="872" y="1068" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">External facts / Oracle / CI or tests</text>
+<rect id="l47" x="90" y="1220" width="660" height="170" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="112" y="1267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4.7 · Repair and Recovery</text>
+<text x="112" y="1308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Cause / correction / authorized recovery</text>
+<rect id="l48" x="850" y="1220" width="660" height="170" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="872" y="1267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4.8 · Termination and Escalation</text>
+<text x="872" y="1308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Complete / stop / escalate / Human decision</text>
+<rect id="l5" x="1780" y="740" width="540" height="170" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1802" y="787" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 Shared Execution</text>
+<text x="1802" y="828" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Runner / tool / sandbox</text>
+<text x="1802" y="860" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Capability enforcement</text>
+<rect id="owner" x="1780" y="1120" width="540" height="190" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1802" y="1167" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Responsibility boundary</text>
+<text x="1802" y="1208" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">The applying organization owns</text>
+<text x="1802" y="1240" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L4 convergence semantics.</text>
+<rect x="60" y="1530" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1566" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Graph node contracts apply when Graph is used; a single Loop can run without a Graph.</text>
+<text x="83" y="1602" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Evaluation is not Verification. Human decision remains a distinct authority where required.</text>
+<text x="83" y="1638" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L4 determines convergence and requests execution; L5 performs and enforces the execution boundary.</text>
+</svg>

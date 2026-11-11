@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2000" viewBox="0 0 2400 2000" role="img" aria-labelledby="title desc">
+<title id="title">Figure 4 · Runtime route by Execution Mode</title>
+<desc id="desc">Select one mode; each lane shows its outer controller and representative path</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="2000" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 4 · Runtime route by Execution Mode</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Select one mode; each lane shows its outer controller and representative path</text>
+<rect x="50" y="320" width="2300" height="280" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="75" y="359" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Human-only</text>
+<text x="75" y="392" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Representative mode-specific route and record.</text>
+<rect x="50" y="650" width="2300" height="280" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="75" y="689" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Interactive-agent</text>
+<text x="75" y="722" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Representative mode-specific route and record.</text>
+<rect x="50" y="980" width="2300" height="280" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="75" y="1019" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Agentic</text>
+<text x="75" y="1052" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Representative mode-specific route and record.</text>
+<rect x="50" y="1310" width="2300" height="280" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="75" y="1349" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Deterministic-system</text>
+<text x="75" y="1382" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Representative mode-specific route and record.</text>
+<path id="edge-human-1" d="M730 485 L870 485" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="765" y="466" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">leads</text>
+<path id="edge-human-2" d="M1520 485 L1660 485" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1550" y="466" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">records</text>
+<path id="edge-interactive-1" d="M730 815 L870 815" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="765" y="796" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">directs</text>
+<path id="edge-interactive-2" d="M1520 815 L1660 815" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1550" y="796" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">records</text>
+<path id="edge-agentic-1" d="M730 1145 L870 1145" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="765" y="1126" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">dispatch</text>
+<path id="edge-agentic-2" d="M1520 1145 L1660 1145" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1550" y="1126" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">intent</text>
+<path id="edge-system-1" d="M730 1475 L870 1475" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="765" y="1456" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">runs</text>
+<path id="edge-system-2" d="M1520 1475 L1660 1475" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1550" y="1456" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">records</text>
+<rect id="mode" x="80" y="160" width="2240" height="120" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="207" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 · Determine Execution Mode for Managed Work</text>
+<text x="102" y="248" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Exactly one of the four modes; retain Human-required controls and applicable authority</text>
+<rect id="human_control" x="80" y="410" width="650" height="150" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="102" y="457" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Human</text>
+<text x="102" y="498" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human owns outer control</text>
+<rect id="human_work" x="870" y="410" width="650" height="150" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="892" y="457" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Human work</text>
+<text x="892" y="498" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L6 / L7 when needed</text>
+<rect id="human_record" x="1660" y="410" width="650" height="150" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1682" y="457" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">HumanWorkRecord</text>
+<text x="1682" y="498" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Record / decision / source refs</text>
+<rect id="interactive_control" x="80" y="740" width="650" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="787" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Human</text>
+<text x="102" y="828" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human owns outer control</text>
+<rect id="l5_interactive" x="870" y="740" width="650" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="892" y="787" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 Shared Execution</text>
+<text x="892" y="828" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Harness / L6 context / Human control</text>
+<rect id="interactive_record" x="1660" y="740" width="650" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1682" y="787" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Interaction evidence</text>
+<text x="1682" y="828" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Session / artifacts / Human decisions</text>
+<rect id="ale" x="80" y="1070" width="650" height="150" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="102" y="1117" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ALE · L2 entry</text>
+<text x="102" y="1158" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Task / manifest admission</text>
+<rect id="loop" x="870" y="1070" width="650" height="150" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="892" y="1117" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4 Loop</text>
+<text x="892" y="1158" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L3 Graph when used; single Loop may omit it</text>
+<rect id="l5_agent" x="1660" y="1070" width="650" height="150" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1682" y="1117" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 Shared Execution</text>
+<text x="1682" y="1158" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Harness; L6 context / applicable authority</text>
+<rect id="executor" x="80" y="1400" width="650" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="102" y="1447" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">System executor</text>
+<text x="102" y="1488" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Program / service / system</text>
+<rect id="system_work" x="870" y="1400" width="650" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="892" y="1447" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Deterministic execution</text>
+<text x="892" y="1488" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L5 MAY mediate explicitly</text>
+<rect id="system_record" x="1660" y="1400" width="650" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1682" y="1447" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">SystemExecutionRecord</text>
+<text x="1682" y="1488" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Executor revision / evidence / verification</text>
+<rect x="60" y="1690" width="2280" height="114" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1726" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• human_required=true must not be reclassified as agentic or deterministic-system.</text>
+<text x="83" y="1762" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Each route requires applicable authority, Scope and current security / HOLD controls.</text>
+</svg>

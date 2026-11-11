@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" role="img" aria-label="Compiler and Validator component responsibilities">
+<rect width="2000" height="1400" fill="white"/>
+<text x="55" y="65" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="36" font-weight="bold" fill="#263751">Figure 1  ·  Compiler / Validator components</text>
+<text x="55" y="108" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#516078">Responsibility groups  |  Frames group components and do not imply execution order</text>
+<rect x="50" y="150" width="1900" height="230" rx="16" fill="#f7f9fc" stroke="#bbc9dc" stroke-width="2"/>
+<text x="75" y="190" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="bold" fill="#233957">Input and source I/O</text>
+<rect x="50" y="430" width="1900" height="430" rx="16" fill="#f7f9fc" stroke="#bbc9dc" stroke-width="2"/>
+<text x="75" y="470" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="bold" fill="#233957">Deterministic core</text>
+<rect x="50" y="910" width="1900" height="290" rx="16" fill="#f7f9fc" stroke="#bbc9dc" stroke-width="2"/>
+<text x="75" y="950" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="bold" fill="#233957">External decision and adapter boundaries</text>
+<rect id="node-input" x="90" y="225" width="850" height="125" rx="12" fill="#edf3fc" stroke="#6080bd" stroke-width="2"/>
+<text x="112" y="268" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">Input Adapter</text>
+<text x="112" y="305" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Canonicalize YAML / JSON / API input</text>
+<rect id="node-source" x="1010" y="225" width="850" height="125" rx="12" fill="#edf3fc" stroke="#6080bd" stroke-width="2"/>
+<text x="1032" y="268" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">Source Resolver</text>
+<text x="1032" y="305" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Authority and immutable revision references</text>
+<rect id="node-resolve" x="90" y="510" width="550" height="135" rx="12" fill="#eef8f3" stroke="#5c9f79" stroke-width="2"/>
+<text x="112" y="553" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">Resolver Core</text>
+<text x="112" y="590" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Scope, overlays and precedence</text>
+<text x="112" y="621" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">ResolutionDecision and provenance</text>
+<rect id="node-compile" x="700" y="510" width="550" height="135" rx="12" fill="#eef8f3" stroke="#5c9f79" stroke-width="2"/>
+<text x="722" y="553" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">Compiler Core</text>
+<text x="722" y="590" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Build DraftProfileBundle</text>
+<text x="722" y="621" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">from the resolved model</text>
+<rect id="node-schema" x="1310" y="510" width="550" height="135" rx="12" fill="#eef8f3" stroke="#5c9f79" stroke-width="2"/>
+<text x="1332" y="553" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">Schema Validator</text>
+<text x="1332" y="590" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Required / type / enum / ref checks</text>
+<rect id="node-conformance" x="90" y="690" width="850" height="135" rx="12" fill="#eef8f3" stroke="#5c9f79" stroke-width="2"/>
+<text x="112" y="733" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">Conformance Engine</text>
+<text x="112" y="770" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Human / Authority / Security / Binding</text>
+<text x="112" y="801" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Capability inputs supplied externally</text>
+<rect id="node-diff" x="1010" y="690" width="850" height="135" rx="12" fill="#eef8f3" stroke="#5c9f79" stroke-width="2"/>
+<text x="1032" y="733" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">Diff / Drift Engine</text>
+<text x="1032" y="770" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Semantic differences and impact by scope</text>
+<rect id="node-review" x="90" y="980" width="420" height="175" rx="12" fill="#fff7e8" stroke="#b4924b" stroke-width="2"/>
+<text x="112" y="1023" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">Review Adapter</text>
+<text x="112" y="1060" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">ReviewPacket</text>
+<text x="112" y="1091" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">and decision ingestion</text>
+<rect id="node-registry" x="540" y="980" width="420" height="175" rx="12" fill="#fff7e8" stroke="#b4924b" stroke-width="2"/>
+<text x="562" y="1023" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">Registry Adapter</text>
+<text x="562" y="1060" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Approved release write</text>
+<text x="562" y="1091" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">and effective resolve</text>
+<rect id="node-trace" x="990" y="980" width="420" height="175" rx="12" fill="#fff7e8" stroke="#b4924b" stroke-width="2"/>
+<text x="1012" y="1023" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#243957">Trace Adapter</text>
+<text x="1012" y="1060" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Compile / validation /</text>
+<text x="1012" y="1091" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">review / release evidence</text>
+<rect id="node-authority" x="1440" y="980" width="420" height="175" rx="12" fill="#fff7e8" stroke="#b4924b" stroke-width="2"/>
+<text x="1462" y="1023" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#243957">Human / Release Authorities</text>
+<text x="1462" y="1060" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Human approval and</text>
+<text x="1462" y="1091" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">release authorization</text>
+<text x="65" y="1260" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#853e3e">Compiler / Validator cannot make a Profile Effective.</text>
+<text x="65" y="1302" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="normal" fill="#40516b">Human approval, Release Authority and Registry admission govern effectiveness.</text>
+<text x="65" y="1340" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#40516b">Validation, semantic diff and Human Review remain separate responsibilities.</text>
+</svg>

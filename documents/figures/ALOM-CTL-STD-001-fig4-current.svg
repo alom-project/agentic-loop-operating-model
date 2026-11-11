@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2160" viewBox="0 0 2400 2160" role="img" aria-labelledby="title desc">
+<title id="title">Figure 4 · L2 integration and execution boundaries</title>
+<desc id="desc">One-way arrows identify the representative contracts or evidence exchanged across boundaries</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="2160" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 4 · L2 integration and execution boundaries</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">One-way arrows identify the representative contracts or evidence exchanged across boundaries</text>
+<rect x="60" y="390" width="1530" height="1110" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="85" y="429" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ALE logical subsystem (L2–L4)</text>
+<text x="85" y="462" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Coordination, topology and convergence retain distinct semantic ownership.</text>
+<path id="edge-policy" d="M1035 310 L1035 680" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1035,677 1027,659 1043,659" fill="#17212f"/>
+<text x="1050" y="530" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Policy / decision</text>
+<path id="edge-runnable" d="M530 700 L760 700" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="757,700 739,708 739,692" fill="#17212f"/>
+<text x="540" y="675" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Runnable / delta</text>
+<path id="edge-graph_event" d="M760 745 L530 745" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="533,745 551,737 551,753" fill="#17212f"/>
+<text x="540" y="725" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">State / event</text>
+<path id="edge-loop_result" d="M530 1000 L760 1000" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="757,1000 739,1008 739,992" fill="#17212f"/>
+<text x="540" y="975" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Loop result</text>
+<path id="edge-loop_event" d="M760 1070 L530 1070" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="533,1070 551,1062 551,1078" fill="#17212f"/>
+<text x="540" y="1048" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Task event</text>
+<path id="edge-context" d="M1760 535 L1690 535 L1690 800 L1310 800" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1313,800 1331,792 1331,808" fill="#17212f"/>
+<text x="1360" y="780" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Context / refs</text>
+<path id="edge-authority" d="M1760 985 L1310 985" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1313,985 1331,977 1331,993" fill="#17212f"/>
+<text x="1360" y="965" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Authority / revision refs</text>
+<path id="edge-evidence" d="M1310 1100 L1540 1100 L1540 1415 L1760 1415" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1757,1415 1739,1423 1739,1407" fill="#17212f"/>
+<text x="1595" y="1395" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Trace / evidence</text>
+<path id="edge-dispatch" d="M900 1140 L900 1680" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="900,1677 892,1659 908,1659" fill="#17212f"/>
+<text x="920" y="1520" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Dispatch / lease</text>
+<path id="edge-result" d="M1180 1680 L1180 1140" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1180,1143 1188,1161 1172,1161" fill="#17212f"/>
+<text x="1195" y="1580" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Result / health</text>
+<rect id="l1" x="760" y="160" width="820" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="782" y="207" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 Operating Model and Governance</text>
+<text x="782" y="248" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Purpose / policy / identity / Human decision</text>
+<rect id="l3" x="100" y="600" width="430" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="122" y="647" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L3 Graph Engineering</text>
+<text x="122" y="688" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Topology / routing / join</text>
+<text x="122" y="720" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Used when Graph is required</text>
+<rect id="l4" x="100" y="950" width="430" height="190" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="122" y="997" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4 Agentic Loop</text>
+<text x="122" y="1038" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Plan / evaluate / verify / repair</text>
+<text x="122" y="1070" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Loop terminal semantics</text>
+<rect id="l2" x="760" y="680" width="550" height="460" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="782" y="727" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L2 Control Plane</text>
+<text x="782" y="768" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Task admission / manifests</text>
+<text x="782" y="800" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Durable state / scheduler / queue</text>
+<text x="782" y="832" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Lease / dispatch / recovery</text>
+<text x="782" y="864" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Correlate Graph / Loop / results</text>
+<text x="782" y="896" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Trace / evidence / terminal gates</text>
+<rect id="l6" x="1760" y="450" width="540" height="170" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1782" y="497" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L6 Context and Knowledge</text>
+<text x="1782" y="538" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authorized ContextPack</text>
+<text x="1782" y="570" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Retrieval manifest / citation</text>
+<rect id="l7" x="1760" y="900" width="540" height="170" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1782" y="947" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L7 SSOT</text>
+<text x="1782" y="988" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authority / source revision</text>
+<text x="1782" y="1020" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Canonical records</text>
+<rect id="trace" x="1760" y="1330" width="540" height="170" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1782" y="1377" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Trace and Evidence</text>
+<text x="1782" y="1418" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Correlated events / artifacts</text>
+<text x="1782" y="1450" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Trace ID / evidence refs</text>
+<rect id="l5" x="720" y="1680" width="650" height="190" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="742" y="1727" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 Shared Execution Plane</text>
+<text x="742" y="1768" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Harness / Runner / Worker</text>
+<text x="742" y="1800" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Tool / credential / sandbox enforcement</text>
+<text x="742" y="1832" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Also supports direct interactive use</text>
+<rect x="60" y="1930" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1966" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Graph-related interactions apply when a Graph is used; a single Loop need not synthesize one.</text>
+<text x="83" y="2002" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L2 coordinates and records; L5 enforces runtime controls, and L7 retains canonical authority.</text>
+<text x="83" y="2038" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• The L1 and cross-cutting requirements apply by policy; not every event or interface is drawn.</text>
+</svg>

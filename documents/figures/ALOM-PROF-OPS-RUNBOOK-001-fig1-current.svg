@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2000" viewBox="0 0 2400 2000" role="img" aria-labelledby="title desc">
+<title id="title">Figure 1 · Release, security, hold and drift</title>
+<desc id="desc">Representative release transitions; Security state and Drift health are separate; HOLD is a distinct gate</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="2000" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 1 · Release, security, hold and drift</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Representative release transitions; Security state and Drift health are separate; HOLD is a distinct gate</text>
+<rect x="900" y="180" width="1400" height="310" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="925" y="219" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Security state · independent from release lifecycle</text>
+<text x="925" y="252" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">A REVOKED release / source / authority denies new use.</text>
+<rect x="900" y="550" width="1400" height="340" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="925" y="589" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Operational hold gate · independent control</text>
+<text x="925" y="622" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Applicable HOLD denies new use even when release remains EFFECTIVE.</text>
+<rect x="900" y="950" width="1400" height="520" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="925" y="989" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Drift health · independent from release lifecycle</text>
+<text x="925" y="1022" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Health is a classification; cards do not define an exhaustive state machine.</text>
+<path id="edge-draft-validated" d="M430 320 L430 385" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="450" y="358" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">validate</text>
+<path id="edge-validated-review" d="M430 525 L430 590" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="450" y="563" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">request review</text>
+<path id="edge-review-approved" d="M430 730 L430 795" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="450" y="768" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">Human approve</text>
+<path id="edge-approved-effective" d="M430 935 L430 1000" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="450" y="973" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">authorize + admit</text>
+<path id="edge-effective-superseded" d="M430 1140 L430 1205" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="450" y="1178" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">new release</text>
+<path id="edge-superseded-retired" d="M430 1345 L430 1410" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="450" y="1383" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">retire</text>
+<path id="edge-active-revoked" d="M1440 340 L1740 340" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1540" y="320" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">revoke</text>
+<path id="edge-hold-clear" d="M1440 720 L1740 720" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1480" y="700" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">authorized CLEAR</text>
+<rect id="draft" x="80" y="180" width="700" height="140" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="227" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">DRAFT</text>
+<text x="102" y="268" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Candidate under preparation</text>
+<rect id="validated" x="80" y="385" width="700" height="140" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="432" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">VALIDATED</text>
+<text x="102" y="473" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Validator gate passed</text>
+<rect id="review" x="80" y="590" width="700" height="140" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="637" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">IN_REVIEW</text>
+<text x="102" y="678" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human review in progress</text>
+<rect id="approved" x="80" y="795" width="700" height="140" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="842" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">APPROVED</text>
+<text x="102" y="883" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human-approved; not yet admitted</text>
+<rect id="effective" x="80" y="1000" width="700" height="140" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="102" y="1047" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">EFFECTIVE</text>
+<text x="102" y="1088" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Admitted release within its terms</text>
+<rect id="superseded" x="80" y="1205" width="700" height="140" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1252" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">SUPERSEDED</text>
+<text x="102" y="1293" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Replaced by a later release</text>
+<rect id="retired" x="80" y="1410" width="700" height="140" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1457" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">RETIRED</text>
+<text x="102" y="1498" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Application has ended</text>
+<rect id="active" x="950" y="270" width="490" height="140" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="972" y="317" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ACTIVE</text>
+<text x="972" y="358" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Security state permits further checks</text>
+<rect id="revoked" x="1740" y="270" width="500" height="140" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1762" y="317" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">REVOKED</text>
+<text x="1762" y="358" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Do not use for new work</text>
+<rect id="hold" x="950" y="650" width="490" height="140" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="972" y="697" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">HOLD</text>
+<text x="972" y="738" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Applicable hold blocks new use</text>
+<rect id="clear" x="1740" y="650" width="500" height="140" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1762" y="697" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">CLEAR</text>
+<text x="1762" y="738" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Matching hold / authorized actor</text>
+<rect id="current" x="950" y="1060" width="560" height="130" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="972" y="1107" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">CURRENT</text>
+<text x="972" y="1148" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Current assumptions still hold</text>
+<rect id="changed" x="1650" y="1060" width="560" height="130" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1672" y="1107" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">SOURCE_CHANGED</text>
+<text x="1672" y="1148" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Source revision changed</text>
+<rect id="review_req" x="950" y="1270" width="560" height="130" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="972" y="1317" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">REVIEW_REQUIRED</text>
+<text x="972" y="1358" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Impact or authority requires review</text>
+<rect id="incompatible" x="1650" y="1270" width="560" height="130" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1672" y="1317" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">INCOMPATIBLE</text>
+<text x="1672" y="1358" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Unsafe compatibility blocks new use</text>
+<rect x="60" y="1760" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1796" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• REJECT / REVISE is a Human decision that closes the review case; it is not an added Release lifecycle state.</text>
+<text x="83" y="1832" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• CLEAR applies only to its hold_id and requires authority, cause resolution and revalidation; it does not clear REVOKED.</text>
+<text x="83" y="1868" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Current complete and fresh controls are required for new use, even if a pointer or existing pin is present.</text>
+</svg>

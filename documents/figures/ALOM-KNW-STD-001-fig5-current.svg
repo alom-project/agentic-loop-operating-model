@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1570" viewBox="0 0 2400 1570" role="img" aria-labelledby="title desc">
+<title id="title">Figure 5 · Derived Runtime build and promotion</title>
+<desc id="desc">Pinned input, verification and atomic promotion; any existing last-known-good is retained on failed build</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1570" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 5 · Derived Runtime build and promotion</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Pinned input, verification and atomic promotion; any existing last-known-good is retained on failed build</text>
+<path id="edge-release" d="M600 310 L900 310" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="897,310 879,318 879,302" fill="#17212f"/>
+<text x="650" y="285" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Pinned release</text>
+<path id="edge-fetch" d="M1400 310 L1700 310" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1697,310 1679,318 1679,302" fill="#17212f"/>
+<text x="1480" y="285" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Snapshot</text>
+<path id="edge-validate" d="M2000 400 L2000 620" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="2000,617 1992,599 2008,599" fill="#17212f"/>
+<text x="2015" y="510" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Valid input</text>
+<path id="edge-build" d="M1700 710 L1400 710" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1403,710 1421,702 1421,718" fill="#17212f"/>
+<text x="1490" y="685" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Candidate</text>
+<path id="edge-pass" d="M1100 800 L1100 920 L350 920 L350 1080" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="350,1077 342,1059 358,1059" fill="#17212f"/>
+<text x="720" y="900" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">PASS</text>
+<path id="edge-fail" d="M1300 800 L1300 980 L2000 980 L2000 1080" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="2000,1077 1992,1059 2008,1059" fill="#17212f"/>
+<text x="1560" y="960" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">FAIL</text>
+<rect id="release" x="100" y="220" width="500" height="180" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="122" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L7 Knowledge Release</text>
+<text x="122" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Release manifest / revision</text>
+<text x="122" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Approved canonical input</text>
+<rect id="fetch" x="900" y="220" width="500" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="922" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Fetch snapshot</text>
+<text x="922" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Pin immutable source</text>
+<text x="922" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Do not use moving main</text>
+<rect id="validate" x="1700" y="220" width="600" height="180" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1722" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Validate inputs</text>
+<text x="1722" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Schema / ACL / relations</text>
+<text x="1722" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Provenance / integrity</text>
+<rect id="build" x="1700" y="620" width="600" height="180" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1722" y="667" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Build Derived Runtime</text>
+<text x="1722" y="708" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Vector / Full-text / Graph metadata</text>
+<text x="1722" y="740" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Ontology / cache as applicable</text>
+<rect id="verify" x="900" y="620" width="500" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="922" y="667" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Verify candidate</text>
+<text x="922" y="708" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Retrieval / ACL / freshness</text>
+<text x="922" y="740" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Relation / regression checks</text>
+<rect id="promote" x="100" y="1080" width="500" height="220" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="122" y="1127" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">PASS: atomic promotion</text>
+<text x="122" y="1168" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Expose verified version</text>
+<text x="122" y="1200" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Record source and runtime manifest</text>
+<text x="122" y="1232" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">No partial promotion</text>
+<rect id="reject" x="1700" y="1080" width="600" height="220" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1722" y="1127" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">FAIL: reject build</text>
+<text x="1722" y="1168" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Do not promote candidate</text>
+<text x="1722" y="1200" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Retain any existing last-known-good</text>
+<text x="1722" y="1232" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Use still requires current controls</text>
+<rect x="60" y="1350" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1386" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Failure at any earlier stage prevents promotion and retains any prior last-known-good version.</text>
+<text x="83" y="1422" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Retaining a version does not authorize its use: current scope, ACL, policy and the applicable freshness rules still apply.</text>
+<text x="83" y="1458" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• The DerivedRuntimeManifest records source / build / verification and promotion; it is not a retrieval endpoint.</text>
+</svg>

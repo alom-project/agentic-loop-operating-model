@@ -1,0 +1,15 @@
+kind: ProjectProfile
+schema_version: "1.0"
+project_id: example-project
+optional: true
+selector:
+  enterprise_id: company
+  domain_id: example-domain
+  project_id: example-project
+objective: "Temporary execution objective."
+contract_refs: []
+nda_refs: []
+deadline: null
+risk_constraints: []
+delivery_governance: []
+status: draft

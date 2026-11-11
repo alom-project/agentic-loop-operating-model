@@ -1,0 +1,15 @@
+kind: OrganizationProfile
+schema_version: "1.0"
+organization_id: example-organization
+selector:
+  enterprise_id: company
+  domain_id: example-domain
+responsibilities:
+  accountable_role_ref: role://example-domain-owner
+  responsible_role_refs: []
+authority:
+  approval_role_refs: []
+  stop_authority_role_refs: []
+assignment_constraints: []
+segregation_of_duties: []
+status: draft

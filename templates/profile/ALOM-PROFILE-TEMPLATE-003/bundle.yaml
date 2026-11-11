@@ -1,0 +1,32 @@
+kind: ProfileBundle
+schema_version: "1.0"
+template_id: ALOM-PROFILE-TEMPLATE-003
+template_version: "0.2"
+status: draft
+scope_ref: ./scope.yaml
+profiles:
+  operating_domain:
+    - ./profiles/operating-domain.yaml
+  organization:
+    - ./profiles/organization.yaml
+  customer: []
+  project: []
+  lifecycle:
+    - ./profiles/lifecycle.yaml
+  process:
+    - ./profiles/process.yaml
+  managed_work:
+    - ./profiles/managed-work.yaml
+  execution:
+    - ./profiles/execution.yaml
+  governance:
+    - ./profiles/governance.yaml
+  context:
+    - ./profiles/context.yaml
+  assurance:
+    - ./profiles/assurance.yaml
+resolution_policy_ref: "ALOM-PROF-SCOPE-SPEC-001 Draft v0.3"
+common_scope_schema_ref: ../../../schemas/profile/common-scope-v1.schema.json
+notes:
+  - ProjectProfile is optional and MUST NOT be synthesized for permanent work.
+  - OrganizationProfile is an independent overlay and MUST NOT inherit lifecycle from ProjectProfile.

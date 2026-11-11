@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1800" viewBox="0 0 2400 1800" role="img" aria-labelledby="title desc">
+<title id="title">Figure 2 · Runtime Binding resolution</title>
+<desc id="desc">Resolve and pin a compatible binding only after current security and hold controls pass</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1800" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 2 · Runtime Binding resolution</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Resolve and pin a compatible binding only after current security and hold controls pass</text>
+<path id="edge-input-gate" d="M730 340 L730 440" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="750" y="400" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">resolution inputs</text>
+<path id="edge-gate-compat" d="M730 600 L730 700" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="750" y="660" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">current controls pass</text>
+<path id="edge-compat-manifest" d="M730 860 L730 960" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="750" y="920" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">compatible refs</text>
+<path id="edge-manifest-pin" d="M730 1120 L730 1220" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="750" y="1180" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">binding + digest</text>
+<path id="edge-gate-deny" d="M1370 520 L1650 520" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1450" y="500" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">deny</text>
+<path id="edge-compat-deny" d="M1370 780 L1650 780" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1450" y="760" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">fail</text>
+<rect id="inputs" x="90" y="180" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="112" y="227" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">1  Gather resolution inputs</text>
+<text x="112" y="268" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Effective release, request, capabilities and authority</text>
+<text x="112" y="300" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Security context and applicable control records</text>
+<rect id="security" x="90" y="440" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="112" y="487" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">2  Validate release and security / hold state</text>
+<text x="112" y="528" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Check digest, validity and scope; obtain complete, fresh</text>
+<text x="112" y="560" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">applicable REVOKED and HOLD / CLEAR records</text>
+<rect id="compat" x="90" y="700" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="112" y="747" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">3  Resolve mode and immutable references</text>
+<text x="112" y="788" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Check Authority, Scope, capabilities and no-relaxation</text>
+<text x="112" y="820" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Reject missing, ambiguous or incompatible refs</text>
+<rect id="manifest" x="90" y="960" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="112" y="1007" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">4  Generate binding manifest</text>
+<text x="112" y="1048" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Create binding and digest after the control gate passes</text>
+<text x="112" y="1080" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Record selected source revisions</text>
+<rect id="pin" x="90" y="1220" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="112" y="1267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">5  Pin in the mode-specific record</text>
+<text x="112" y="1308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Agentic: L2 manifest; interactive: L5 request</text>
+<text x="112" y="1340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human-only: HumanWorkRecord; system: SystemExecutionRecord</text>
+<rect id="deny1" x="1650" y="440" width="670" height="160" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1672" y="487" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">DENY NEW USE</text>
+<text x="1672" y="528" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Invalid release / scope; REVOKED or active HOLD</text>
+<text x="1672" y="560" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Unknown, incomplete or stale controls</text>
+<rect id="deny2" x="1650" y="700" width="670" height="160" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1672" y="747" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ERROR / STOP</text>
+<text x="1672" y="788" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Incompatible, prohibited,</text>
+<text x="1672" y="820" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">ambiguous or missing input</text>
+<rect x="60" y="1480" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1516" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Before new use of an existing pin, re-evaluate the same current security / hold gate.</text>
+<text x="83" y="1552" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• A CLEAR applies only to the matching hold and requires applicable authority, cause resolution and revalidation.</text>
+<text x="83" y="1588" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Record resolution and pin events in Trace. A rejected or unknown state must not yield a usable binding.</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1190" viewBox="0 0 1280 1190" role="img" aria-labelledby="title desc">
+<title id="title">L6 Context and Knowledge capability overview</title><desc id="desc">Structured review diagram with aligned panels and orthogonal connections.</desc>
+<rect width="1280" height="1190" fill="#ffffff"/>
+<defs>
+<marker id="arrow-normal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker>
+<marker id="arrow-dashed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker>
+<marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7558c5"/></marker>
+<marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#398e66"/></marker>
+</defs>
+<g id="node-l61"><rect x="90" y="90" width="1100" height="80" rx="10" fill="#f2efff" stroke="#7953c8" stroke-width="2.2"/>
+<text x="640.0" y="124.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#172538">L6.1  Context Contract &amp; Resolution</text>
+<text x="640.0" y="147.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">ContextRequest / purpose / principal / policy / budget</text>
+</g>
+<g id="node-l62"><rect x="90" y="194" width="1100" height="80" rx="10" fill="#eeefff" stroke="#5362c6" stroke-width="2.2"/>
+<text x="640.0" y="228.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#172538">L6.2  Scope / Authorization / Data Filter</text>
+<text x="640.0" y="251.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">ACL / ABAC / NDA / classification / purpose limitation</text>
+</g>
+<g id="node-l63"><rect x="90" y="298" width="1100" height="80" rx="10" fill="#eeefff" stroke="#5362c6" stroke-width="2.2"/>
+<text x="640.0" y="332.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#172538">L6.3  Source &amp; Revision Resolution</text>
+<text x="640.0" y="355.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">Authority / release tag / commit SHA / freshness</text>
+</g>
+<g id="node-l64"><rect x="90" y="402" width="1100" height="80" rx="10" fill="#eaf8f1" stroke="#318d62" stroke-width="2.2"/>
+<text x="640.0" y="436.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#172538">L6.4  Retrieval &amp; Candidate Generation</text>
+<text x="640.0" y="459.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">Metadata / Full-text / Semantic / Vector / Source MCP</text>
+</g>
+<g id="node-l65"><rect x="90" y="506" width="1100" height="80" rx="10" fill="#eaf8f1" stroke="#318d62" stroke-width="2.2"/>
+<text x="640.0" y="540.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#172538">L6.5  Ontology &amp; Semantic Runtime</text>
+<text x="640.0" y="563.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">Type / Relation / Constraint / Inference / Semantic Join</text>
+</g>
+<g id="node-l66"><rect x="90" y="610" width="1100" height="80" rx="10" fill="#eaf8f1" stroke="#318d62" stroke-width="2.2"/>
+<text x="640.0" y="644.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#172538">L6.6  Ranking / Evidence / Citation</text>
+<text x="640.0" y="667.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">relevance / authority / freshness / evidence / citation</text>
+</g>
+<g id="node-l67"><rect x="90" y="714" width="1100" height="80" rx="10" fill="#fff5e8" stroke="#c57a1c" stroke-width="2.2"/>
+<text x="640.0" y="748.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#172538">L6.7  Context Assembly &amp; Token Budget</text>
+<text x="640.0" y="771.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">dedupe / priority / compression / ContextPack / Manifest</text>
+</g>
+<g id="node-l68"><rect x="90" y="818" width="1100" height="80" rx="10" fill="#eaf8f1" stroke="#318d62" stroke-width="2.2"/>
+<text x="640.0" y="852.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#172538">L6.8  Knowledge Access API / MCP</text>
+<text x="640.0" y="875.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">search / read / resolve / traverse / get_context_pack / cite</text>
+</g>
+<g id="node-l69"><rect x="90" y="922" width="1100" height="80" rx="10" fill="#fff1f1" stroke="#c65f65" stroke-width="2.2"/>
+<text x="640.0" y="956.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#172538">L6.9  Derived Runtime Lifecycle</text>
+<text x="640.0" y="979.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">release build / validation / promote / last-known-good / rebuild</text>
+</g>
+<text x="60" y="40" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="bold" fill="#172538">L6 Context &amp; Knowledge capabilities</text>
+<text x="90" y="1055" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#47566b">Current Compatibility (KNW-02): Vector + Full-text + Graph/Metadata hybrid is required.</text>
+<text x="90" y="1085" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#47566b">The Target Profile with optional Vector / RAG has not been promoted.</text>
+<text x="90" y="1115" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#47566b">The internal L6.1–L6.9 layering is a proposal in Section 4.1.</text>
+</svg>

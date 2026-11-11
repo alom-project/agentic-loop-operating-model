@@ -1,0 +1,14 @@
+kind: AssuranceProfile
+schema_version: "1.0"
+assurance_profile_id: example-assurance
+selector:
+  enterprise_id: company
+  domain_id: example-domain
+  work_id: example-work
+required_gates: []
+eval_refs: []
+verification_refs: []
+human_review_refs: []
+evidence_requirements: []
+independence_requirements: []
+status: draft

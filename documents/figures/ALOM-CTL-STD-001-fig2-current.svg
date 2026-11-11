@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg role="img" aria-label="Figure 2: Detailed L2 Control Plane architecture" xmlns="http://www.w3.org/2000/svg" width="446.20pt" height="539.20pt" viewBox="0 0 446.20 539.20">
+  <rect x="0" y="0" width="446.2" height="539.2" fill="white" />
+  <text x="223.1" y="27" text-anchor="middle" font-family="WenQuanYi Micro Hei" font-size="10" fill="#3b3f79">L2 internal sublayers [PROPOSAL]</text>
+  <g transform="translate(0 36)">
+    <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 449.6)">
+      <title>g</title>
+      <polygon fill="white" stroke="transparent" points="-21.6,21.6 -21.6,-449.6 424.6,-449.6 424.6,21.6 -21.6,21.6" />
+      <g id="node1" class="node">
+        <title>s1</title>
+        <path fill="#e9f8f0" stroke="#2f8f63" d="M391,-428C391,-428 12,-428 12,-428 6,-428 0,-422 0,-416 0,-416 0,-404 0,-404 0,-398 6,-392 12,-392 12,-392 391,-392 391,-392 397,-392 403,-398 403,-404 403,-404 403,-416 403,-416 403,-422 397,-428 391,-428" />
+        <text text-anchor="middle" x="201.5" y="-413" font-family="WenQuanYi Micro Hei" font-size="10.00">L2.1  Task Ingress</text>
+        <text text-anchor="middle" x="201.5" y="-402" font-family="WenQuanYi Micro Hei" font-size="10.00">Entry normalization / event intake / idempotency key</text>
+      </g>
+      <g id="node2" class="node">
+        <title>s2</title>
+        <path fill="#e9f8f0" stroke="#2f8f63" d="M391,-379C391,-379 12,-379 12,-379 6,-379 0,-373 0,-367 0,-367 0,-355 0,-355 0,-349 6,-343 12,-343 12,-343 391,-343 391,-343 397,-343 403,-349 403,-355 403,-355 403,-367 403,-367 403,-373 397,-379 391,-379" />
+        <text text-anchor="middle" x="201.5" y="-364" font-family="WenQuanYi Micro Hei" font-size="10.00">L2.2  Contract &amp; Admission</text>
+        <text text-anchor="middle" x="201.5" y="-353" font-family="WenQuanYi Micro Hei" font-size="10.00">Contract validation / Policy pre-check / idempotency</text>
+      </g>
+      <g id="node3" class="node">
+        <title>s3</title>
+        <path fill="#e9f8f0" stroke="#2f8f63" d="M391,-330C391,-330 12,-330 12,-330 6,-330 0,-324 0,-318 0,-318 0,-306 0,-306 0,-300 6,-294 12,-294 12,-294 391,-294 391,-294 397,-294 403,-300 403,-306 403,-306 403,-318 403,-318 403,-324 397,-330 391,-330" />
+        <text text-anchor="middle" x="201.5" y="-315" font-family="WenQuanYi Micro Hei" font-size="10.00">L2.3  Runtime Binding &amp; Manifest</text>
+        <text text-anchor="middle" x="201.5" y="-304" font-family="WenQuanYi Micro Hei" font-size="10.00">Pin Graph / Loop / Harness / Context / Eval / Policy / SSOT</text>
+      </g>
+      <g id="node4" class="node">
+        <title>s4</title>
+        <path fill="#e9f8f0" stroke="#2f8f63" d="M391,-281C391,-281 12,-281 12,-281 6,-281 0,-275 0,-269 0,-269 0,-257 0,-257 0,-251 6,-245 12,-245 12,-245 391,-245 391,-245 397,-245 403,-251 403,-257 403,-257 403,-269 403,-269 403,-275 397,-281 391,-281" />
+        <text text-anchor="middle" x="201.5" y="-266" font-family="WenQuanYi Micro Hei" font-size="10.00">L2.4  Durable State &amp; Checkpoint</text>
+        <text text-anchor="middle" x="201.5" y="-255" font-family="WenQuanYi Micro Hei" font-size="10.00">Durable storage of Task / GraphRun / LoopRun / Approval</text>
+      </g>
+      <g id="node5" class="node">
+        <title>s5</title>
+        <path fill="#e9f8f0" stroke="#2f8f63" d="M391,-232C391,-232 12,-232 12,-232 6,-232 0,-226 0,-220 0,-220 0,-208 0,-208 0,-202 6,-196 12,-196 12,-196 391,-196 391,-196 397,-196 403,-202 403,-208 403,-208 403,-220 403,-220 403,-226 397,-232 391,-232" />
+        <text text-anchor="middle" x="201.5" y="-217" font-family="WenQuanYi Micro Hei" font-size="10.00">L2.5  Scheduling &amp; Queue</text>
+        <text text-anchor="middle" x="201.5" y="-206" font-family="WenQuanYi Micro Hei" font-size="10.00">priority / deadline / concurrency / retry / DLQ</text>
+      </g>
+      <g id="node6" class="node">
+        <title>s6</title>
+        <path fill="#e9f8f0" stroke="#2f8f63" d="M391,-183C391,-183 12,-183 12,-183 6,-183 0,-177 0,-171 0,-171 0,-159 0,-159 0,-153 6,-147 12,-147 12,-147 391,-147 391,-147 397,-147 403,-153 403,-159 403,-159 403,-171 403,-171 403,-177 397,-183 391,-183" />
+        <text text-anchor="middle" x="201.5" y="-168" font-family="WenQuanYi Micro Hei" font-size="10.00">L2.6  Lease &amp; Dispatch</text>
+        <text text-anchor="middle" x="201.5" y="-157" font-family="WenQuanYi Micro Hei" font-size="10.00">lease / fencing / heartbeat / Shared Execution dispatch</text>
+      </g>
+      <g id="node7" class="node">
+        <title>s7</title>
+        <path fill="#e9f8f0" stroke="#2f8f63" d="M391,-134C391,-134 12,-134 12,-134 6,-134 0,-128 0,-122 0,-122 0,-110 0,-110 0,-104 6,-98 12,-98 12,-98 391,-98 391,-98 397,-98 403,-104 403,-110 403,-110 403,-122 403,-122 403,-128 397,-134 391,-134" />
+        <text text-anchor="middle" x="201.5" y="-119" font-family="WenQuanYi Micro Hei" font-size="10.00">L2.7  Runtime Coordination</text>
+        <text text-anchor="middle" x="201.5" y="-108" font-family="WenQuanYi Micro Hei" font-size="10.00">Integration with L3/L4 within ALE, L5/L6/L7, Eval, and Trace</text>
+      </g>
+      <g id="node8" class="node">
+        <title>s8</title>
+        <path fill="#e9f8f0" stroke="#2f8f63" d="M391,-85C391,-85 12,-85 12,-85 6,-85 0,-79 0,-73 0,-73 0,-61 0,-61 0,-55 6,-49 12,-49 12,-49 391,-49 391,-49 397,-49 403,-55 403,-61 403,-61 403,-73 403,-73 403,-79 397,-85 391,-85" />
+        <text text-anchor="middle" x="201.5" y="-70" font-family="WenQuanYi Micro Hei" font-size="10.00">L2.8  Recovery &amp; Fail-safe</text>
+        <text text-anchor="middle" x="201.5" y="-59" font-family="WenQuanYi Micro Hei" font-size="10.00">resume / cancel / timeout / degraded mode</text>
+      </g>
+      <g id="node9" class="node">
+        <title>s9</title>
+        <path fill="#f4f4f6" stroke="#555555" d="M391,-36C391,-36 12,-36 12,-36 6,-36 0,-30 0,-24 0,-24 0,-12 0,-12 0,-6 6,0 12,0 12,0 391,0 391,0 397,0 403,-6 403,-12 403,-12 403,-24 403,-24 403,-30 397,-36 391,-36" />
+        <text text-anchor="middle" x="201.5" y="-21" font-family="WenQuanYi Micro Hei" font-size="10.00">L2.9  Telemetry &amp; Portability</text>
+        <text text-anchor="middle" x="201.5" y="-10" font-family="WenQuanYi Micro Hei" font-size="10.00">canonical event / migration / adapter portability</text>
+      </g>
+    </g>
+  </g>
+  <text x="223.1" y="523.2" text-anchor="middle" font-family="WenQuanYi Micro Hei" font-size="8.5" fill="#27304c">Examples within each area; numbering does not prescribe a runtime sequence.</text>
+</svg>

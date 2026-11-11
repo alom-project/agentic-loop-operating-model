@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1750" viewBox="0 0 2400 1750" role="img" aria-labelledby="title desc">
+<title id="title">Figure 3 · Rulebook canonicalization and change</title>
+<desc id="desc">The main path and the independent change-detection path are representative; arrows carry named meanings</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1750" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 3 · Rulebook canonicalization and change</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">The main path and the independent change-detection path are representative; arrows carry named meanings</text>
+<path id="edge-e1" d="M530 330 L530 400" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="550" y="375" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">extract</text>
+<path id="edge-e2" d="M530 550 L530 620" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="550" y="595" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">validate</text>
+<path id="edge-e3" d="M530 770 L530 840" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="550" y="815" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">pass</text>
+<path id="edge-e4" d="M530 990 L530 1060" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="550" y="1035" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">approve</text>
+<path id="edge-e5" d="M530 1210 L530 1280" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="550" y="1255" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">resolve</text>
+<path id="edge-c1" d="M1825 330 L1825 400" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1845" y="375" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">assess</text>
+<path id="edge-c2" d="M1825 550 L1825 620" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1845" y="595" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">if Rule changes</text>
+<path id="edge-c3" d="M1350 695 L1170 695 L1170 475 L980 475" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1010" y="455" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">new candidate</text>
+<path id="edge-b1" d="M980 690 L1080 690 L1080 900 L1350 900" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1100" y="885" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">unresolved</text>
+<path id="edge-b2" d="M980 950 L1350 950" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1050" y="935" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">Human rejects</text>
+<path id="edge-drift" d="M2300 500 L2350 500 L2350 1020 L1825 1020 L1825 1060" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1845" y="1014" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">if Profile affected</text>
+<path id="edge-eligible" d="M1825 1210 L1825 1280" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1845" y="1255" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">revalidate</text>
+<rect id="source" x="80" y="180" width="900" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="227" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Pin source and authority</text>
+<text x="102" y="268" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Inventory source / owner / immutable revision</text>
+<rect id="candidate" x="80" y="400" width="900" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="102" y="447" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Prepare Rule Candidate</text>
+<text x="102" y="488" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Structure Rule and source locator</text>
+<rect id="validate" x="80" y="620" width="900" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="667" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Validate candidate</text>
+<text x="102" y="708" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Schema / authority / scope / conflict / provenance</text>
+<rect id="review" x="80" y="840" width="900" height="150" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="102" y="887" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Human Rule Owner review</text>
+<text x="102" y="928" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Additional Legal / Security review when required</text>
+<rect id="release" x="80" y="1060" width="900" height="150" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="102" y="1107" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Approved Rulebook release</text>
+<text x="102" y="1148" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Pin protected revision / tag / digest / manifest</text>
+<rect id="consume" x="80" y="1280" width="900" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1327" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L6 resolution and Profile input</text>
+<text x="102" y="1368" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Resolve scope / validity / canonical Rule release</text>
+<rect id="changed" x="1350" y="180" width="950" height="150" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1372" y="227" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Change detection</text>
+<text x="1372" y="268" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Source / authority / scope / validity may change</text>
+<rect id="impact" x="1350" y="400" width="950" height="150" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1372" y="447" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Impact assessment</text>
+<text x="1372" y="488" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Classify change, affected scopes and consumers</text>
+<rect id="rework" x="1350" y="620" width="950" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1372" y="667" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Rule change requires a new candidate</text>
+<text x="1372" y="708" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">When canonical Rule content must change</text>
+<rect id="blocked" x="1350" y="840" width="950" height="150" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1372" y="887" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Blocked / correction needed</text>
+<text x="1372" y="928" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Unresolved conflict or Human rejects: no release</text>
+<rect id="drift" x="1350" y="1060" width="950" height="150" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1372" y="1107" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Profile drift assessment</text>
+<text x="1372" y="1148" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Recompile / re-review only when applicable</text>
+<rect id="eligibility" x="1350" y="1280" width="950" height="150" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1372" y="1327" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Current eligibility</text>
+<text x="1372" y="1368" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Revalidate access / authority / expiry and security</text>
+<rect x="60" y="1510" width="2280" height="186" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1546" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Approval is not Profile approval; the Profile follows its own review and release workflow.</text>
+<text x="83" y="1582" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• An immutable prior release preserves provenance; last-known-good use requires current eligibility.</text>
+<text x="83" y="1618" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Security or authority changes may require restriction; a stale pointer or cache is not proof of permission.</text>
+<text x="83" y="1654" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Every new use requires a current eligibility check even when no drift event was detected.</text>
+</svg>

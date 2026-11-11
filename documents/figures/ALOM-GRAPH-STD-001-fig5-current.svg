@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000" role="img" aria-labelledby="title desc">
+<title id="title">L3 Graph Engineering Integration Boundaries</title><desc id="desc">Structured review diagram with aligned panels and orthogonal connections.</desc>
+<rect width="2100" height="1000" fill="#ffffff"/>
+<defs>
+<marker id="arrow-normal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker>
+<marker id="arrow-dashed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker>
+<marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7558c5"/></marker>
+<marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#398e66"/></marker>
+</defs>
+<g id="panel-a"><rect x="20" y="20" width="2060" height="200" rx="12" fill="#ffffff" stroke="#858b93" stroke-width="2"/>
+<text x="33" y="42" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold" fill="#858b93">A. Definition resolution flow</text>
+</g>
+<g id="panel-b"><rect x="20" y="235" width="2060" height="705" rx="12" fill="#ffffff" stroke="#858b93" stroke-width="2"/>
+<text x="33" y="257" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold" fill="#858b93">B. AGENT_LOOP Node example (requests and responses separated in time)</text>
+</g>
+<polyline id="lifeline-L2" points="170,359 170,883" fill="none" stroke="#acbbcf" stroke-width="2" stroke-dasharray="9 7"/>
+<polyline id="lifeline-L1" points="460,359 460,883" fill="none" stroke="#acbbcf" stroke-width="2" stroke-dasharray="9 7"/>
+<polyline id="lifeline-L3" points="750,359 750,883" fill="none" stroke="#acbbcf" stroke-width="2" stroke-dasharray="9 7"/>
+<polyline id="lifeline-L4" points="1040,359 1040,883" fill="none" stroke="#acbbcf" stroke-width="2" stroke-dasharray="9 7"/>
+<polyline id="lifeline-L5" points="1330,359 1330,883" fill="none" stroke="#acbbcf" stroke-width="2" stroke-dasharray="9 7"/>
+<polyline id="lifeline-L6" points="1620,359 1620,883" fill="none" stroke="#acbbcf" stroke-width="2" stroke-dasharray="9 7"/>
+<polyline id="lifeline-TRACE" points="1910,359 1910,883" fill="none" stroke="#acbbcf" stroke-width="2" stroke-dasharray="9 7"/>
+<g id="edge-a1-a2" data-source="a1" data-target="a2" data-label="GraphSpec"><polyline points="420,145 580,145" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-a2-a3" data-source="a2" data-target="a3" data-label="validate / bind"><polyline points="920,145 1080,145" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-a3-a4" data-source="a3" data-target="a4" data-label="manifest"><polyline points="1420,145 1580,145" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-msg1" data-source="L2" data-target="L3" data-label="Task / GraphRun / schedule"><polyline points="170,390 750,390" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-msg2" data-source="L3" data-target="L1" data-label="Policy / Human Gate decision request"><polyline points="750,425 460,425" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-msg3" data-source="L1" data-target="L3" data-label="allow / deny / require-human"><polyline points="460,460 750,460" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-dashed)" stroke-dasharray="9 7"/></g>
+<g id="edge-msg4" data-source="L3" data-target="L4" data-label="NodeExecutionRequest (allow)"><polyline points="750,495 1040,495" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-msg5" data-source="L4" data-target="L6" data-label="Context / Knowledge request"><polyline points="1040,530 1620,530" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-msg6" data-source="L6" data-target="L4" data-label="ContextPack / source refs"><polyline points="1620,565 1040,565" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-dashed)" stroke-dasharray="9 7"/></g>
+<g id="edge-msg7" data-source="L4" data-target="L5" data-label="ExecutionIntent"><polyline points="1040,600 1330,600" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-msg8" data-source="L5" data-target="L4" data-label="ExecutionResult / artifact"><polyline points="1330,635 1040,635" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-dashed)" stroke-dasharray="9 7"/></g>
+<g id="edge-msg9" data-source="L4" data-target="L3" data-label="NodeExecutionResult"><polyline points="1040,670 750,670" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-dashed)" stroke-dasharray="9 7"/></g>
+<g id="edge-msg10" data-source="L3" data-target="L2" data-label="Graph state / checkpoint update"><polyline points="750,705 170,705" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-dashed)" stroke-dasharray="9 7"/></g>
+<g id="edge-msg11" data-source="L3" data-target="TRACE" data-label="Graph event"><polyline points="750,740 1910,740" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-msg12" data-source="L4" data-target="TRACE" data-label="Loop event"><polyline points="1040,775 1910,775" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="edge-msg13" data-source="L5" data-target="TRACE" data-label="Runner / Tool event"><polyline points="1330,810 1910,810" fill="none" stroke="#40516b" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow-normal)"/></g>
+<g id="node-a1"><rect x="80" y="115" width="340" height="60" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="250.0" y="139.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">Git / GraphSpec</text>
+<text x="250.0" y="162.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">versioned definition</text>
+</g>
+<g id="node-a2"><rect x="580" y="115" width="340" height="60" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="750.0" y="139.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">Graph Resolver</text>
+<text x="750.0" y="162.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">validate / bind / digest</text>
+</g>
+<g id="node-a3"><rect x="1080" y="115" width="340" height="60" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="1250.0" y="139.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">EffectiveGraphManifest</text>
+<text x="1250.0" y="162.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">immutable runtime contract</text>
+</g>
+<g id="node-a4"><rect x="1580" y="115" width="340" height="60" rx="10" fill="#eaf6ee" stroke="#398e66" stroke-width="2.2"/>
+<text x="1750.0" y="139.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#172538">L2 Control Plane</text>
+<text x="1750.0" y="162.5" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">Task / durable state / manifest</text>
+</g>
+<g id="node-L2"><rect x="50" y="305" width="240" height="54" rx="10" fill="#eaf6ee" stroke="#398e66" stroke-width="2.2"/>
+<text x="170.0" y="338.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">L2 Control Plane</text>
+</g>
+<g id="node-L1"><rect x="340" y="305" width="240" height="54" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="460.0" y="328.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">L1 Operating Model</text>
+<text x="460.0" y="348.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">&amp; Governance</text>
+</g>
+<g id="node-L3"><rect x="630" y="305" width="240" height="54" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="750.0" y="338.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="bold" fill="#172538">L3 Graph Engineering</text>
+</g>
+<g id="node-L4"><rect x="920" y="305" width="240" height="54" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="1040.0" y="338.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">L4 Agentic Loop</text>
+</g>
+<g id="node-L5"><rect x="1210" y="305" width="240" height="54" rx="10" fill="#fff5e8" stroke="#b87524" stroke-width="2.2"/>
+<text x="1330.0" y="338.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">L5 Shared Execution</text>
+</g>
+<g id="node-L6"><rect x="1500" y="305" width="240" height="54" rx="10" fill="#eaf6ee" stroke="#398e66" stroke-width="2.2"/>
+<text x="1620.0" y="338.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="bold" fill="#172538">L6 Context &amp; Knowledge</text>
+</g>
+<g id="node-TRACE"><rect x="1790" y="305" width="240" height="54" rx="10" fill="#f0efff" stroke="#706bd2" stroke-width="2.2"/>
+<text x="1910.0" y="338.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Trace / Evidence</text>
+</g>
+<rect x="338.62" y="366" width="242.75" height="20" fill="#ffffff"/>
+<text x="460.0" y="381" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">Task / GraphRun / schedule</text>
+<rect x="439.80" y="401" width="330.41" height="20" fill="#ffffff"/>
+<text x="605.0" y="416" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">Policy / Human Gate decision request</text>
+<rect x="476.38" y="436" width="257.25" height="20" fill="#ffffff"/>
+<text x="605.0" y="451" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">allow / deny / require-human</text>
+<rect x="760" y="471" width="270" height="20" fill="#ffffff"/>
+<text x="895.0" y="486" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458" id="dispatch-label">NodeExecutionRequest (allow)</text>
+<rect x="1200.67" y="506" width="258.66" height="20" fill="#ffffff"/>
+<text x="1330.0" y="521" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">Context / Knowledge request</text>
+<rect x="1215.98" y="541" width="228.03" height="20" fill="#ffffff"/>
+<text x="1330.0" y="556" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">ContextPack / source refs</text>
+<rect x="1112.09" y="576" width="145.81" height="20" fill="#ffffff"/>
+<text x="1185.0" y="591" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">ExecutionIntent</text>
+<rect x="1072.13" y="611" width="225.73" height="20" fill="#ffffff"/>
+<text x="1185.0" y="626" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">ExecutionResult / artifact</text>
+<rect x="798.83" y="646" width="192.34" height="20" fill="#ffffff"/>
+<text x="895.0" y="661" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">NodeExecutionResult</text>
+<rect x="316.17" y="681" width="287.66" height="20" fill="#ffffff"/>
+<text x="460.0" y="696" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">Graph state / checkpoint update</text>
+<rect x="1271.01" y="716" width="117.98" height="20" fill="#ffffff"/>
+<text x="1330.0" y="731" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">Graph event</text>
+<rect x="1421.70" y="751" width="106.61" height="20" fill="#ffffff"/>
+<text x="1475.0" y="766" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">Loop event</text>
+<rect x="1531.88" y="786" width="176.23" height="20" fill="#ffffff"/>
+<text x="1620.0" y="801" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">Runner / Tool event</text>
+<text x="1650" y="65" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#6650a4">Within ALE: L2 Control + L3 Graph</text>
+<text x="1050" y="285" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#6650a4">ALE responsibilities: L2 Control / L3 Graph / L4 Loop</text>
+<text id="fig5-legend" x="1050" y="960" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#5b6575">Solid: request / issue; dashed: response / update. L5 is outside ALE.</text>
+<text id="fig5-scope" x="1050" y="984" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#5b6575">L4 is shown for AGENT_LOOP Nodes; other Node types have their own contracts and do not inherently require L4.</text>
+<text id="def-arrow-1" x="500" y="105" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="normal" fill="#354458">GraphSpec</text>
+<text id="def-arrow-2" x="1000" y="105" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="normal" fill="#354458">validate / bind</text>
+<text id="def-arrow-3" x="1500" y="105" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="normal" fill="#354458">manifest</text>
+<rect id="guard-background" x="480" y="832" width="1140" height="29" fill="#ffffff"/>
+<text id="dispatch-guard" x="1050" y="853" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#354458">Dispatch requires applicable Policy / Human Gates; unresolved or denied requests do not dispatch.</text>
+<rect id="scope-background" x="480" y="866" width="1140" height="29" fill="#ffffff"/>
+<text id="request-scope" x="1050" y="887" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#354458">Request: graph_run_id / node_instance_id / scope_ref / domain_id / isolation_scope_ref; project_id optional.</text>
+</svg>

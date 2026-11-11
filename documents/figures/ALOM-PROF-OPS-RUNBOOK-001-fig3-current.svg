@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2000" viewBox="0 0 2400 2000" role="img" aria-labelledby="title desc">
+<title id="title">Figure 3 · Rollback and Revoke decision</title>
+<desc id="desc">Target eligibility, current controls, atomic pointer switching and post-switch verification</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="2000" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 3 · Rollback and Revoke decision</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Target eligibility, current controls, atomic pointer switching and post-switch verification</text>
+<path id="edge-incident-revoke" d="M720 330 L720 370" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="355" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">triage</text>
+<path id="edge-revoke-target" d="M720 530 L720 570" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="555" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">no applicable revoke</text>
+<path id="edge-target-controls" d="M720 730 L720 770" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="755" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">candidate valid</text>
+<path id="edge-controls-approval" d="M720 930 L720 970" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="955" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">controls pass</text>
+<path id="edge-approval-actor" d="M720 1130 L720 1170" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="1155" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">approval</text>
+<path id="edge-actor-cas" d="M720 1330 L720 1370" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="1355" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">authorized operation</text>
+<path id="edge-cas-post" d="M720 1530 L720 1570" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="1555" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">committed switch</text>
+<path id="edge-revoke-stop" d="M1360 450 L1650 450" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1450" y="430" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">revoked</text>
+<path id="edge-target-deny" d="M1360 650 L1650 650" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1450" y="630" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">invalid</text>
+<path id="edge-controls-deny" d="M1360 850 L1650 850" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1450" y="830" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">blocked</text>
+<path id="edge-cas-deny" d="M1360 1450 L1650 1450" fill="none" stroke="#b94848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1450" y="1430" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#b94848">failure</text>
+<rect id="incident" x="80" y="170" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">1  Incident / drift signal</text>
+<text x="102" y="258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Identify the affected release, scope and running work</text>
+<text x="102" y="290" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Separate rollback from Security / Authority revoke</text>
+<rect id="revoke" x="80" y="370" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="417" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">2  Evaluate revocation</text>
+<text x="102" y="458" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Check whether applicable Security / Authority is invalidated</text>
+<text x="102" y="490" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Do not use rollback to clear REVOKED</text>
+<rect id="target" x="80" y="570" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="617" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">3  Check rollback target</text>
+<text x="102" y="658" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Previous approved immutable release / digest</text>
+<text x="102" y="690" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Verify effective window, schema, capability and scope</text>
+<rect id="controls" x="80" y="770" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="817" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">4  Query current control state</text>
+<text x="102" y="858" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Fresh, complete applicable release / source / scope records</text>
+<text x="102" y="890" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Check every REVOKED and HOLD / CLEAR record</text>
+<rect id="approval" x="80" y="970" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1017" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">5  Human rollback approval</text>
+<text x="102" y="1058" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Approver distinct from rollback actor</text>
+<text x="102" y="1090" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Confirm target, reason, scope and evidence</text>
+<rect id="actor" x="80" y="1170" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">6  Authorized rollback actor</text>
+<text x="102" y="1258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Request the approved pointer switch</text>
+<text x="102" y="1290" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Retain operation_id and audit evidence</text>
+<rect id="cas" x="80" y="1370" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1417" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">7  Recheck gate and commit atomically</text>
+<text x="102" y="1458" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Bind current control snapshot to expected registry revision</text>
+<text x="102" y="1490" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">CAS pointer, result, record and outbox together</text>
+<rect id="post" x="80" y="1570" width="1280" height="160" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="1617" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">8  Post-switch verification</text>
+<text x="102" y="1658" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Recheck controls, resolve, binding, scope and outcome</text>
+<text x="102" y="1690" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Stop new use if verification fails or is unknown</text>
+<rect id="revoke_stop" x="1650" y="370" width="670" height="160" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1672" y="417" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">REVOKED / STOP</text>
+<text x="1672" y="458" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Apply Security / Authority stop policy</text>
+<text x="1672" y="490" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Do not clear by rollback</text>
+<rect id="bad_target" x="1650" y="570" width="670" height="160" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1672" y="617" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">DENY</text>
+<text x="1672" y="658" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Target invalid, incompatible or out of scope</text>
+<text x="1672" y="690" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">No pointer switch</text>
+<rect id="bad_controls" x="1650" y="770" width="670" height="160" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1672" y="817" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">DENY</text>
+<text x="1672" y="858" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Applicable REVOKED / uncleared HOLD</text>
+<text x="1672" y="890" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Unavailable, incomplete, UNKNOWN or STALE</text>
+<rect id="bad_cas" x="1650" y="1370" width="670" height="160" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1672" y="1417" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">REJECT / ABORT</text>
+<text x="1672" y="1458" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Revision mismatch or unverifiable final state</text>
+<text x="1672" y="1490" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">No switch on known rejection</text>
+<rect x="60" y="1760" width="2280" height="186" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1796" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• CLEAR is tied to the matching hold_id, authorized actor, cause resolution and revalidation; CLEAR does not remove REVOKED.</text>
+<text x="83" y="1832" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• If commit outcome is unknown, recover the persisted result for the authorized identical operation_id; do not repeat the switch.</text>
+<text x="83" y="1868" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Running work keeps its pin unless applicable Security / Authority stop and recovery policy requires otherwise.</text>
+<text x="83" y="1904" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• After containing a revoked current release, an unaffected target may be considered only after all target gates pass.</text>
+</svg>

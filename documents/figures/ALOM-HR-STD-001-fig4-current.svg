@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+<title id="title">Execution isolation at the isolation_scope_ref boundary</title><desc id="desc">Structured review diagram with aligned panels and orthogonal connections.</desc>
+<rect width="1600" height="1050" fill="#ffffff"/>
+<defs>
+<marker id="arrow-normal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker>
+<marker id="arrow-dashed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker>
+<marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7558c5"/></marker>
+<marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#398e66"/></marker>
+</defs>
+<g id="panel-A"><rect x="50" y="145" width="625" height="760" rx="12" fill="#f7fbff" stroke="#3578c8" stroke-width="2"/>
+<text x="63" y="167" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold" fill="#3578c8">isolation_scope_ref A</text>
+</g>
+<g id="panel-B"><rect x="925" y="145" width="625" height="760" rx="12" fill="#faf8ff" stroke="#7559c7" stroke-width="2"/>
+<text x="938" y="167" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold" fill="#7559c7">isolation_scope_ref B</text>
+</g>
+<g id="node-a0"><rect x="75" y="200" width="575" height="65" rx="10" fill="#ffffff" stroke="#3578c8" stroke-width="2.2"/>
+<text x="362.5" y="227.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Runner Pool</text>
+<text x="362.5" y="250.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">Dedicated; shared: ephemeral + strong isolation</text>
+</g>
+<g id="node-a1"><rect x="75" y="283" width="575" height="65" rx="10" fill="#ffffff" stroke="#3578c8" stroke-width="2.2"/>
+<text x="362.5" y="310.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Queue Route</text>
+<text x="362.5" y="333.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">isolation_scope_ref scoped</text>
+</g>
+<g id="node-a2"><rect x="75" y="366" width="575" height="65" rx="10" fill="#ffffff" stroke="#3578c8" stroke-width="2.2"/>
+<text x="362.5" y="393.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Workspace</text>
+<text x="362.5" y="416.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">task / session dedicated</text>
+</g>
+<g id="node-a3"><rect x="75" y="449" width="575" height="65" rx="10" fill="#ffffff" stroke="#3578c8" stroke-width="2.2"/>
+<text x="362.5" y="476.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Container / VM</text>
+<text x="362.5" y="499.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">filesystem / process / network namespace</text>
+</g>
+<g id="node-a4"><rect x="75" y="532" width="575" height="65" rx="10" fill="#ffffff" stroke="#3578c8" stroke-width="2.2"/>
+<text x="362.5" y="559.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Workload Identity</text>
+<text x="362.5" y="582.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">short-lived / scoped / revocable</text>
+</g>
+<g id="node-a5"><rect x="75" y="615" width="575" height="65" rx="10" fill="#ffffff" stroke="#3578c8" stroke-width="2.2"/>
+<text x="362.5" y="642.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Secrets</text>
+<text x="362.5" y="665.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">runtime injection only</text>
+</g>
+<g id="node-a6"><rect x="75" y="698" width="575" height="65" rx="10" fill="#ffffff" stroke="#3578c8" stroke-width="2.2"/>
+<text x="362.5" y="725.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Egress Policy</text>
+<text x="362.5" y="748.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">allowlist / private endpoint</text>
+</g>
+<g id="node-a7"><rect x="75" y="781" width="575" height="65" rx="10" fill="#ffffff" stroke="#3578c8" stroke-width="2.2"/>
+<text x="362.5" y="808.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Trace Namespace</text>
+<text x="362.5" y="831.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">isolation_scope_ref / case scoped</text>
+</g>
+<g id="node-b0"><rect x="950" y="200" width="575" height="65" rx="10" fill="#ffffff" stroke="#7559c7" stroke-width="2.2"/>
+<text x="1237.5" y="227.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Runner Pool</text>
+<text x="1237.5" y="250.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">Dedicated; shared: ephemeral + strong isolation</text>
+</g>
+<g id="node-b1"><rect x="950" y="283" width="575" height="65" rx="10" fill="#ffffff" stroke="#7559c7" stroke-width="2.2"/>
+<text x="1237.5" y="310.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Queue Route</text>
+<text x="1237.5" y="333.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">isolation_scope_ref scoped</text>
+</g>
+<g id="node-b2"><rect x="950" y="366" width="575" height="65" rx="10" fill="#ffffff" stroke="#7559c7" stroke-width="2.2"/>
+<text x="1237.5" y="393.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Workspace</text>
+<text x="1237.5" y="416.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">task / session dedicated</text>
+</g>
+<g id="node-b3"><rect x="950" y="449" width="575" height="65" rx="10" fill="#ffffff" stroke="#7559c7" stroke-width="2.2"/>
+<text x="1237.5" y="476.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Container / VM</text>
+<text x="1237.5" y="499.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">filesystem / process / network namespace</text>
+</g>
+<g id="node-b4"><rect x="950" y="532" width="575" height="65" rx="10" fill="#ffffff" stroke="#7559c7" stroke-width="2.2"/>
+<text x="1237.5" y="559.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Workload Identity</text>
+<text x="1237.5" y="582.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">short-lived / scoped / revocable</text>
+</g>
+<g id="node-b5"><rect x="950" y="615" width="575" height="65" rx="10" fill="#ffffff" stroke="#7559c7" stroke-width="2.2"/>
+<text x="1237.5" y="642.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Secrets</text>
+<text x="1237.5" y="665.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">runtime injection only</text>
+</g>
+<g id="node-b6"><rect x="950" y="698" width="575" height="65" rx="10" fill="#ffffff" stroke="#7559c7" stroke-width="2.2"/>
+<text x="1237.5" y="725.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Egress Policy</text>
+<text x="1237.5" y="748.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">allowlist / private endpoint</text>
+</g>
+<g id="node-b7"><rect x="950" y="781" width="575" height="65" rx="10" fill="#ffffff" stroke="#7559c7" stroke-width="2.2"/>
+<text x="1237.5" y="808.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#172538">Trace Namespace</text>
+<text x="1237.5" y="831.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#172538">isolation_scope_ref / case scoped</text>
+</g>
+<g id="node-deny"><rect x="700" y="450" width="200" height="110" rx="10" fill="#fff5f4" stroke="#c65a55" stroke-width="2.2"/>
+<text x="800.0" y="488.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold" fill="#172538">Cross-isolation</text>
+<text x="800.0" y="511.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#172538">access</text>
+<text x="800.0" y="534.0" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#172538">DEFAULT DENY</text>
+</g>
+<text x="800" y="55" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold" fill="#26384f">Execution isolation at the isolation_scope_ref boundary</text>
+<text x="800" y="90" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#596878">Isolation applies across the listed runtime resources for each boundary.</text>
+<text x="800" y="955" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#354458">An unresolved isolation_scope_ref fails closed. Project is an optional overlay.</text>
+</svg>

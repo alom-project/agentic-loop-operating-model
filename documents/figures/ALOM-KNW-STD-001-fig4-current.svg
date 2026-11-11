@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1570" viewBox="0 0 2400 1570" role="img" aria-labelledby="title desc">
+<title id="title">Figure 4 · Ontology Runtime pipeline</title>
+<desc id="desc">Approved source, pinned schema and validated derived relations remain distinct</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1570" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 4 · Ontology Runtime pipeline</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Approved source, pinned schema and validated derived relations remain distinct</text>
+<path id="edge-release" d="M600 310 L900 310" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="897,310 879,318 879,302" fill="#17212f"/>
+<text x="630" y="285" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Approved release</text>
+<path id="edge-input" d="M1400 310 L1700 310" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1697,310 1679,318 1679,302" fill="#17212f"/>
+<text x="1470" y="285" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Pinned data</text>
+<path id="edge-parse" d="M2000 400 L2000 545 L1150 545 L1150 700" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1150,697 1142,679 1158,679" fill="#17212f"/>
+<text x="1370" y="525" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Parsed concepts / relations</text>
+<path id="edge-types" d="M600 790 L900 790" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="897,790 879,798 879,782" fill="#17212f"/>
+<text x="620" y="765" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Schema / constraints</text>
+<path id="edge-build" d="M1400 790 L1700 790" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1697,790 1679,798 1679,782" fill="#17212f"/>
+<text x="1460" y="765" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Derived graph</text>
+<path id="edge-verified" d="M2000 880 L2000 980 L1150 980 L1150 1120" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1150,1117 1142,1099 1158,1099" fill="#17212f"/>
+<text x="1410" y="960" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Validated relations</text>
+<path id="edge-serve" d="M900 1210 L600 1210" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="603,1210 621,1202 621,1218" fill="#17212f"/>
+<text x="650" y="1185" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Derived results</text>
+<rect id="canonical" x="100" y="220" width="500" height="180" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="122" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L7 Approved OKF</text>
+<text x="122" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Canonical release / revision</text>
+<text x="122" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authority stays in L7</text>
+<rect id="snapshot" x="900" y="220" width="500" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="922" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Pinned snapshot</text>
+<text x="922" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Immutable release / digest</text>
+<text x="922" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Read-only input</text>
+<rect id="parser" x="1700" y="220" width="600" height="180" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1722" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">OKF parser</text>
+<text x="1722" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Concept / metadata / relations</text>
+<text x="1722" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">External identifiers</text>
+<rect id="schema" x="100" y="700" width="500" height="180" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="122" y="747" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Schema / type registry</text>
+<text x="122" y="788" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Pinned Git revision</text>
+<text x="122" y="820" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Types / predicates / constraints</text>
+<rect id="builder" x="900" y="700" width="500" height="180" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="922" y="747" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Relation / ontology builder</text>
+<text x="922" y="788" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Resolve identifiers</text>
+<text x="922" y="820" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Build nodes / edges / properties</text>
+<rect id="validate" x="1700" y="700" width="600" height="180" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1722" y="747" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Validate relations</text>
+<text x="1722" y="788" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Schema / cardinality / provenance</text>
+<text x="1722" y="820" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Reject invalid output</text>
+<rect id="infer" x="900" y="1120" width="500" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="922" y="1167" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Inference / semantic join</text>
+<text x="922" y="1208" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Derived relations and mappings</text>
+<text x="922" y="1240" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Preserve rule and source provenance</text>
+<rect id="api" x="100" y="1120" width="500" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="122" y="1167" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Ontology API / MCP</text>
+<text x="122" y="1208" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Resolve / traverse / join / explain</text>
+<text x="122" y="1240" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authorized derived access</text>
+<rect x="60" y="1350" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1386" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• A Producer proposes Draft / Patch materialization; it does not automatically approve or overwrite L7 sources.</text>
+<text x="83" y="1422" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Inference remains Derived; AI suggestions remain candidates with evidence and confidence, not canonical relations.</text>
+<text x="83" y="1458" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Resolve scope and authorization before retrieval candidate generation. Do not disclose invalid or unauthorized results.</text>
+</svg>

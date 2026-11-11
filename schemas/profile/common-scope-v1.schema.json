@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://alom.example/schemas/profile/common-scope-v1.schema.json",
+  "title": "ALOM CommonScopeContract v1",
+  "description": "Common L1-L7 scope contract. Project is optional; operating domain and explicit isolation scope are canonical.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "schema_version",
+    "phase",
+    "scope_ref",
+    "enterprise_id",
+    "domain_id",
+    "classification",
+    "isolation_scope_ref"
+  ],
+  "properties": {
+    "kind": {
+      "const": "CommonScopeContract"
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "phase": {
+      "type": "string",
+      "enum": ["design_time", "runtime"]
+    },
+    "scope_ref": {
+      "type": "string",
+      "pattern": "^scope://[^\\s]+$"
+    },
+    "enterprise_id": {
+      "$ref": "#/$defs/id"
+    },
+    "domain_id": {
+      "$ref": "#/$defs/id"
+    },
+    "organization_id": {
+      "$ref": "#/$defs/nullableId"
+    },
+    "customer_id": {
+      "$ref": "#/$defs/nullableId"
+    },
+    "project_id": {
+      "$ref": "#/$defs/nullableId"
+    },
+    "usecase_id": {
+      "$ref": "#/$defs/nullableId"
+    },
+    "process_id": {
+      "$ref": "#/$defs/nullableId"
+    },
+    "work_id": {
+      "$ref": "#/$defs/nullableId"
+    },
+    "tenant_id": {
+      "$ref": "#/$defs/nullableId"
+    },
+    "classification": {
+      "type": "string",
+      "enum": ["public", "internal", "confidential", "restricted"]
+    },
+    "isolation_scope_ref": {
+      "type": "string",
+      "pattern": "^scope://[^\\s]+$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "phase": {
+            "const": "runtime"
+          }
+        },
+        "required": ["phase"]
+      },
+      "then": {
+        "required": ["work_id"],
+        "properties": {
+          "work_id": {
+            "$ref": "#/$defs/id"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+    },
+    "nullableId": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/id"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "scopeSelector": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["enterprise_id", "domain_id"],
+      "properties": {
+        "enterprise_id": {
+          "$ref": "#/$defs/id"
+        },
+        "domain_id": {
+          "$ref": "#/$defs/id"
+        },
+        "organization_id": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "customer_id": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "project_id": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "usecase_id": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "process_id": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "work_id": {
+          "$ref": "#/$defs/nullableId"
+        }
+      }
+    }
+  }
+}

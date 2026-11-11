@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1550" height="1010" viewBox="0 0 1550 1010" role="img">
+<title>Profile Release Lifecycle and Review Decisions</title>
+<rect width="1550" height="1010" fill="white"/>
+<text x="775" y="43" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="bold" fill="#1a2944">Profile Release Lifecycle and Review Decisions</text>
+<polyline points="340,188 435,188" fill="none" stroke="#304a80" stroke-width="3"><title>Validation report gate passes</title></polyline>
+<polygon points="435,188 420,195 420,181" fill="#304a80"/>
+<polyline points="685,188 780,188" fill="none" stroke="#304a80" stroke-width="3"><title>Review request admitted and approval policy snapshot pinned</title></polyline>
+<polygon points="780,188 765,195 765,181" fill="#304a80"/>
+<polyline points="1030,188 1125,188" fill="none" stroke="#304a80" stroke-width="3"><title>Required approvals complete, separation of duties passes, and active blocking issues are zero</title></polyline>
+<polygon points="1125,188 1110,195 1110,181" fill="#304a80"/>
+<polyline points="1375,188 1480,188 1480,535 560,535 560,600" fill="none" stroke="#304a80" stroke-width="3"><title>Release Authority authorizes and Registry admission succeeds</title></polyline>
+<polygon points="560,600 553,585 567,585" fill="#304a80"/>
+<polyline points="685,638 780,638" fill="none" stroke="#304a80" stroke-width="3"><title>New effective release is admitted or explicitly supersedes</title></polyline>
+<polygon points="780,638 765,645 765,631" fill="#304a80"/>
+<polyline points="1030,638 1125,638" fill="none" stroke="#304a80" stroke-width="3"><title>Retention, rollback window and policy conditions are satisfied</title></polyline>
+<polygon points="1125,638 1110,645 1110,631" fill="#304a80"/>
+<polyline points="905,226 905,330" fill="none" stroke="#bb7414" stroke-width="3" stroke-dasharray="9 6"><title>An authorized Human requests changes</title></polyline>
+<polygon points="905,330 898,315 912,315" fill="#bb7414"/>
+<polyline points="740,388 40,388 40,120 215,120 215,150" fill="none" stroke="#bb7414" stroke-width="3" stroke-dasharray="9 6"><title>A new candidate and review begin in DRAFT</title></polyline>
+<polygon points="215,150 208,135 222,135" fill="#bb7414"/>
+<polyline points="1000,226 1000,285 1120,285 1120,330" fill="none" stroke="#bb4642" stroke-width="3" stroke-dasharray="9 6"><title>An authorized Human rejects the current candidate during review</title></polyline>
+<polygon points="1120,330 1113,315 1127,315" fill="#bb4642"/>
+<polyline points="1250,226 1250,330" fill="none" stroke="#bb4642" stroke-width="3" stroke-dasharray="9 6"><title>An authorized Human rejects the approved candidate before Registry admission</title></polyline>
+<polygon points="1250,330 1243,315 1257,315" fill="#bb4642"/>
+<polyline points="1375,205 1445,205 1445,490 870,490 870,445" fill="none" stroke="#bb7414" stroke-width="3" stroke-dasharray="9 6"><title>An authorized Human requests revision after approval but before Registry admission</title></polyline>
+<polygon points="870,445 877,460 863,460" fill="#bb7414"/>
+<rect x="90" y="150" width="250" height="76" rx="12" fill="#eff3fb" stroke="#5972a8" stroke-width="2"/>
+<text x="215.0" y="188.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#182742">DRAFT</text>
+<rect x="435" y="150" width="250" height="76" rx="12" fill="#eff3fb" stroke="#5972a8" stroke-width="2"/>
+<text x="560.0" y="188.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#182742">VALIDATED</text>
+<rect x="780" y="150" width="250" height="76" rx="12" fill="#eff3fb" stroke="#5972a8" stroke-width="2"/>
+<text x="905.0" y="188.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#182742">IN_REVIEW</text>
+<rect x="1125" y="150" width="250" height="76" rx="12" fill="#eff3fb" stroke="#5972a8" stroke-width="2"/>
+<text x="1250.0" y="188.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#182742">APPROVED</text>
+<rect x="435" y="600" width="250" height="76" rx="12" fill="#eaf7ed" stroke="#4c9462" stroke-width="2"/>
+<text x="560.0" y="638.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#182742">EFFECTIVE</text>
+<rect x="780" y="600" width="250" height="76" rx="12" fill="#eff3fb" stroke="#5972a8" stroke-width="2"/>
+<text x="905.0" y="638.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#182742">SUPERSEDED</text>
+<rect x="1125" y="600" width="250" height="76" rx="12" fill="#eff3fb" stroke="#5972a8" stroke-width="2"/>
+<text x="1250.0" y="638.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#182742">RETIRED</text>
+<rect x="740" y="330" width="310" height="115" rx="12" fill="#fff8e9" stroke="#bb7414" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="895.0" y="345.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#182742">REVISE</text>
+<text x="895.0" y="373.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#182742">ApprovalDecision</text>
+<text x="895.0" y="401.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#182742">Authorized Human</text>
+<text x="895.0" y="429.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#182742">Before admission</text>
+<rect x="1090" y="330" width="330" height="135" rx="12" fill="#fff0ef" stroke="#bb4642" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="1255.0" y="355.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#182742">REJECT / NO RELEASE</text>
+<text x="1255.0" y="383.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#182742">ApprovalDecision</text>
+<text x="1255.0" y="411.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#182742">Authorized Human</text>
+<text x="1255.0" y="439.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#182742">Before admission</text>
+<text x="393" y="368" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#a05c05">New candidate / review</text>
+<text x="990" y="515" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#304a80">Release Authority authorization + Registry admission</text>
+<rect x="70" y="740" width="1410" height="220" rx="12" fill="#f8fafc" stroke="#aab7cb" stroke-width="2"/>
+<text x="95" y="776" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#182742">Interpretation and boundaries</text>
+<text x="95" y="817" font-family="Arial,sans-serif" font-size="17" fill="#243650">APPROVED is not EFFECTIVE. Pre-admission REJECT or REVISE closes this case to new admission.</text>
+<text x="95" y="858" font-family="Arial,sans-serif" font-size="17" fill="#243650">REJECT / REVISE and admission are ordered by authoritative commits; earlier approvals remain as history.</text>
+<text x="95" y="899" font-family="Arial,sans-serif" font-size="17" fill="#243650">Post-admission stopping uses separate HOLD / REVOKED; re-review uses a new candidate and case.</text>
+<text x="95" y="940" font-family="Arial,sans-serif" font-size="17" fill="#243650">Blue arrows: lifecycle transitions. Amber / red arrows: Human decisions and revision flow.</text>
+</svg>

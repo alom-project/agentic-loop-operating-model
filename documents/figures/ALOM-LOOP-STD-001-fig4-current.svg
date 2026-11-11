@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1850" viewBox="0 0 2400 1850" role="img" aria-labelledby="title desc">
+<title id="title">Figure 4 · L4 and L5 execution boundary</title>
+<desc id="desc">Each numbered arrow identifies a one-way contract; the layout is a representative interaction, not a state machine</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1850" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 4 · L4 and L5 execution boundary</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Each numbered arrow identifies a one-way contract; the layout is a representative interaction, not a state machine</text>
+<rect x="50" y="460" width="2300" height="380" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="75" y="499" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4 Agentic Loop</text>
+<text x="75" y="532" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Responsibility groups within ALE</text>
+<path id="edge-task" d="M550 320 L550 560" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="565" y="410" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">① Task / state</text>
+<path id="edge-context" d="M900 320 L900 560" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="915" y="410" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">② ContextPack</text>
+<path id="edge-oracle" d="M1500 320 L1500 560" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1515" y="410" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">⑨ Oracle evidence</text>
+<path id="edge-policy" d="M2050 320 L2050 560" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="2065" y="400" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">⑪ Policy</text>
+<path id="edge-escalate" d="M2200 560 L2200 320" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="2215" y="440" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">⑫ Escalate</text>
+<path id="edge-plan" d="M570 645 L650 645" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="575" y="630" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">③ Plan</text>
+<path id="edge-evidence" d="M1140 645 L1220 645" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1145" y="630" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">⑧ Data</text>
+<path id="edge-eval" d="M1710 645 L1790 645" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1715" y="630" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">⑩ Eval</text>
+<path id="edge-intent" d="M800 730 L800 1190" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="820" y="970" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">④ ExecutionIntent</text>
+<path id="edge-result" d="M1070 1190 L1070 730" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1090" y="1010" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">⑦ ExecutionResult</text>
+<path id="edge-action" d="M1450 1240 L1750 1240" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1510" y="1225" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">⑤ Action</text>
+<path id="edge-answer" d="M1750 1320 L1450 1320" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1490" y="1305" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">⑥ Result / status</text>
+<rect id="l2" x="80" y="170" width="490" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L2 Control Plane</text>
+<text x="102" y="258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Task contract / durable state</text>
+<rect id="l6" x="650" y="170" width="490" height="150" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="672" y="217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L6 Context and Knowledge</text>
+<text x="672" y="258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">ContextPack / provenance</text>
+<rect id="oracle" x="1220" y="170" width="490" height="150" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="1242" y="217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">External Oracle</text>
+<text x="1242" y="258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">CI / tests / business evidence</text>
+<rect id="l1" x="1790" y="170" width="490" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1812" y="217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 Operating Model</text>
+<text x="1812" y="258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Policy / Human / stop authority</text>
+<rect id="plan" x="80" y="560" width="490" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="607" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Bind and Plan</text>
+<text x="102" y="648" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Task binding / PlanArtifact</text>
+<rect id="coord" x="650" y="560" width="490" height="170" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="672" y="607" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Execution Coordination</text>
+<text x="672" y="648" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">ExecutionIntent / result</text>
+<rect id="verify" x="1220" y="560" width="490" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1242" y="607" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Evaluate and Verify</text>
+<text x="1242" y="648" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Evaluate / check outcome facts</text>
+<rect id="repair" x="1790" y="560" width="490" height="170" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1812" y="607" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Repair and Terminate</text>
+<text x="1812" y="648" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Repair / stop / escalate</text>
+<rect id="l5" x="650" y="1190" width="800" height="180" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="672" y="1237" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 Shared Execution Plane</text>
+<text x="672" y="1278" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Effective Harness / Runner / tool</text>
+<text x="672" y="1310" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Capability / sandbox enforcement</text>
+<rect id="target" x="1750" y="1190" width="570" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1772" y="1237" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Operational SSOT / target</text>
+<text x="1772" y="1278" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">System API / action / result</text>
+<rect x="60" y="1580" width="2280" height="222" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1616" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• ALE comprises L2–L4; L5 is a shared execution boundary outside ALE and also supports direct interactive use.</text>
+<text x="83" y="1652" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L5 enforces capabilities, tool and credential controls, sandbox, network/egress, budgets and stopping.</text>
+<text x="83" y="1688" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L6 ContextPack access is authorized separately; context or a plan does not grant execution authority.</text>
+<text x="83" y="1724" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Approval and escalation require the distinct Human authority when the applicable policy requires it.</text>
+<text x="83" y="1760" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Canonical Trace / Evidence event output is omitted for readability and specified in Chapter 14.</text>
+</svg>

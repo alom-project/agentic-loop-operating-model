@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1830" viewBox="0 0 2400 1830" role="img" aria-labelledby="title desc">
+<title id="title">Figure 4 · Policy decision and enforcement</title>
+<desc id="desc">L1 owns decision semantics; each target enforces applicable outcomes and obligations</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="marker-deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1830" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 4 · Policy decision and enforcement</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">L1 owns decision semantics; each target enforces applicable outcomes and obligations</text>
+<rect x="60" y="900" width="2280" height="630" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="85" y="939" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Decision result → destination</text>
+<text x="85" y="972" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">These rows map outcomes; they do not represent a sequence.</text>
+<path id="edge-request" d="M600 310 L900 310" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="897,310 879,318 879,302" fill="#17212f"/>
+<text x="650" y="285" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Request</text>
+<path id="edge-resolve" d="M1400 310 L1700 310" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1697,310 1679,318 1679,302" fill="#17212f"/>
+<text x="1450" y="285" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Resolved context</text>
+<path id="edge-decision" d="M2000 400 L2000 490 L1150 490 L1150 620" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1150,617 1142,599 1158,599" fill="#17212f"/>
+<text x="1420" y="470" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Decision + obligations</text>
+<path id="edge-record" d="M1400 710 L1700 710" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1697,710 1679,718 1679,702" fill="#17212f"/>
+<text x="1450" y="685" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Record outcome</text>
+<rect id="request" x="100" y="220" width="500" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="122" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Decision request</text>
+<text x="122" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Principal / purpose / scope</text>
+<text x="122" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Action / policy reference</text>
+<rect id="context" x="900" y="220" width="500" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="922" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Resolve context</text>
+<text x="922" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Identity / delegation</text>
+<text x="922" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Isolation / risk / authority</text>
+<rect id="pdp" x="1700" y="220" width="600" height="180" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="1722" y="267" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 policy decision</text>
+<text x="1722" y="308" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Versioned PDP / policy</text>
+<text x="1722" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Reason / obligations</text>
+<rect id="result" x="900" y="620" width="500" height="180" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="922" y="667" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Decision result</text>
+<text x="922" y="708" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">ALLOW / DENY</text>
+<text x="922" y="740" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">HUMAN / EVAL / EXCEPTION</text>
+<rect id="trace" x="1700" y="620" width="600" height="180" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="1722" y="667" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Trace / evidence</text>
+<text x="1722" y="708" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Decision / reason / version</text>
+<text x="1722" y="740" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Correlate principal and scope</text>
+<rect id="allow" x="100" y="1000" width="1030" height="145" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="122" y="1047" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ALLOW</text>
+<text x="122" y="1088" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Enforcement port applies all required obligations.</text>
+<rect id="deny" x="1270" y="1000" width="1030" height="145" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1292" y="1047" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">DENY</text>
+<text x="1292" y="1088" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Enforcement point stops the action; record the reason.</text>
+<rect id="human" x="100" y="1170" width="1030" height="145" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="122" y="1217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">REQUIRE_HUMAN</text>
+<text x="122" y="1258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">HumanReviewPacket; wait for authorized Human decision.</text>
+<rect id="eval" x="1270" y="1170" width="1030" height="145" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1292" y="1217" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">REQUIRE_EVAL</text>
+<text x="1292" y="1258" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L4 assurance gate when applicable.</text>
+<rect id="exception" x="100" y="1340" width="1030" height="145" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="122" y="1387" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">REQUIRE_EXCEPTION</text>
+<text x="122" y="1428" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Request exception through the authorized workflow.</text>
+<rect x="60" y="1630" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1666" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• DENY, unknown authority, unavailable required evidence or a Human timeout must not become an automatic ALLOW.</text>
+<text x="83" y="1702" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L2–L7 enforce obligations at their own boundaries. External policy engines are adapters, not the source of L1 authority.</text>
+<text x="83" y="1738" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• An exception request is not an exception grant; use its authorized conditions, expiry and compensating controls.</text>
+</svg>

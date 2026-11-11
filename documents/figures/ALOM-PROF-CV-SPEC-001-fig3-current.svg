@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1390" viewBox="0 0 2400 1390" role="img" aria-label="Compiler and Validator EffectiveProfile runtime binding">
+<rect width="2400" height="1390" fill="white"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40516b"/></marker><marker id="arrow-deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b34a4a"/></marker></defs>
+<text x="55" y="65" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="36" font-weight="bold" fill="#263751">Figure 3  ·  EffectiveProfile runtime binding</text>
+<text x="55" y="108" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="normal" fill="#516078">Compiler / Validator  |  Four execution modes with conditional Human-required checks</text>
+<rect id="node-compile" x="55" y="160" width="700" height="260" rx="16" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="79" y="212" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="bold" fill="#23365a">1   Compile and validate</text>
+<text x="79" y="266" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">human_required=true + agentic: CV-HUM-001 ERROR</text>
+<text x="79" y="304" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">human_required=true + deterministic-system:</text>
+<text x="79" y="342" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">CV-HUM-002 ERROR</text>
+<text x="79" y="380" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">No-relaxation applies; ERROR blocks effectiveness.</text>
+<rect id="node-release" x="850" y="160" width="620" height="260" rx="16" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="874" y="212" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="bold" fill="#23365a">2   Approve and admit</text>
+<text x="874" y="266" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">Valid Human ApprovalRecord required.</text>
+<text x="874" y="304" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">Registry admission; pin release and digest.</text>
+<text x="874" y="342" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">Release Gate PASS alone is not Effective.</text>
+<rect id="node-resolve" x="1565" y="160" width="780" height="260" rx="16" fill="#edf3fc" stroke="#415aa6" stroke-width="2.5"/>
+<text x="1589" y="212" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="bold" fill="#23365a">3   Resolve the release</text>
+<text x="1589" y="266" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">Check scope, digest, effective window and capability.</text>
+<text x="1589" y="304" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">Check Revocation / HOLD, applicability and freshness.</text>
+<text x="1589" y="342" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">Record the ALLOW / DENY decision and evidence.</text>
+<rect id="node-deny" x="1985" y="530" width="360" height="160" rx="16" fill="#fff1f1" stroke="#b34a4a" stroke-width="2.5"/>
+<text x="2009" y="582" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="bold" fill="#8d3030">DENY new use</text>
+<text x="2009" y="615" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#873535">REVOKED / active HOLD</text>
+<text x="2009" y="640" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#873535">Unknown / stale / unavailable</text>
+<text x="2009" y="665" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#873535">Digest or capability mismatch</text>
+<rect id="node-human-only" x="70" y="830" width="520" height="310" rx="16" fill="#fff8df" stroke="#bba248" stroke-width="2.5"/>
+<text x="94" y="882" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="bold" fill="#23365a">human-only</text>
+<text x="94" y="936" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">L1 + HumanWorkRecord / Evidence</text>
+<text x="94" y="974" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">L6 / L7 optional</text>
+<text x="94" y="1012" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">ALE / L5 not required</text>
+<rect id="node-interactive-agent" x="650" y="830" width="520" height="310" rx="16" fill="#edf6ff" stroke="#5b8fb8" stroke-width="2.5"/>
+<text x="674" y="882" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="bold" fill="#23365a">interactive-agent</text>
+<text x="674" y="936" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">L1 + L5; human controls outer loop</text>
+<text x="674" y="974" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">L6 / L7 optional</text>
+<text x="674" y="1012" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">No implicit ALE routing</text>
+<rect id="node-agentic" x="1230" y="830" width="520" height="310" rx="16" fill="#f2efff" stroke="#8976bb" stroke-width="2.5"/>
+<text x="1254" y="882" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="bold" fill="#23365a">agentic</text>
+<text x="1254" y="936" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">L1 + ALE (L2–L4) + L5</text>
+<text x="1254" y="974" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">L6 / L7 as required</text>
+<text x="1254" y="1012" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">Graph when needed; one Loop may omit it</text>
+<rect id="node-deterministic-system" x="1810" y="830" width="520" height="310" rx="16" fill="#eef9ed" stroke="#6eaa78" stroke-width="2.5"/>
+<text x="1834" y="882" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="bold" fill="#23365a">deterministic-system</text>
+<text x="1834" y="936" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">L1 + SystemExecutionRecord</text>
+<text x="1834" y="974" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">ALE not required; L5 optional</text>
+<text x="1834" y="1012" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">Do not reuse task_id or</text>
+<text x="1834" y="1050" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#344863">HumanWorkRecord as execution record</text>
+<g id="edge-compile-release" data-source="compile" data-target="release" data-meaning="eligible candidate"><polyline points="755,290 850,290" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/></g>
+<g id="edge-release-resolve" data-source="release" data-target="resolve" data-meaning="approved release"><polyline points="1470,290 1565,290" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/></g>
+<g id="edge-resolve-deny" data-source="resolve" data-target="deny" data-meaning="fail closed"><polyline points="2170,420 2170,530" fill="none" stroke="#b34a4a" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow-deny)"/></g>
+<g id="edge-resolve-bus" data-source="resolve" data-target="mode-bus" data-meaning="ALLOW; choose exactly one execution mode"><polyline points="1750,420 1750,690 1200,690 1200,760" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round"/></g>
+<g id="edge-mode-bus" data-source="mode-bus" data-target="mode-bus" data-meaning="exclusive mode selection"><polyline points="330,760 2070,760" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round"/></g>
+<g id="edge-mode-human-only" data-source="mode-bus" data-target="human-only" data-meaning="selected execution mode"><polyline points="330,760 330,830" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/></g>
+<g id="edge-mode-interactive-agent" data-source="mode-bus" data-target="interactive-agent" data-meaning="selected execution mode"><polyline points="910,760 910,830" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/></g>
+<g id="edge-mode-agentic" data-source="mode-bus" data-target="agentic" data-meaning="selected execution mode"><polyline points="1490,760 1490,830" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/></g>
+<g id="edge-mode-deterministic-system" data-source="mode-bus" data-target="deterministic-system" data-meaning="selected execution mode"><polyline points="2070,760 2070,830" fill="none" stroke="#40516b" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/></g>
+<text x="802" y="277" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#40516b">eligible</text>
+<text x="1517" y="277" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#40516b">admitted</text>
+<text x="1765" y="555" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#345e84">ALLOW</text>
+<text x="2184" y="483" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="bold" fill="#a13d3d">DENY</text>
+<text x="70" y="725" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#40516b">ALLOW: route each Managed Work by its validated execution mode</text>
+<rect x="70" y="1200" width="2260" height="115" rx="12" fill="#f7f9fc" stroke="#d4dce7" stroke-width="1.5"/>
+<text x="95" y="1244" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#233957">Common runtime scope</text>
+<text x="95" y="1283" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="normal" fill="#40516b">At runtime, domain_id and isolation_scope_ref are required. project_id is optional unless the selected rule requires it.</text>
+</svg>

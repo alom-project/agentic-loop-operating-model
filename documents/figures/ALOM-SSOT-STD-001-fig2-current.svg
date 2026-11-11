@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1170" viewBox="0 0 1700 1170" role="img" aria-labelledby="title desc">
+<title id="title">L7 SSOT internal responsibilities</title>
+<desc id="desc">Proposed responsibility map without arrows or prescribed order, showing L6 outside L7 and eight L7 sublayers.</desc>
+<rect x="0" y="0" width="1700" height="1170" fill="#ffffff"/>
+<text x="70" y="60" font-family="DejaVu Sans, Arial, sans-serif" font-size="37" font-weight="bold" fill="#17243a">L7 SSOT: Internal Responsibilities</text>
+<text x="70" y="98" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="normal" fill="#47566c">Responsibility map · no prescribed execution sequence</text>
+<rect id="external-l6" x="70" y="125" width="1560" height="97" rx="16" fill="#e9f5ed" stroke="#208256" stroke-width="2"/>
+<text x="100" y="166" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="bold" fill="#175f40">L6 Context &amp; Knowledge  (outside L7)</text>
+<text x="100" y="201" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="normal" fill="#17243a">Meaning / Retrieval / Context Pack; no L7 update authority</text>
+<rect id="l7-boundary" x="70" y="250" width="1560" height="864" rx="20" fill="#ffffff" stroke="#66758a" stroke-width="2"/>
+<text x="100" y="293" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="bold" fill="#17243a">L7 SSOT</text>
+<text x="315" y="293" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="normal" fill="#5f4a1d">L7.1–L7.8 internal organization: [PROPOSAL]</text>
+<rect id="box-L7.1" x="106" y="320" width="1488" height="106" rx="13" fill="#f1edff" stroke="#7c5ac6" stroke-width="2"/>
+<text id="label-L7.1" x="128" y="352" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L7.1  Authority Registry</text>
+<text id="line-L7.1-0" x="128" y="384" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Subject → canonical authority</text>
+<text id="line-L7.1-1" x="128" y="412" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Read / write boundary / scope</text>
+<text x="108" y="472" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="bold" fill="#3e4a9d">KNOWLEDGE SSOT RESPONSIBILITIES</text>
+<text x="856" y="472" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="bold" fill="#187151">OPERATIONAL SSOT RESPONSIBILITIES</text>
+<rect id="box-L7.2" x="106" y="490" width="720" height="114" rx="13" fill="#eff2ff" stroke="#5966b4" stroke-width="2"/>
+<text id="label-L7.2" x="128" y="522" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L7.2  Knowledge Canonical Store</text>
+<text id="line-L7.2-0" x="128" y="554" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Protected default branch / Approved OKF</text>
+<text id="line-L7.2-1" x="128" y="582" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Canonical Knowledge</text>
+<rect id="box-L7.3" x="106" y="628" width="720" height="114" rx="13" fill="#eff2ff" stroke="#5966b4" stroke-width="2"/>
+<text id="label-L7.3" x="128" y="660" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L7.3  Knowledge Change Control</text>
+<text id="line-L7.3-0" x="128" y="692" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Issue / branch / change request / CI</text>
+<text id="line-L7.3-1" x="128" y="720" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">CODEOWNERS / Human Approval</text>
+<rect id="box-L7.4" x="106" y="766" width="720" height="114" rx="13" fill="#eff2ff" stroke="#5966b4" stroke-width="2"/>
+<text id="label-L7.4" x="128" y="798" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L7.4  Release &amp; Provenance</text>
+<text id="line-L7.4-0" x="128" y="830" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Tag / commit SHA / digest / release manifest</text>
+<text id="line-L7.4-1" x="128" y="858" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Derived rebuild boundary</text>
+<rect id="box-L7.5" x="854" y="490" width="740" height="114" rx="13" fill="#edf8f1" stroke="#398c64" stroke-width="2"/>
+<text id="label-L7.5" x="876" y="522" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L7.5  Operational Read Boundary</text>
+<text id="line-L7.5-0" x="876" y="554" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Read Adapter</text>
+<text id="line-L7.5-1" x="876" y="582" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Current state / revision / freshness</text>
+<rect id="box-L7.6" x="854" y="628" width="740" height="114" rx="13" fill="#edf8f1" stroke="#398c64" stroke-width="2"/>
+<text id="label-L7.6" x="876" y="660" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L7.6  Operational Action Boundary</text>
+<text id="line-L7.6-0" x="876" y="692" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Action Gateway</text>
+<text id="line-L7.6-1" x="876" y="720" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Authority / Policy / AuthZ / HITL / idempotency</text>
+<rect id="box-L7.7" x="854" y="766" width="740" height="114" rx="13" fill="#edf8f1" stroke="#398c64" stroke-width="2"/>
+<text id="label-L7.7" x="876" y="798" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L7.7  Verification &amp; Consistency</text>
+<text id="line-L7.7-0" x="876" y="830" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Read-after-write / transaction / expected state</text>
+<text id="line-L7.7-1" x="876" y="858" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Rollback / compensation</text>
+<rect id="box-L7.8" x="106" y="914" width="1488" height="116" rx="13" fill="#fff5e7" stroke="#c48325" stroke-width="2"/>
+<text id="label-L7.8" x="128" y="946" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17243a">L7.8  Federation &amp; Isolation</text>
+<text id="line-L7.8-0" x="128" y="978" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Operating Domain / Customer / Project / NDA / Tenant / Identity / Credential / Trace access</text>
+<text id="line-L7.8-1" x="128" y="1006" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17243a">Runtime isolation_scope_ref is required; Project is optional</text>
+<text x="108" y="1072" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="normal" fill="#47566c">Boxes group responsibilities; they do not prescribe an execution sequence.</text>
+<text x="72" y="1150" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="normal" fill="#586477">L7 responsibilities from ALOM-SSOT-STD-001 §4.1, §12 and §13.1</text>
+</svg>

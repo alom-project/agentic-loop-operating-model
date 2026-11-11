@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1810" viewBox="0 0 2400 1810" role="img" aria-labelledby="title desc">
+<title id="title">Figure 1 · Registry admission and responsibility boundaries</title>
+<desc id="desc">Representative new-admission path; the full contract includes additional checks</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#3d5272"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b34848"/></marker></defs>
+<rect width="2400" height="1810" fill="#ffffff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 1 · Registry admission and responsibility boundaries</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#425678">Representative new-admission path; the full contract includes additional checks</text>
+<rect id="compile" x="100" y="160" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="207" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">1  Compile and validate the candidate</text>
+<text x="125" y="251" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">Compiler / Validator produce candidate and ValidationReport; they cannot make a release Effective.</text>
+<rect id="human" x="100" y="385" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="432" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">2  Human Review of the pinned candidate</text>
+<text x="125" y="476" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">Required approvers decide under the applicable policy and separation of duties.</text>
+<rect id="authorize" x="100" y="610" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="657" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">3  Prepare and authorize the request</text>
+<text x="125" y="701" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">Release Service prepares; Release Authority signs and authorizes the ReleaseRequest.</text>
+<rect id="verify" x="100" y="835" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="882" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">4  Registry new-admission checks</text>
+<text x="125" y="926" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">Verify caller, original signature, target, candidate, approval, validation and evidence.</text>
+<rect id="commit" x="100" y="1060" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="1107" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">5  Commit admission at the authoritative boundary</text>
+<text x="125" y="1151" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">Recheck eligibility and control state / revision; commit admission with its result and outbox.</text>
+<rect id="resolve" x="100" y="1285" width="1190" height="150" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="125" y="1332" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">6  Runtime Resolver</text>
+<text x="125" y="1376" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">Apply current authorization, scope, digest, capability and control-state checks before serving.</text>
+<path id="edge-compile-human" d="M695 310 L695 385" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="716" y="354" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#425678">pinned candidate + validation</text>
+<path id="edge-human-authorize" d="M695 535 L695 610" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="716" y="579" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#425678">required approvals satisfied</text>
+<path id="edge-authorize-verify" d="M695 760 L695 835" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="716" y="804" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#425678">signed, authorized request</text>
+<path id="edge-verify-commit" d="M695 985 L695 1060" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="716" y="1029" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#425678">all prechecks pass</text>
+<path id="edge-commit-resolve" d="M695 1210 L695 1285" fill="none" stroke="#3d5272" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="716" y="1254" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#425678">admission committed</text>
+<path id="branch-human" d="M1290 460 L1560 460" fill="none" stroke="#b34848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1300" y="443" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#a33d3d">REJECT / REVISE</text>
+<rect id="case-closed" x="1560" y="385" width="750" height="150" rx="13" fill="#fff3f2" stroke="#b34848" stroke-width="2.5"/>
+<text x="1582" y="428" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#873636">No release</text>
+<text x="1582" y="472" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#873636">Close the case; resubmission needs a new candidate and review.</text>
+<path id="branch-verify" d="M1290 910 L1560 910" fill="none" stroke="#b34848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1300" y="893" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#a33d3d">invalid / unknown</text>
+<rect id="admission-denied" x="1560" y="835" width="750" height="150" rx="13" fill="#fff3f2" stroke="#b34848" stroke-width="2.5"/>
+<text x="1582" y="878" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#873636">DENY new admission</text>
+<text x="1582" y="922" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#873636">Reject mismatched, unavailable, stale, revoked or held inputs.</text>
+<path id="branch-commit" d="M1290 1135 L1560 1135" fill="none" stroke="#b34848" stroke-width="3" marker-end="url(#deny)"/>
+<text x="1300" y="1118" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#a33d3d">gate / CAS fails</text>
+<rect id="gate-failure" x="1560" y="1060" width="750" height="150" rx="13" fill="#fff3f2" stroke="#b34848" stroke-width="2.5"/>
+<text x="1582" y="1103" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#873636">No new admission</text>
+<text x="1582" y="1147" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#873636">No pointer update or effective event; the provisional index is not</text>
+<text x="1582" y="1176" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#873636">exposed.</text>
+<rect x="100" y="1545" width="2210" height="235" rx="13" fill="#f5f7fb" stroke="#bdcadd" stroke-width="1.5"/>
+<text x="125" y="1584" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">• A valid REJECT / REVISE committed before admission closes the case, even after an approval.</text>
+<text x="125" y="1629" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">• A verified, authorized identical completed request returns its saved result before a new gate / CAS.</text>
+<text x="125" y="1674" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">• A saved admission result is historical evidence, not current runtime authorization.</text>
+<text x="125" y="1719" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">• Compiler, Dashboard and Resolver do not replace Human Approval or Release Authority.</text>
+<text x="125" y="1764" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#344b6d">• If commit outcome is unknown, recover the authoritative result by the original request ID / key; do not assume DENY.</text>
+</svg>

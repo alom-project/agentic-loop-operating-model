@@ -1,0 +1,17 @@
+kind: ManagedWorkProfile
+schema_version: "1.0"
+work_id: example-work
+domain_id: example-domain
+purpose_ref: purpose://example-domain/example-work
+owner_role_ref: role://example-domain-owner
+execution_mode: human-only
+human_required: true
+risk_class: medium
+required_gates: []
+evidence_requirements: []
+bindings:
+  execution_profile_ref: null
+  governance_profile_ref: null
+  context_profile_ref: null
+  assurance_profile_ref: null
+status: draft

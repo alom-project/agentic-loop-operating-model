@@ -1,0 +1,10 @@
+kind: ProcessProfile
+schema_version: "1.0"
+process_id: example-process
+domain_id: example-domain
+inputs: []
+outputs: []
+managed_work_refs:
+  - work://example-domain/example-work
+review_requirements: []
+status: draft

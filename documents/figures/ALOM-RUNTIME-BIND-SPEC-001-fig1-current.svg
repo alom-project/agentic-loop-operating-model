@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1800" viewBox="0 0 2400 1800" role="img" aria-labelledby="title desc">
+<title id="title">Figure 1 · Runtime Binding baseline</title>
+<desc id="desc">Profile-first resolution and layer contracts; grouping does not imply a universal execution sequence</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#435877"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1800" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 1 · Runtime Binding baseline</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Profile-first resolution and layer contracts; grouping does not imply a universal execution sequence</text>
+<rect x="55" y="500" width="2290" height="700" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="80" y="539" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Mode-specific layer contracts</text>
+<text x="80" y="572" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Select applicable components for the resolved mode and policy.</text>
+<path id="edge-release" d="M750 275 L870 275" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="760" y="257" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">release</text>
+<path id="edge-resolved" d="M1540 275 L1660 275" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1548" y="257" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">refs</text>
+<path id="edge-agentic-intent" d="M1965 790 L1965 855 L435 855 L435 925" fill="none" stroke="#435877" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1060" y="835" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#435877">agentic execution intent</text>
+<rect id="l1" x="80" y="190" width="670" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="102" y="237" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 governance</text>
+<text x="102" y="278" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Effective ProfileRelease</text>
+<text x="102" y="310" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human approval and applicable Authority</text>
+<rect id="resolver" x="870" y="190" width="670" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="892" y="237" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Runtime resolver</text>
+<text x="892" y="278" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Resolve mode, scope and immutable refs</text>
+<text x="892" y="310" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Check compatibility and current controls</text>
+<rect id="manifest" x="1660" y="190" width="660" height="170" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="1682" y="237" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Binding manifest</text>
+<text x="1682" y="278" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Profile and binding digests</text>
+<text x="1682" y="310" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Selected refs and source revisions</text>
+<rect id="l2" x="90" y="600" width="690" height="190" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="112" y="647" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L2 Control Plane</text>
+<text x="112" y="688" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Agentic task admission</text>
+<text x="112" y="720" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">RuntimeManifest and pinned digests</text>
+<rect id="l3" x="855" y="600" width="690" height="190" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="877" y="647" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L3 Graph Engineering</text>
+<text x="877" y="688" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Graph / routing when a Graph is used</text>
+<text x="877" y="720" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Single-loop execution may omit Graph</text>
+<rect id="l4" x="1620" y="600" width="690" height="190" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1642" y="647" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4 Agentic Loop</text>
+<text x="1642" y="688" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">LoopSpec, bounded execution</text>
+<text x="1642" y="720" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Evaluation and verification</text>
+<rect id="l5" x="90" y="925" width="690" height="190" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="112" y="972" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 Shared Execution</text>
+<text x="112" y="1013" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Harness / Runner / Tool enforcement</text>
+<text x="112" y="1045" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Outside the L2–L4 ALE subsystem</text>
+<rect id="l6" x="855" y="925" width="690" height="190" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="877" y="972" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L6 Context &amp; Knowledge</text>
+<text x="877" y="1013" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Context, source refs and citations</text>
+<text x="877" y="1045" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Used according to mode and policy</text>
+<rect id="l7" x="1620" y="925" width="690" height="190" rx="13" fill="#fff1f3" stroke="#bd7987" stroke-width="2.5"/>
+<text x="1642" y="972" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L7 SSOT and Authority</text>
+<text x="1642" y="1013" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Canonical read / action / verification</text>
+<text x="1642" y="1045" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Access uses the applicable authority</text>
+<rect x="60" y="1340" width="2280" height="150" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1376" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Layer cards show responsibilities, not mandatory sequential execution. L2–L4 form ALE; L5 is outside ALE.</text>
+<text x="83" y="1412" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L6 / L7 can serve Human-led as well as Agentic work when needed; no authority is transferred to the resolver.</text>
+<text x="83" y="1448" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Trace correlates work, Profile, selected bindings, execution, context and source evidence where applicable.</text>
+</svg>

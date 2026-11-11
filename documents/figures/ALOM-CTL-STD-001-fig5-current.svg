@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1900" viewBox="0 0 2400 1900" role="img" aria-labelledby="title desc">
+<title id="title">Figure 5 · Phase 1 reference deployment</title>
+<desc id="desc">Illustrative placement; preserve logical responsibility and security boundaries when co-locating components</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17212f"/></marker><marker id="source" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2355a8"/></marker><marker id="deny" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b94848"/></marker></defs>
+<rect width="2400" height="1900" fill="#fff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 5 · Phase 1 reference deployment</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#4a5e7c">Illustrative placement; preserve logical responsibility and security boundaries when co-locating components</text>
+<rect x="100" y="450" width="1150" height="600" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="125" y="489" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">ALE deployable — illustrative co-location</text>
+<text x="125" y="522" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">L3 / L4 may share deployment with L2 while retaining ownership.</text>
+<rect x="1400" y="450" width="900" height="600" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="1425" y="489" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">External durable stores</text>
+<text x="1425" y="522" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">State, queue, artifact and trace services are separate from the core.</text>
+<rect x="100" y="1200" width="1150" height="400" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="125" y="1239" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Execution and isolation zone</text>
+<text x="125" y="1272" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">Shared execution; L5 remains outside ALE.</text>
+<rect x="1400" y="1200" width="900" height="400" rx="16" fill="#f6f8fb" stroke="#c2cde0" stroke-width="2"/>
+<text x="1425" y="1239" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Operational targets</text>
+<text x="1425" y="1272" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#425678">External actions remain subject to authorization and policy.</text>
+<path id="edge-config_ref" d="M1050 330 L1050 550" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1050,547 1042,529 1058,529" fill="#17212f"/>
+<text x="1065" y="400" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Versioned inputs</text>
+<path id="edge-persist" d="M1120 600 L1450 600" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1447,600 1429,608 1429,592" fill="#17212f"/>
+<text x="1170" y="575" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Persist state / events</text>
+<path id="edge-recover" d="M1450 680 L1120 680" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1123,680 1141,672 1141,688" fill="#17212f"/>
+<text x="1170" y="655" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Read / recover</text>
+<path id="edge-dispatch" d="M620 730 L620 1320" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="620,1317 612,1299 628,1299" fill="#17212f"/>
+<text x="680" y="1110" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Dispatch / lease</text>
+<path id="edge-result" d="M660 1320 L660 730" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="660,733 668,751 652,751" fill="#17212f"/>
+<text x="680" y="1150" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Result / health</text>
+<path id="edge-interactive" d="M380 1400 L460 1400" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="457,1400 439,1408 439,1392" fill="#17212f"/>
+<text x="386" y="1380" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">invoke</text>
+<path id="edge-action" d="M1110 1380 L1450 1380" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1447,1380 1429,1388 1429,1372" fill="#17212f"/>
+<text x="1170" y="1355" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Action</text>
+<path id="edge-action_result" d="M1450 1470 L1110 1470" fill="none" stroke="#17212f" stroke-width="3"/>
+<polygon points="1113,1470 1131,1462 1131,1478" fill="#17212f"/>
+<text x="1170" y="1445" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17212f">Result</text>
+<rect id="policy" x="100" y="160" width="450" height="170" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="122" y="207" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L1 Policy / Human</text>
+<text x="122" y="248" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Purpose / decisions</text>
+<text x="122" y="280" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Human control</text>
+<rect id="config" x="650" y="160" width="650" height="170" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="672" y="207" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Versioned configuration</text>
+<text x="672" y="248" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Schema / TaskContract / adapters</text>
+<text x="672" y="280" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Release refs / migrations</text>
+<rect id="knowledge" x="1450" y="160" width="800" height="170" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1472" y="207" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L6 Context / L7 SSOT</text>
+<text x="1472" y="248" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Authorized context / canonical authority</text>
+<text x="1472" y="280" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Logical boundaries retained</text>
+<rect id="l2" x="170" y="550" width="950" height="180" rx="13" fill="#edf3fc" stroke="#4e68aa" stroke-width="2.5"/>
+<text x="192" y="597" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L2 Control Plane Core</text>
+<text x="192" y="638" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Admission / durable state / scheduling</text>
+<text x="192" y="670" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Lease / dispatcher / recovery</text>
+<rect id="l3" x="170" y="820" width="430" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="192" y="867" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L3 Graph</text>
+<text x="192" y="908" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Topology / routing</text>
+<rect id="l4" x="680" y="820" width="440" height="150" rx="13" fill="#f3effd" stroke="#8b70bd" stroke-width="2.5"/>
+<text x="702" y="867" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L4 Loop</text>
+<text x="702" y="908" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Convergence / termination</text>
+<rect id="stores" x="1450" y="550" width="800" height="350" rx="13" fill="#edf7f1" stroke="#55a276" stroke-width="2.5"/>
+<text x="1472" y="597" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">External durable stores</text>
+<text x="1472" y="638" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">L2 canonical control-state store</text>
+<text x="1472" y="670" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Queue / scheduler</text>
+<text x="1472" y="702" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Artifact / object store</text>
+<text x="1472" y="734" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Trace / evidence backend</text>
+<rect id="client" x="140" y="1320" width="240" height="170" rx="13" fill="#f4f6f9" stroke="#8794a8" stroke-width="2.5"/>
+<text x="162" y="1367" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Human</text>
+<text x="162" y="1408" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Interactive</text>
+<text x="162" y="1440" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">agent client</text>
+<rect id="l5" x="460" y="1320" width="650" height="190" rx="13" fill="#fff7e9" stroke="#c08d33" stroke-width="2.5"/>
+<text x="482" y="1367" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">L5 Shared Execution</text>
+<text x="482" y="1408" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Harness / Runner / Worker</text>
+<text x="482" y="1440" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Sandbox / tool / credential</text>
+<text x="482" y="1472" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Policy enforcement</text>
+<rect id="target" x="1450" y="1320" width="800" height="190" rx="13" fill="#fff2f1" stroke="#bc5151" stroke-width="2.5"/>
+<text x="1472" y="1367" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Operational systems</text>
+<text x="1472" y="1408" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">Tool / MCP / action gateway</text>
+<text x="1472" y="1440" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#354b69">DB / SaaS / Git / observability</text>
+<rect x="60" y="1680" width="2280" height="186" rx="12" fill="#f5f7fb" stroke="#c4d0e0" stroke-width="1.5"/>
+<text x="83" y="1716" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• This is an example rather than a product prescription; physical scale, HA and isolation require adopter-specific design.</text>
+<text x="83" y="1752" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L3 / L4 co-location is optional. L5 is the shared execution boundary and does not become part of ALE.</text>
+<text x="83" y="1788" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• L2 canonical control state is distinct from L7 domain and knowledge authority.</text>
+<text x="83" y="1824" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#354b69">• Policy, Context / SSOT access, Human decisions and additional telemetry connections are not exhaustively depicted.</text>
+</svg>

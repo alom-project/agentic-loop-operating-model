@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1770" viewBox="0 0 1600 1770" role="img" aria-labelledby="title desc">
+  <title id="title">Profile Contract figure 2: scope, profile type, and release</title>
+  <desc id="desc">Two independent axes feed a deterministic Profile Resolver. Scope includes required Operating Domain and optional parallel Organization, Customer, Project, UseCase, and Process overlays. A Human-approved ProfileRelease is a required source. The resolved profile requires validation, approval-reference checks, release authorization, and registry admission before runtime use. Unresolved conflicts require review.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3f5267"/></marker>
+    <style>
+      .bg{fill:#f6f8fb}.panel{fill:#fff;stroke:#cad4df;stroke-width:2}.scope{fill:#edf2ff;stroke:#586cc5;stroke-width:2}.type{fill:#e9f7f1;stroke:#389276;stroke-width:2}.proc{fill:#eff4fa;stroke:#486780;stroke-width:2}.gate{fill:#fff5df;stroke:#b67b19;stroke-width:2}.result{fill:#e6f7ef;stroke:#258b66;stroke-width:2}.line{fill:none;stroke:#3f5267;stroke-width:2.5;marker-end:url(#arrow)}
+      text{font-family:Arial,Helvetica,sans-serif;fill:#183047}.title{font-size:34px;font-weight:700}.subtitle{font-size:18px;fill:#405b72}.heading{font-size:22px;font-weight:700}.label{font-size:20px;font-weight:700}.body{font-size:18px}.small{font-size:16px}.note{font-size:15px;fill:#405b72}.center{text-anchor:middle}.review{font-size:17px;font-weight:700;fill:#8a5805}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1770"/>
+  <text x="60" y="62" class="title">Profile Contract: Scope and Type Resolution</text>
+  <text x="60" y="96" class="subtitle">Independent axes and the approval boundary</text>
+
+  <rect x="60" y="140" width="700" height="770" rx="16" class="panel"/>
+  <text x="90" y="180" class="heading">AXIS A · RESOLUTION SCOPE</text>
+  <text x="90" y="207" class="note">Specificity and precedence; lower scopes cannot relax mandatory controls</text>
+
+  <rect x="100" y="225" width="620" height="63" rx="10" class="scope"/>
+  <text x="410" y="265" class="label center">Rank 10 · Adopting organization (Enterprise)</text>
+  <path class="line" d="M410 288 V313"/>
+  <rect x="100" y="315" width="620" height="63" rx="10" class="scope"/>
+  <text x="410" y="355" class="label center">Rank 20 · Operating Domain (required)</text>
+  <path class="line" d="M410 378 V401"/>
+  <rect x="100" y="403" width="620" height="111" rx="10" class="scope"/>
+  <text x="410" y="433" class="body center">Rank 30 · Parallel optional overlays</text>
+  <rect x="120" y="450" width="180" height="44" rx="8" fill="#fff" stroke="#7b88cc"/><text x="210" y="478" class="body center">Organization</text>
+  <rect x="320" y="450" width="180" height="44" rx="8" fill="#fff" stroke="#7b88cc"/><text x="410" y="478" class="body center">Customer</text>
+  <rect x="520" y="450" width="180" height="44" rx="8" fill="#fff" stroke="#7b88cc"/><text x="610" y="478" class="body center">Project</text>
+  <path class="line" d="M410 514 V537"/>
+  <rect x="100" y="539" width="620" height="110" rx="10" class="scope"/>
+  <text x="410" y="569" class="body center">Rank 40 · Parallel optional overlays</text>
+  <rect x="175" y="586" width="220" height="44" rx="8" fill="#fff" stroke="#7b88cc"/><text x="285" y="614" class="body center">UseCase</text>
+  <rect x="425" y="586" width="220" height="44" rx="8" fill="#fff" stroke="#7b88cc"/><text x="535" y="614" class="body center">Process</text>
+  <path class="line" d="M410 649 V672"/>
+  <rect x="100" y="674" width="620" height="63" rx="10" class="scope"/>
+  <text x="410" y="714" class="label center">Rank 50 · Work</text>
+  <path class="line" d="M410 737 V765"/>
+  <rect x="100" y="768" width="620" height="72" rx="10" class="scope"/>
+  <text x="410" y="799" class="label center">Applicable ScopeOverlaySet</text>
+  <text x="410" y="824" class="small center">+ precedence</text>
+  <text x="410" y="879" class="note center">No implicit order within either same-rank overlay group.</text>
+
+  <rect x="840" y="140" width="700" height="770" rx="16" class="panel"/>
+  <text x="870" y="180" class="heading">AXIS B · TYPED PROFILE ARTIFACTS</text>
+  <text x="870" y="207" class="note">Responsibility-specific candidates; no mandatory type hierarchy</text>
+  <rect x="880" y="255" width="300" height="60" rx="9" class="type"/><text x="1030" y="293" class="body center">BusinessProfile</text>
+  <rect x="1200" y="255" width="300" height="60" rx="9" class="type"/><text x="1350" y="293" class="body center">ProjectProfile</text>
+  <rect x="880" y="340" width="300" height="60" rx="9" class="type"/><text x="1030" y="378" class="body center">OrganizationProfile</text>
+  <rect x="1200" y="340" width="300" height="60" rx="9" class="type"/><text x="1350" y="378" class="body center">LifecycleProfile</text>
+  <rect x="880" y="425" width="300" height="60" rx="9" class="type"/><text x="1030" y="463" class="body center">ProcessProfile</text>
+  <rect x="1200" y="425" width="300" height="60" rx="9" class="type"/><text x="1350" y="463" class="body center">ManagedWorkProfile</text>
+  <rect x="880" y="510" width="300" height="60" rx="9" class="type"/><text x="1030" y="548" class="body center">ExecutionProfile</text>
+  <rect x="1200" y="510" width="300" height="60" rx="9" class="type"/><text x="1350" y="548" class="body center">GovernanceProfile</text>
+  <rect x="880" y="595" width="300" height="60" rx="9" class="type"/><text x="1030" y="633" class="body center">ContextProfile</text>
+  <rect x="1200" y="595" width="300" height="60" rx="9" class="type"/><text x="1350" y="633" class="body center">AssuranceProfile</text>
+  <text x="1190" y="703" class="small center">Compose applicable field candidates from typed artifacts</text>
+  <path class="line" d="M1190 718 V765"/>
+  <rect x="880" y="768" width="620" height="72" rx="10" class="type"/>
+  <text x="1190" y="811" class="label center">TypedFieldCandidateSet</text>
+  <text x="1190" y="879" class="note center">Profile Type is separate from the Scope precedence axis.</text>
+
+  <path class="line" d="M410 840 V940 H670 V965"/>
+  <path class="line" d="M1190 840 V940 H930 V965"/>
+  <rect x="60" y="970" width="350" height="100" rx="10" class="gate"/>
+  <text x="235" y="1005" class="label center">Human-approved</text><text x="235" y="1032" class="label center">ProfileRelease</text>
+  <text x="235" y="1055" class="small center">required source</text>
+  <path class="line" d="M410 1020 H518"/>
+  <rect x="520" y="965" width="560" height="110" rx="12" class="proc"/>
+  <text x="800" y="1005" class="label center">Profile Resolver</text>
+  <text x="800" y="1034" class="body center">Deterministic field merge + no-relaxation</text>
+  <text x="800" y="1060" class="small center">Provenance and applicable rules retained</text>
+  <path class="line" d="M1080 1020 H1188"/>
+  <rect x="1190" y="970" width="350" height="100" rx="10" class="gate"/>
+  <text x="1365" y="1004" class="label center">Unresolved conflict</text>
+  <text x="1365" y="1030" class="small center">CONFLICT / REVIEW_REQUIRED</text>
+  <text x="1365" y="1054" class="small center">Human resolution as required</text>
+  <path class="line" d="M800 1075 V1113"/>
+  <rect x="520" y="1115" width="560" height="80" rx="10" class="proc"/>
+  <text x="800" y="1149" class="label center">Flattened EffectiveProfile</text>
+  <text x="800" y="1175" class="small center">Immutable digest; target scope and bindings</text>
+  <path class="line" d="M800 1195 V1233"/>
+  <rect x="470" y="1235" width="660" height="142" rx="10" class="gate"/>
+  <text x="800" y="1271" class="label center">Validation and approval-reference checks</text>
+  <text x="800" y="1303" class="small center">ERROR = 0 · required UNRESOLVED = 0 · CONFLICT = 0</text>
+  <text x="800" y="1329" class="small center">Required approvals · reproducible digest · scope isolation pass</text>
+  <text x="800" y="1355" class="small center">Release Authority authorization required; failures deny admission.</text>
+  <path class="line" d="M800 1377 V1413"/>
+  <rect x="520" y="1415" width="560" height="86" rx="10" class="result"/>
+  <text x="800" y="1450" class="label center">EffectiveProfileRelease</text>
+  <text x="800" y="1477" class="small center">Registered with manifest and approval references</text>
+  <path class="line" d="M800 1501 V1538"/>
+  <rect x="520" y="1540" width="560" height="63" rx="10" class="result"/>
+  <text x="800" y="1580" class="label center">Runtime use of approved release</text>
+  <rect x="60" y="1640" width="1480" height="94" rx="10" class="panel"/>
+  <text x="90" y="1671" class="small">Same-rank incompatible non-monotonic values: use a monotonic deterministic operator, an approved authority / precedence rule,</text>
+  <text x="90" y="1697" class="small">or CONFLICT / REVIEW_REQUIRED. Do not select by file order, timestamp, profile type, or last-write-wins.</text>
+  <text x="90" y="1721" class="note">Full authorization and admission controls: Profile Workflow Sections 13–14.</text>
+</svg>

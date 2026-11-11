@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1430" viewBox="0 0 1800 1430" role="img" aria-labelledby="title desc">
+<title id="title">Runtime binding by execution mode</title>
+<desc id="desc">Four execution modes share the Registry authority boundary. The diagram distinguishes mandatory and conditional ALE, Graph, L5, and recording requirements.</desc>
+<rect width="1800" height="1430" fill="#ffffff"/>
+<text x="55" y="65" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="bold" fill="#233654">Figure 5 · Runtime binding by execution mode</text>
+<text x="55" y="108" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#425678">One approved Registry and authority contract; Resolver does not invent or reclassify modes</text>
+<rect x="55" y="145" width="1690" height="104" rx="13" fill="#e9f5ef" stroke="#31855b" stroke-width="2"/>
+<text x="83" y="191" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="bold" fill="#233654">Approved Profile Registry / Runtime Resolver</text>
+<text x="83" y="225" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#344b6d">Resolve authorized Profile and bindings; verify eligibility and retain the selected mode.</text>
+<rect x="55" y="282" width="1690" height="215" rx="14" fill="#f4f7fc" stroke="#5671ad" stroke-width="2"/>
+<text x="83" y="330" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">human-only</text>
+<text x="83" y="376" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">Purpose / owner / human_work_profile / authority_refs / evidence requirements</text>
+<text x="83" y="417" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">Context when needed; ALE and L5 are not required.</text>
+<text x="83" y="458" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">Pin Profile and Binding digests in HumanWorkRecord.</text>
+<rect x="55" y="532" width="1690" height="215" rx="14" fill="#f4f7fc" stroke="#5671ad" stroke-width="2"/>
+<text x="83" y="580" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">interactive-agent</text>
+<text x="83" y="626" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">shared_execution_profile / harness_ref / context_profile / authority_refs / Human control</text>
+<text x="83" y="667" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">L5 required; Human / Client controls outer iteration. ALE is not implied.</text>
+<text x="83" y="708" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">Pin Profile and Binding digests in the L5 Execution Request.</text>
+<rect x="55" y="782" width="1690" height="215" rx="14" fill="#f4f7fc" stroke="#5671ad" stroke-width="2"/>
+<text x="83" y="830" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">agentic</text>
+<text x="83" y="876" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">ALE L2 entry / L4 Loop / shared_execution_profile / harness_ref / context_profile / authority_refs</text>
+<text x="83" y="917" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">L3 Graph only when used; L5 required when an Agent executes.</text>
+<text x="83" y="958" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">Pin Profile and Binding digests in the L2 RuntimeManifest.</text>
+<rect x="55" y="1032" width="1690" height="215" rx="14" fill="#f4f7fc" stroke="#5671ad" stroke-width="2"/>
+<text x="83" y="1080" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" fill="#233654">deterministic-system</text>
+<text x="83" y="1126" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">Executor revision / scope / evidence / verification / SystemExecutionRecord</text>
+<text x="83" y="1167" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">ALE and L5 not required; explicit L5 mediation is optional.</text>
+<text x="83" y="1208" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#344b6d">Correlate Profile and Binding digests with SystemExecutionRecord.</text>
+<text x="55" y="1350" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="bold" fill="#873d3d">Human-required Work MUST NOT be reclassified as agentic or deterministic-system.</text>
+<text x="55" y="1392" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#425678">Summary only; requirements and references follow Contract §10 and Registry §§14 / 21.</text>
+</svg>

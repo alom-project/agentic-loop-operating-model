@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="1900" viewBox="0 0 2600 1900" role="img" aria-label="Profile Contract lifecycle security drift and operational hold">
+<rect width="2600" height="1900" fill="white"/>
+<text x="55" y="65" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="36" font-weight="bold" fill="#263751">Figure 3  ·  Release lifecycle, security, drift and HOLD</text>
+<text x="55" y="108" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="normal" fill="#516078">Three independent state axes and a separate operational overlay; not a complete state machine</text>
+<rect x="50" y="160" width="2450" height="285" rx="14" fill="#f7f9fc" stroke="#bbc9dc" stroke-width="2"/>
+<text x="75" y="200" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="bold" fill="#233957">Release lifecycle vocabulary</text>
+<rect x="50" y="480" width="1150" height="245" rx="14" fill="#f7f9fc" stroke="#bbc9dc" stroke-width="2"/>
+<text x="75" y="520" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="bold" fill="#233957">Security state</text>
+<rect x="1300" y="480" width="1200" height="245" rx="14" fill="#f7f9fc" stroke="#bbc9dc" stroke-width="2"/>
+<text x="1325" y="520" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="bold" fill="#233957">Drift health</text>
+<rect x="50" y="760" width="2450" height="170" rx="14" fill="#f7f9fc" stroke="#bbc9dc" stroke-width="2"/>
+<text x="75" y="800" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="bold" fill="#233957">Operational HOLD overlay</text>
+<rect x="50" y="970" width="2450" height="560" rx="14" fill="#f7f9fc" stroke="#bbc9dc" stroke-width="2"/>
+<text x="75" y="1010" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="bold" fill="#233957">Six listed Release lifecycle guards  |  Workflow §12.2</text>
+<rect id="node-lifecycle-DRAFT" x="100" y="225" width="500" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="350.0" y="270" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">DRAFT</text>
+<rect id="node-lifecycle-VALIDATED" x="700" y="225" width="500" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="950.0" y="270" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">VALIDATED</text>
+<rect id="node-lifecycle-IN_REVIEW" x="1300" y="225" width="500" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="1550.0" y="270" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">IN_REVIEW</text>
+<rect id="node-lifecycle-APPROVED" x="1900" y="225" width="500" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="2150.0" y="270" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">APPROVED</text>
+<rect id="node-lifecycle-EFFECTIVE" x="100" y="330" width="500" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="350.0" y="375" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">EFFECTIVE</text>
+<rect id="node-lifecycle-SUPERSEDED" x="700" y="330" width="500" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="950.0" y="375" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">SUPERSEDED</text>
+<rect id="node-lifecycle-RETIRED" x="1300" y="330" width="500" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="1550.0" y="375" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">RETIRED</text>
+<rect id="node-security-ACTIVE" x="100" y="555" width="450" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="325.0" y="600" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">ACTIVE</text>
+<rect id="node-security-REVOKED" x="650" y="555" width="450" height="70" rx="10" fill="#fff2f2" stroke="#9d4a4a" stroke-width="2"/>
+<text x="875.0" y="600" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#9d4a4a">REVOKED</text>
+<rect id="node-drift-CURRENT" x="1330" y="555" width="250" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="1455.0" y="600" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">CURRENT</text>
+<rect id="node-drift-SOURCE_CHANGED" x="1615" y="555" width="250" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="1740.0" y="600" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">SOURCE_CHANGED</text>
+<rect id="node-drift-REVIEW_REQUIRED" x="1900" y="555" width="250" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="2025.0" y="600" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">REVIEW_REQUIRED</text>
+<rect id="node-drift-INCOMPATIBLE" x="2185" y="555" width="250" height="70" rx="10" fill="#edf3fc" stroke="#415aa6" stroke-width="2"/>
+<text x="2310.0" y="600" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#415aa6">INCOMPATIBLE</text>
+<text x="100" y="675" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#40516b">REVOKED denies new use; ACTIVE alone does not grant ALLOW.</text>
+<text x="1330" y="675" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#40516b">Drift does not alter Effective release content.</text>
+<text x="80" y="840" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#873535">SUSPENDED is a HOLD display, not a fourth state axis.</text>
+<text x="80" y="878" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#40516b">An effective HOLD for the release or a source in the applicable scope denies new use, including pointer / pin / LKG.</text>
+<text x="80" y="910" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#40516b">Unknown or stale security / HOLD state also denies new use.</text>
+<rect id="node-transition-1" x="80" y="1040" width="2380" height="60" rx="5" fill="white" stroke="#d4dce7" stroke-width="1"/>
+<text x="100" y="1078" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#243957">DRAFT  →  VALIDATED</text>
+<text x="740" y="1078" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">ValidationReport gate pass.</text>
+<rect id="node-transition-2" x="80" y="1110" width="2380" height="60" rx="5" fill="white" stroke="#d4dce7" stroke-width="1"/>
+<text x="100" y="1148" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#243957">VALIDATED  →  IN_REVIEW</text>
+<text x="740" y="1148" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">ReviewRequest admission + pinned Approver Policy Snapshot.</text>
+<rect id="node-transition-3" x="80" y="1180" width="2380" height="60" rx="5" fill="white" stroke="#d4dce7" stroke-width="1"/>
+<text x="100" y="1218" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#243957">IN_REVIEW  →  APPROVED</text>
+<text x="740" y="1218" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">required approvals complete + SoD pass + active blocking issue 0.</text>
+<rect id="node-transition-4" x="80" y="1250" width="2380" height="60" rx="5" fill="white" stroke="#d4dce7" stroke-width="1"/>
+<text x="100" y="1288" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#243957">APPROVED  →  EFFECTIVE</text>
+<text x="740" y="1288" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Release Authority authorize + Registry admission success.</text>
+<rect id="node-transition-5" x="80" y="1320" width="2380" height="60" rx="5" fill="white" stroke="#d4dce7" stroke-width="1"/>
+<text x="100" y="1358" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#243957">EFFECTIVE  →  SUPERSEDED</text>
+<text x="740" y="1358" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">new Effective release admission / explicit supersede.</text>
+<rect id="node-transition-6" x="80" y="1390" width="2380" height="60" rx="5" fill="white" stroke="#d4dce7" stroke-width="1"/>
+<text x="100" y="1428" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold" fill="#243957">SUPERSEDED  →  RETIRED</text>
+<text x="740" y="1428" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#40516b">Retention / rollback window / operational policy conditions.</text>
+<rect x="50" y="1570" width="2450" height="240" rx="12" fill="#fff8ed" stroke="#d5bc8e" stroke-width="1.5"/>
+<text x="75" y="1615" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#5a4b35">REJECT / REVISE are Human decisions, not lifecycle states; a valid pre-admission commit closes eligibility.</text>
+<text x="75" y="1658" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#5a4b35">If admission commits first, the pre-admission decision is too late; authoritative commit order decides the race.</text>
+<text x="75" y="1701" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#5a4b35">CLEAR requires authority, cause resolution and eligibility revalidation; other HOLDs / REVOKED can still block.</text>
+<text x="75" y="1744" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#5a4b35">Drift does not rewrite an Effective release; recompile and review produce a new release.</text>
+<text x="75" y="1787" text-anchor="start" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#5a4b35">REVOKED has no expiry and cannot be reactivated; recovery requires a separately approved new release.</text>
+</svg>
